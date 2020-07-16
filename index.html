@@ -1,28 +1,231 @@
-<!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Victoria Phoenix</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="">
-    </head>
-    <body>
-        <!--[if lt IE 7]>
-            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
-        <div class="sample">this is a sample</div>
+<html lang="en">
+<head>
+    <title>Victoria Phoenix</title>
+</head>
+<body>
+<!-- header  -->
+    <div class="hero">
+        <div class="nav-bar">
+            <a span="left" href="index.html"><img
+                    src="https://i.pinimg.com/564x/c8/91/b9/c891b9d91735338dac3275f04b0ba341.jpg" alt="logo"
+                    height="60"></a>
+            <a href="contact.html"><span class="right">contact</span></a>
+        </div>
+    
+        <!-- <div class="profile">
+            <h1>Victoria Phoenix</h1>
+            <p class="summary">
+                UX Designer
+                Front End Developer
+            </p>
+        </div> -->
 
-        <style>
-            .sample {
-                background-color: black;
-            }
-        </style>
+        <div class="projects-wrapper">
+            <a href="#">
+                <div class="project profile-box">
+                    <span class="title">victoria phoenix</span>  
+                    <p class="roles">ux ui designer front end developer</p>
+                </div></a>
+            <a href="google_aria.html">
+                <div class="project casestudy-one google-aria">
+                    <span class="project-title">google aria</span>  
+                    <p class="summary">manage asthma on the go</p>
+                </div></a>
+            <a href="capitalone.html">
+                <div class="project casestudy-two capital-one">
+                    <span class="project-title">capital one</span>
+                    <p class="summary">easily budget, and track save personal finances all within one convenient app</p>
+                </div></a>
+            <a href="pawclaws.html">
+                <div class="project casestudy-three paws-and-claws">
+                    <span class="project-title">paws & claws</span>
+                    <p class="summary">Startup investment advisory agency seeks revamped brand identity</p>
+                </div></a>
+            <a href="mirror.html">
+                <div class="project casestudy-four mirror">
+                    <span class="project-title">mirror</span>
+                    <p class="summary">from physical to online presence</p>
+                </div></a>
+            <a href="stashwealth.html">
+                <div class="project casestudy-five stashwealth">
+                    <span class="project-title">Stashwealth</span>
+                    <p class="summary">Startup investment advisory agency seeks revamped brand identity</p>
+                </div></a>
+            <a href="sabbatical.html">
+                <div class="project casestudy-six sabbatical">
+                    <span class="project-title">Sabbatical</span>
+                    <p class="summary">Reflecting on my professional break - UX style</p>
+                </div></a>
+            <a href="poshbot.html">
+                <div class="project casestudy-six poshmark">
+                    <span class="project-title">Posh Autobot</span>
+                    <p class="summary">Make money selling things</p>
+                </div></a>
+        </div>
+    </div>
 
-        <script src="" async defer></script>
-    </body>
+
+    <div class="footer">
+        <div class="copyright">
+            👩‍💻Designed and coded by Victoria Phoenix , © Copyright 2020 , All rights reserved
+        </div>
+        <div class="social">
+            <a href="https://github.com/victoria-phoenix">Github</a>
+            <a href="https://codepen.io/victoria-phoenix">Codepen</a>
+            <a href="https://stackoverflow.com/users/13098672/victoria-phoenix">Stackoverflow</a>
+        </div>
+    </div>
+
+
+
+<body>
+    <style>
+        /* typography */
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+
+        body {
+            font-family: "Open Sans", sans-serif;
+            cursor: url("hyper.cur"), crosshair;
+            padding: 0;
+            margin: 0;
+        }
+
+        h1 {
+            font-family: 'Open Sans', sans-serif;
+            font-size: 80px;
+        }
+
+        h2 {
+            font-family: 'Open Sans', sans-serif;
+            font-size: 40px;
+        }
+
+        h3 {
+            font-family: 'Open Sans', sans-serif;
+            font-size: 35px;
+        }
+
+        h4 {
+            font-family: 'Open Sans', sans-serif;
+            font-size: 28px;
+        }
+
+        h5 {
+            font-family: 'Open Sans', sans-serif;
+            font-size: 23px;
+        }
+
+        h6 {
+            font-size: 18px;
+            font-weight: 400;
+            font-style: italic;
+        }
+
+        a {
+            text-decoration: none;
+            color: black;
+        }
+
+        p {
+            font-family: 'Open Sans', sans-serif;
+            font-size: 18px;
+            font-family: "Open Sans", sans-serif;
+            font-weight: 400;
+            line height: 24;
+        }
+
+        /* navigation */
+        .nav-bar {
+            margin: 60 60;
+        }
+
+        a .left {
+            /* logo */
+            float: left;
+        }
+
+        .right {
+            /* contact */
+            float: right;
+        }
+
+        /* footer */
+        .footer {
+            text-decoration: none;
+            font-size: 15px;
+        }
+
+        .copyright {
+            float: left;
+        }
+
+        .social {
+            float: right;
+        }
+
+
+/* header / hero area */
+        /* .profile {
+            text-align: center;
+        }  */
+        .hero {
+            max-height: 100vh;
+        }
+
+
+
+        /* project session layout styling */
+        .projects-wrapper {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            justify-content: space-around;
+        }
+
+        .project {
+            background-color: black;
+            color: white;
+            padding: 100px;
+            height: auto;
+        }
+
+
+
+        .casestudy-one {
+        }
+        .casestudy-two {
+        }
+        .casestudy-three {
+        }
+        .casestudy-four {
+        }
+        .casestudy-five {
+        }
+        .casestudy-six{
+        }
+
+
+
+
+
+
+
+
+
+
+        /* other assets */
+
+        .label {
+            font-size: 18px;
+            font-weight: 400;
+            margin-right: 10px;
+            padding: 4px 15px;
+            color: #666;
+            text-decoration: none;
+            border: 1px solid #ccc;
+            border-radius: 50px;
+            display: inline-block;
+        }
+    </style>
+</body>
+
 </html>
