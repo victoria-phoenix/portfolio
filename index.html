@@ -4,61 +4,95 @@
 </head>
 <body>
 <!-- header  -->
-<h1>Responsive Masonry Grid</h1>
-<p>A pure CSS-only responsive masonry.</p>
-<div class="masonry">
-    <div class="item">
-        1
-        <img src="http://www.pixeden.com/media/k2/galleries/468/001-business-card-clip-brand-mock-up-vol-20-psd.jpg">
-    </div>
-    <div class="item">
-        2
-        <img src="http://www.graphicsfuel.com/wp-content/uploads/2015/11/branding-mockup-psd.jpg">
-    </div>
-    <div class="item">
-        3
-        <img src="http://www.pixeden.com/media/k2/galleries/511/001-business-card-mockup-vol-22-box-brand-psd.jpg">
-    </div>
-    <div class="item">
-        4
-        <img src="http://freede.ru/wp-content/uploads/2015/01/6546546542.jpg">
-    </div>
-    <div class="item">
-        5
-        <img src="https://blog.spoongraphics.co.uk/wp-content/uploads/2013/mockup/23.jpg">
-    </div>
-    <div class="item">
-        6
-        <img src="http://jquerypluginplus.com/wp-content/uploads/2015/09/Psd_Business_Card_MockUp.jpg">
-    </div>
-    <div class="item">
-        7
+<!-- Made possible by the great work of David DeSandro @ https://masonry.desandro.com -->
+
+<!-- Part 1: Add the scripts -->
+
+<!-- Step 1: Let's start by loading jQuery. jQuery is not required for masonary to function but makes things easier  -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+<!-- Step 2: Then load imagesloaded. imagesloaded makes sure the images are not displayed until they are fully loaded -->
+<script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+
+<!-- Step 3: we load masonry -->
+<script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+
+
+<!-- Part 2: Create the grid -->
+
+
+<!-- Step 1: Start with a the main grid wrapper-->
+<div class="grid">
+
+    <!-- Step 2: Add grid items--->
+
+    <div class="grid-item">
         <img
-            src="http://www.pixeden.com/media/k2/galleries/754/001-businesscard-mockup-presentation-psd-free-resource.jpg">
+            src="https://s-media-cache-ak0.pinimg.com/736x/00/37/03/0037037f1590875493f413c1fdbd52b1--cool-beards-inspiring-photography.jpg" />
     </div>
-    <div class="item">
-        8
+
+    <div class="grid-item">
         <img
-            src="http://designdecoding.com/wp-content/uploads/2014/09/001-a4-paper-brand-stationery-isometric-print-mock-up-psd-1.jpg">
+            src="https://s-media-cache-ak0.pinimg.com/736x/cd/90/d9/cd90d9de63fa2c8e5c5e7117e27b5c18--gritty-portrait-photography-studio-photography.jpg">
     </div>
-    <div class="item">
-        9
-        <img src="http://www.blugraphic.com/wp-content/uploads/2014/04/Folded-Page-Mockup1.jpg">
-    </div>
-    <div class="item">
-        10
+
+    <!-- Step 3: repeat...--->
+    <div class="grid-item">
         <img
-            src="http://cdn.designinstruct.com/files/542-free-branding-identity-mockups/29-branding-identity-mock-up-vol-8-full.jpg">
+            src="https://1.bp.blogspot.com/-9QM7ciGXRkQ/V1hsB-wNLBI/AAAAAAAAMoA/eYbSHs00PTAjrI4QAmvYAIGCUe1AuRAnwCLcB/s1600/bryan_cranston_0095.jpg">
     </div>
-    <div class="item">
-        11
-        <img src="http://www.thomsoon.com/img/portfolio/7clean/7-clean-business-card-mockup-psd-3.jpg">
-    </div>
-    <div class="item">
-        12
+
+    <div class="grid-item">
         <img
-            src="http://www.pixeden.com/media/k2/galleries/640/001-business-card-cardboard-mockup-presentation-wall-free-psd.jpg">
+            src="http://webneel.com/sites/default/files/images/project/best-portrait-photography-regina-pagles%20(10).jpg" />
     </div>
+
+
+    <div class="grid-item">
+        <img
+            src="https://s-media-cache-ak0.pinimg.com/736x/dd/45/96/dd4596b601062eb491ea9bb8e3a78062--two-faces-baby-faces.jpg" />
+    </div>
+
+    <div class="grid-item">
+        <img
+            src="http://www.marklobo.com.au/news/wp-content/uploads/2013/03/Melbourne_Portrait_Photographer_Mark_Lobo-Cowboy.jpg" />
+    </div>
+
+    <div class="grid-item">
+        <img
+            src="https://format-com-cld-res.cloudinary.com/image/private/s--PcYqe7Zw--/c_limit,g_center,h_65535,w_960/a_auto,fl_keep_iptc.progressive,q_95/145054-8576001-Rob-Green-by-Zuzana-Breznanikova_7725_b_w.jpg" />
+    </div>
+
+    <div class="grid-item">
+        <img src="http://www.iefimerida.gr/sites/default/files/janbanning11.jpg" />
+    </div>
+
+    <div class="grid-item">
+        <img
+            src="https://s-media-cache-ak0.pinimg.com/736x/66/bb/e7/66bbe7acc0d64da627afef440a29714b--portrait-photos-female-portrait.jpg" />
+    </div>
+
+    <div class="grid-item">
+        <img
+            src="https://s-media-cache-ak0.pinimg.com/736x/25/34/b6/2534b6c18c659546463f13b2dc62d4ce--natural-portraits-female-portraits.jpg" />
+    </div>
+
+    <div class="grid-item">
+        <img src="https://s-media-cache-ak0.pinimg.com/originals/8d/67/12/8d671230ced871df8428b571ed6ec192.jpg" />
+    </div>
+
+</div>
+
+<!-- Part 3: the script call -->
+
+<!-- Now that everything is loaded we create a script to trigger masonary on $grid. Note that this simply says: "if the images are fully loaded, trigger masnory on $grid. -->
+<script>
+    $(".grid").imagesLoaded(function () {
+        $(".grid").masonry({
+            itemSelector: ".grid-item"
+        });
+    });
+</script>
 
 
 
@@ -292,87 +326,62 @@
 
 
 
-
-
-        body {
-  font-family: sans-serif;
-   margin: 0;
-   background: #f2f2f2;
+body {
+  background: #131418;
 }
 
-h1 {
+
+/* Step 1: start with resetting some defaults */
+
+* {
+  margin: 0 auto;
+  padding: 0;
+  max-width: 100%;
+}
+
+
+/* Step 2: center things inside the grid and clear some space around it by setting a device based max-width and margin*/
+
+.grid {
   text-align: center;
-  margin-top: 50px;
+  max-width: 95vw;
+  margin: 2.5vw auto;
 }
 
-p {
-  text-align: center;
-  margin-bottom:60px;
+
+/* Step 3: how big should the gap be between grid items? remember that the total gap between two items would be double what you set here since both would have that amount set as their individual padding. Also add box-sizing:border-box to make sure the padding doesn't affect the total widh of the item */
+
+.grid-item {
+  padding: 5px;
+  box-sizing: border-box;
+	display:inline;
 }
 
-h4{
-  text-align:center; 
-  line-height:80px;
-  font-weight:normal;
 
-}
+/* Step 4: Add media queries (subjective) to make the whole grid resposive. */
 
-.masonry { /* Masonry container */
-    -webkit-column-count: 4;
-  -moz-column-count:4;
-  column-count: 4;
-  -webkit-column-gap: 1em;
-  -moz-column-gap: 1em;
-  column-gap: 1em;
-   margin: 1.5em;
-    padding: 0;
-    -moz-column-gap: 1.5em;
-    -webkit-column-gap: 1.5em;
-    column-gap: 1.5em;
-    font-size: .85em;
-}
-.item {
-    display: inline-block;
-    background: #fff;
-    padding: 1em;
-    margin: 0 0 1.5em;
-    width: 100%;
-	-webkit-transition:1s ease all;
-    box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    box-shadow: 2px 2px 4px 0 #ccc;
-}
-.item img{max-width:100%;}
-
-@media only screen and (max-width: 320px) {
-    .masonry {
-        -moz-column-count: 1;
-        -webkit-column-count: 1;
-        column-count: 1;
-    }
+@media (min-width: 500px) {
+  .grid-item {
+    width: 50%;
+  }
 }
 
-@media only screen and (min-width: 321px) and (max-width: 768px){
-    .masonry {
-        -moz-column-count: 2;
-        -webkit-column-count: 2;
-        column-count: 2;
-    }
+@media (min-width: 1000px) {
+  .grid-item {
+    width: 33.333%;
+  }
 }
-@media only screen and (min-width: 769px) and (max-width: 1200px){
-    .masonry {
-        -moz-column-count: 3;
-        -webkit-column-count: 3;
-        column-count: 3;
-    }
+
+@media (min-width: 1700px) {
+  .grid-item {
+    width: 25%;
+  }
 }
-@media only screen and (min-width: 1201px) {
-    .masonry {
-        -moz-column-count: 4;
-        -webkit-column-count: 4;
-        column-count: 4;
-    }
+
+@media (min-width: 2100px) {
+  .grid-item {
+    width: 20%;
+  }
 }
     </style>
 </body>
