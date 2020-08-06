@@ -1,0 +1,206 @@
+Google Aria
+At the forefront of health-tech, Google has invested in wearable devices designed to track patient's vitals. With the aggregated data, we've set out to design a mobile app (to be used in conjunction with wearable patches) for asthma, an ailment that afflicts about 25 millions American today.
+
+Project Details
+Duration: 3 weeks
+Category: User Experience Design / User Interface Design / Branding / Visual Design / Interaction Design
+Role: Researcher , User Experience Designer , Interaction Designer , Visual Designer
+
+The Technology
+Aria is a combination wearable + mobile app solution to asthma management. Data aggregates from the wearable patch into a mobile application so to display vital information to asthmatic users in a succinct and user friendly manner.
+wearable tracking capabilities: heart-rate, wheezing + coughing, respiration, and exercise
+companion app: our goal - build out the mobile experience and interface
+
+The Project Timeline
+A 2 week design scope posed limitations, and we foresaw 2 potential challenges within the research phase of our product lifecycle: 
+
+1. open conversation
+2. participant seeking
+
+With the tight timeframe, there was only 1 try to obtain the insights needed to design out our app. To circumvent ill-preparedness, we continually referenced levels of hierarchical empathy to help draw out unadulterated insights throughout our research.
+
+Research Goal
+Elicit enough knowledge to freely communicate and truly listen to what asthmatics have to say so to maximize on deep insights from user interactions.
+
+
+Figure 3: A quick mind-mapping session packed with assumptions and questions reveals 4 main areas of needed clarification: triggers / management / severity / physiology & pathology.
+
+
+Determining Target User
+Our persona hypothesis consisted of three different early stage archetypes which was used to facilitate discussions about our users. "The Ashmatic" was prioritized during the initial buildout of a minimal viable product, as we wanted to first design for the needs, desires, and varying contexts of those who experience asthma rather than for secondary archetypes who interact with asthmatics but do not have asthma themselves. 
+
+Online interviewee responses refined our archetype further. Research findings indicate that designing an asthma application will not be completely beneficial for all asthma patients. Different patients have different levels of asthmatic severity and the usage of management tools is dependent on such:
+
+Aria would be most beneficial for those with moderate asthma.
+Those with acute asthma express little concern or need for trigger, medication, and symptom documentation.
+Those with severe asthma deem it unnecessary because they have had asthma for many years and are already confident in their self-management techniques.
+
+Persona
+
+From a round of ideation and white-boarding, we fleshed out ideas, cross-compared them according to business and user needs,and diminished those that were cost ineffective.
+
+
+With features set in place, we mapped the architecture and fleshed out the layout via iterative rounds of low level sketches before moving forward with the time-consuming high level prototype. From the sitemap, 3 main task flows were to be tested amongst participants for usability purposes.
+1. Medication add, delete, and reminders
+2. Event logging and exportation
+3. Location of trigger + vital section and viewing of its' trend information
+
+
+Usability Testing
+100% completion rate.
+84.75% error free rate.
+The experience design proved to be overall intuitive, with just a few kinks to be smoothed down during the second iterative phase.
+
+Finding the medication section was a concern => How can we make searchability of medication section easier for users?
+
+There remains an equal balance between users who search for information via homecreen and navigation: Include header within home display. Add medication tab within navigation.
+
+
+More details link too vague for users to understand function => How can we make viewing of specific trend information less confusing?
+
+Rephrasing vague "more details" into specific actions: "view all (insert specific vital) stats" or "view all (insert specific vital) trends."
+
+
+Expectation of an event log section => How can we help users to visually see the amount of asthma attacks / incidences within a certain period of time?
+
+House an event log snippet section within the home screen by redesigning the non-intuitive "recent activities" section into a functional event log section. Incorporate status cards for quick information intake.
+
+
+Branding and Visuals
+The visual design of Aria complies with standard material design guidelines. The logo and interface of the companion app was designed to meet the following attributes.
+
+Clean, clear, fresh
+Intelligent and innovative
+Reliable
+Imagery inspired by simple, flat style illustrations typically seen on existing Google apps
+Vibrant colors to draw attention to specific elements, eg. chart and graphs shown within the dashboard
+Primary blue color palette with minimal white background to reflect concept of asthma
+
+Introducing Google Aria
+Data aggregation and integration with Google's current suite of products
+Real time air quality information
+Medication reminders with weekly progress indicator
+Display of health vitals (heart-rate, wheezing + coughing, respiration, and exercise) via simple charts and graphs
+Event logs to save and send over to health professionals
+Peakflow monitoring as part ongoing process of managing asthma
+
+
+
+
+
+
+Capital One
+While Capital One's current mobile app is very well rated, it is also very basic in functionality, limited to just spending and making payments. To compete with the evolving financial industry, I re-designed their mobile app to include "MoneyWise," a new, non-invasive feature that enables personalized budgeting, tracking, saving, and of course, management of individual finances all within one convenient space.
+
+Project Details
+Duration: 3 weeks
+Category: User Experience Design / User Interface Design / Branding / Visual Design / Interaction Design
+Role: Researcher , User Experience Designer , Interaction Designer , Visual Designer
+
+The Financial World In A Technological Arms-Race
+Desk research was conducted as a debriefer. From it garnered the following insights:
+
+Key Insight #1 Huge changes in the financial landscape
+The 2007–2008 mortgage crisis dampened customer trust. There is now increased urgency around conforming to consumer expectations and rounding out services.
+
+Key Insight #2 Upped competition New wave, digital-first, financial technology brands (FIN-tech), who built their value proposition around providing seamless customer-centric experiences, have intercepted the sector. Traditional incumbents are now hard-pressed to compete.
+
+Key Insight #3 Millennial habits drive financial innovation Latest studies show a continual increase of mobile usage for banking, significantly above desktop usage. Younger generations, such as Millennials, expect to be able to do everything on-the-go.
+
+
+What This Means For Capital One:
+Success will hinge on reshaping their digital banking experience by putting the consumer first, and offering personalized features + services so to establish a foundation of hard-earned consumer trust… while of course, remaining attentive to the unique needs of current audiences.
+
+
+A Deeper Look Into The New Wave Competition
+Research uncovers around 14 top players within the finance management space. The major finance management services offered by competition are:
+
+Income and spending analysis including cash flow
+Budget and goal setting
+Financial account aggregation
+Invest Tech portfolio
+Financial advice
+Needless to say, that a-lot of features!
+
+User Research
+While aforementioned insights clarified some initial questions, from it also birthed a second round of inquisitiveness: What functionalities and services should Capital One offer? We know that the money management market is offering a variety of functionalities and services, but there is simply not enough information to determine which of these features should be integrated and which of these features Capital One's users would like to have.
+
+1. Would a standalone app be a better option?
+When asked why Wells Fargo decided to create a new mobile banking app rather than fold the features within their existing mobile banking app, to Wells Fargo, it’s a segmentation strategy.
+
+"The company decided to build a standalone app so that it could focus solely on the needs of the targeted customers. If it built the functionality within the existing Wells Fargo app, the target audience would be burdened with features that were not applicable to them." Steve Ellis, head of innovation at Wells Fargo
+
+Would this also be the case with Capital One?
+
+Research Goal
+Shift through the featural possibilities and determine which ones were applicable to our challenge. In order to do so, we secured interviews to understand consumers' finance management experiences - pain points, motivations, etc. so to create a minimal viable product with functional and delightful features.
+
+
+
+A rough preliminary profile of “what I knew thus far about my users” ultimately informed the interview recruitment process. I successfully sought out a total of 7 users that aligned to my proto-persona: 3 male, 4 female, all millennials (between ages 22–37). An extraction of 4 points of tension to help inform my persona’s motivations, needs, and idiosyncrasies related to their usage of personal finance management tools.
+
+Accumulated Insights
+Millennials are hesitant in using financial management apps because of:
+1. Concern about 3rd party information security
+2. Inaccurate syncing of data / frustrating account setup
+3. Time consuming processes
+
+Desk Research Confirmations
+Interview findings confirm preference to manage finances via mobile app over both online and in-person.
+1 user wanted investment features within a banking app, however, 4 deemed it unnecessary. In the case of this project, we will abide with the majority.
+Users are indeed skeptical about the agenda of large banking institutions.
+01. Refinement of our target audience: Based on findings, we can narrow the age range of our target audience from “millennials” to individuals in their 20s. Interest in financial aggregation platforms peak during college (because of being newly independent / loan payments) and tapers off early to mid 30s, oftentimes when individuals have complex family finances with non-fixed cash flow.
+03. Strong desire for personal finance management (budgeting) tools within banking apps: 3 of 3 pain points could be resolved by integrating finance management features within a user’s primary banking app that already fulfills most of their financial needs.
+
+
+In an attempt to narrow the focus and pinpoint user problems, insights were molded into a persona: 4 POV statements were developed corresponding to Roger's use case. Reframing problem statements into "How Might We" questions opened the floor to ideas ranging in scope, size, and feasibility. In lieu of speaking directly with the Capital One team, I relied on their brand mission and positioning to offer perspective into the company's values.
+
+
+Conflicted as where to incorporate "Money Wise" within the pre-established app, an app audit of Capital One's mobile interface was conducted resulting in the identification of 4 areas of potential feature incorporation that fit rather seamlessly within the current flow - subtle enough for existing users but also discernible enough for our new millennial audience.
+
+architecture
+sketches
+
+
+Interface and Interaction Design
+My focus was on adding a new feature to an existing app, not reinventing the existing app. To that end, I adopted all of Capital One's existing UI design principles and styles, choosing to move directly from sketches to high fidelity, and allocating more effort into seamless interaction design.
+Existing frames integrated with "MoneyWise" feature
+Non-existing screens to be designed into user flow
+
+
+Prototyping & Usability Testing
+To ensure seamless flow and architecture, upon buildout of a high fidelity MarvelApp prototype, 5 in-person usability tests were to be conducted. My goals were to assess how well the solution assisted with transaction categorization, how well the solution assisted with budgeting and saving, and how well it integrated within user’s expectations. Users were tasked with:
+
+Task #1: Find the coffee purchase that you’ve made just now, categorize it, and rate it as a purchase that you “want.”
+Task #2: After categorizing and rating, from your current screen, find and view “spending trends: by needs and wants.” Then view your spending breakdown(s) for the month of April.
+Task #3: Locate all of your budget goals. You’ve completed your goal for “car” and now want to delete this budget. How would you go about doing so?
+Task #4: From your current screen, locate and view all your savings goals. After viewing your savings goals, you decide that you eventually want to go on vacation (sometime around May). Add a $1000 savings goals for vacation and allow for auto-savings.
+Task #5: Now that you have all your budgets and savings goals in check, you want to view all the alerts that you have for your spending. How would you go about doing that?
+
+
+Testing Results
+From these findings, came an affinity chart, crafted based on errors and issues observed during usability testing, user feedback, and the flows for each task.
+
+Test Completion And Error Rates
+
+Distillation of usability testing results show that overall, the feature was learn-able and intuitive, with everyone completing all 5 tasks in under a few minutes. Errors were minor: While 1 user had an error with task 3 (locating budget and savings goals had the most error) he was still able to complete the task with relative ease.
+
+
+Overwhelming Amount Of Positive Feedback
+
+All users flew through the prototype with little to no complication with many wondering why the Moneywise feature didn’t exist with their current banking app. The wants versus needs feature was by far the most successful: 3 out of 5 users who were impressed how unique and useful it was. Users also expressed positivism with the app’s visual branding and intuitiveness.
+
+
+User Flows For Primary Scenarios And Tasks
+
+There are multiple routes of task completion. Distillation of usability video recordings and of observational notes show us that users prefer to view and categorize transactions via the pre-existing checking account screen versus MoneyWise because it aligns with prior expectations. This is counter to the viewing of trends, budgeting goals, and savings goals, in which all 3 tasks were completed via preferred flows within the MoneyWise feature.
+
+introducing capital one "moneywise"
+
+Takeaways & Next Steps
+
+Overall, the feature successfully aided users in being mindful of spending (through transaction categorization), and in creating an experience that offered the opportunity to create goals / savings when financial situations turn rather complicated. But while validation proved our initial design to be fairly successful, it is by no means a final design. There is definitely room for improvement. Our next stages should consist of the following:
+
+Further testing should be conducted to determine the direction to take in regards to the organization of savings and budgeting goals.
+Now that we have identified the preferred user flow for categorizing and rating purchases, our second round of iteration should focus on how we can make these actions even easier for users.
+Further testing needs to be conducted to see if the lack of usage of some elements (Eg. “uncategorized link”) are due to hesitancy in using new features or whether this is a feature that users deem useless.

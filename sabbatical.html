@@ -1,242 +1,71 @@
-<html lang="en">
-
-<head>
-    <title>Victoria Phoenix</title>
-</head>
-
-<body>
-    <!-- header  -->
-    <div class="hero">
-        <div class="nav-bar">
-            <a span="left" href="index.html"><img
-                    src="https://i.pinimg.com/564x/c8/91/b9/c891b9d91735338dac3275f04b0ba341.jpg" alt="logo"
-                    height="60"></a>
-            <a href="contact.html"><span class="right">contact</span></a>
-        </div>
-
-        <div class="intro-summary">
-            <h1>sabbatical</h1>
-            <p class="summary">
-                Due to a series of unfortunate events, I had to take a break from professional endeavors. For fun, I've documented my trials and tribulations within this very personal casestudy. Join me as I reflect on my 3 year sabbatical ... if of course, you desire to.
-            </p>
-        </div>
-    </div>
-
-    <div class="project-details">
-        <div class="Duration">
-            <h4>duration</h4>
-            <p>5/5/18 - forever)</p>
-        </div>
-        <div class="category">
-            <h4>category</h4>
-            <p>User Experience Design</p>
-            <p>User Interface Design</p>
-            <p>Branding</p>
-            <p>Visual Design</p>
-            <p>Interaction Design</p>
-        </div>
-        <div class="Role">
-            <h4>role</h4>
-            <p>Researcher</p>
-            <p>User Experience Designer</p>
-            <p>Interaction Designer</p>
-            <p>Visual Designer</p>
-        </div>
-    </div>
-
-
-    <div class="design-process">
-        <h4>Design process</h4>
-        <p>My entire design process documented via slides. Feel free to read in its' entirety or selectively skim
-            through at your own pace.</p>
-        <iframe
-            src="https://docs.google.com/presentation/d/e/2PACX-1vTSiQijneMu41i2QuR6HbOqpkAzhhcYOzTcMeo8_bAHhmBF_auVfqSNZQfmiW2KFA/embed?start=false&loop=false&delayms=3000"
-            frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true"
-            webkitallowfullscreen="true"></iframe>
-    </div>
-
-
-
-    <div class="final-presentation">
-        <h3>introducing stashwealth</h3>
-        <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis iusto corporis deserunt maiores fugit,
-            doloremque
-            deleniti commodi at tenetur, placeat, dolores ipsa? Harum provident reiciendis molestias voluptatum sunt
-            recusandae culpa?
-        </p>
-    </div>
-    </div>
-
-
-    <div class="project-navigation">
-        <button class="nextproject"> next project ►</button>
-        <button class="previousproject"> ◄ previous project</button>
-    </div>
-
-    <div class="footer">
-        <div class="copyright">
-            Designed and coded by Victoria Phoenix , © Copyright 2020 , All rights reserved
-        </div>
-        <div class="social">
-            <a href="github.com/victoriaphoenix">Github</a>
-            <a href="github.com/victoriaphoenix">Codepen</a>
-            <a href="github.com/victoriaphoenix">Stackoverflow</a>
-        </div>
-    </div>
-
-    </head>
-
-
-    <body>
-        <style>
-            /* typography */
-            @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
-
-            body {
-                font-family: "Open Sans", sans-serif;
-                cursor: url("hyper.cur"), crosshair;
-                padding: 0;
-                margin: 0;
-            }
-
-            h1 {
-                font-family: 'Open Sans', sans-serif;
-                font-size: 80px;
-            }
-
-            h2 {
-                font-family: 'Open Sans', sans-serif;
-                font-size: 40px;
-            }
-
-            h3 {
-                font-family: 'Open Sans', sans-serif;
-                font-size: 35px;
-            }
-
-            h4 {
-                font-family: 'Open Sans', sans-serif;
-                font-size: 28px;
-            }
-
-            h5 {
-                font-family: 'Open Sans', sans-serif;
-                font-size: 23px;
-            }
-
-            h6 {
-                font-size: 18px;
-                font-weight: 400;
-                font-style: italic;
-            }
-
-            a {
-                text-decoration: none;
-                color: black;
-            }
-
-            p {
-                font-family: 'Open Sans', sans-serif;
-                font-size: 18px;
-                font-family: "Open Sans", sans-serif;
-                font-weight: 400;
-                line height: 24;
-            }
-
-            /* navigation */
-            .nav-bar {
-                margin: 60 60;
-            }
-
-            a .left {
-                /* logo */
-                float: left;
-            }
-
-            .right {
-                /* contact */
-                float: right;
-            }
-
-            /* projects */
-            .projects-wrapper {
-                padding: 0 150;
-            }
-
-            .summary {
-                font-size: 25px;
-                line-height: 1.5em;
-            }
-
-            .label {
-                font-size: 18px;
-                font-weight: 400;
-                margin-right: 10px;
-                padding: 4px 15px;
-                color: #666;
-                text-decoration: none;
-                border: 1px solid #ccc;
-                border-radius: 50px;
-                display: inline-block;
-            }
-
-            .hero {
-                height: 100vh;
-            }
-
-            .intro-summary {
-                text-align: center;
-                width: auto;
-                margin: 0 300;
-                display: inline-block;
-            }
-
-            .project-details,
-            .final-presentation {
-                background-color: rgb(24, 24, 24);
-                color: white;
-                padding: 150;
-                display: grid;
-                grid-template-columns: 1fr 1fr 1fr;
-                justify-items: center;
-                align-items: center;
-            }
-
-            .design-process {
-                margin: 150;
-            }
-
-            /* project navigation */
-            .previousproject,
-            .nextproject {
-                font-family: 'Open Sans', sans-serif;
-                font-size: 20px;
-                font-style: normal;
-                margin: 150;
-            }
-
-            .previousproject {
-                float: left;
-            }
-
-            .nextproject {
-                float: right;
-            }
-
-            /* footer */
-            .footer {
-                text-decoration: none;
-                font-size: 15px;
-            }
-
-            .copyright {
-                float: left;
-            }
-
-            .social {
-                float: right;
-            }
-        </style>
-    </body>
-</html>
+<!DOCTYPE html><html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><title>Capital One</title><style>
+      * {
+        font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+      }
+      html, body {
+        margin: 0;
+        padding: 0;
+      }
+      h1 {
+        font-size: 50px;
+        margin-bottom: 17px;
+        color: #333;
+      }
+      h2 {
+        font-size: 24px;
+        line-height: 1.6;
+        margin: 30px 0 0 0;
+        margin-bottom: 18px;
+        margin-top: 33px;
+        color: #333;
+      }
+      h3 {
+        font-size: 30px;
+        margin: 10px 0 20px 0;
+        color: #333;
+      }
+      header {
+        width: 640px;
+        margin: auto;
+      }
+      section {
+        width: 640px;
+        margin: auto;
+      }
+      section p {
+        margin-bottom: 27px;
+        font-size: 20px;
+        line-height: 1.6;
+        color: #333;
+      }
+      section img {
+        max-width: 640px;
+      }
+      footer {
+        padding: 0 20px;
+        margin: 50px 0;
+        text-align: center;
+        font-size: 12px;
+      }
+      .aspectRatioPlaceholder {
+        max-width: auto !important;
+        max-height: auto !important;
+      }
+      .aspectRatioPlaceholder-fill {
+        padding-bottom: 0 !important;
+      }
+      header,
+      section[data-field=subtitle],
+      section[data-field=description] {
+        display: none;
+      }
+      </style></head><body><article class="h-entry">
+<header>
+<h1 class="p-name">Capital One</h1>
+</header>
+<section data-field="subtitle" class="p-summary">
+As one of the largest commercial banks in the United States, Capital One wants to use their reach to improve the financial health of its…
+</section>
+<section data-field="body" class="e-content">
+<section name="e26f" class="section section--body section--first section--last"><div class="section-divider"><hr class="section-divider"></div><div class="section-content"><div class="section-inner sectionLayout--insetColumn"><h3 name="fbae" id="fbae" class="graf graf--h3 graf--leading graf--title">Capital One</h3><h3 name="d640" id="d640" class="graf graf--h3 graf--empty graf-after--h3"><br></h3><p name="e27b" id="e27b" class="graf graf--p graf-after--h3">As one of the largest commercial banks in the United States, Capital One wants to use their reach to improve the financial health of its customers. While their current mobile app is very well rated, it is also very basic in functionality. The features offered focus primarily on spending and making payments. As such, Capital One would like to round out their offerings by providing users with personalized features that allow them to manage their personal finances. To compete with the evolving financial industry, I designed a non-invasive new feature for Capital One called <strong class="markup--strong markup--p-strong">“MoneyWise”</strong> that enables users to easily budget, track, save, and manage finances all within one convenient app.</p><h3 name="9ff9" id="9ff9" class="graf graf--h3 graf-after--p">01. Project Details</h3><h3 name="9faa" id="9faa" class="graf graf--h3 graf--empty graf-after--h3"><br></h3><p name="fa29" id="fa29" class="graf graf--p graf-after--h3"><strong class="markup--strong markup--p-strong">Challenge | </strong>Design a new personal finance management feature that embeds smoothly within the current Capital One app</p><p name="3328" id="3328" class="graf graf--p graf-after--p"><strong class="markup--strong markup--p-strong">Client | </strong>Capital One (fictitious project)</p><p name="0c89" id="0c89" class="graf graf--p graf-after--p"><strong class="markup--strong markup--p-strong">Duration |</strong> 3 weeks</p><p name="0997" id="0997" class="graf graf--p graf-after--p"><strong class="markup--strong markup--p-strong">Role | </strong>Lead UI UX Designer: Design Researcher, IxDesigner, Visual Designer</p><h3 name="724b" id="724b" class="graf graf--h3 graf-after--p">02. Design Goals</h3><h3 name="83c7" id="83c7" class="graf graf--h3 graf--empty graf-after--h3"><br></h3><ul class="postList"><li name="0ea8" id="0ea8" class="graf graf--li graf-after--h3">Investigate a new feature within the Capital One’s app interface</li><li name="8791" id="8791" class="graf graf--li graf--empty graf-after--li"><br></li><li name="7699" id="7699" class="graf graf--li graf-after--li">Seamlessly integrate feature within existing app</li><li name="3c3e" id="3c3e" class="graf graf--li graf--empty graf-after--li"><br></li><li name="8e66" id="8e66" class="graf graf--li graf-after--li">Identify, test, and validate a solution among the target user segment</li><li name="182f" id="182f" class="graf graf--li graf--empty graf-after--li"><br></li></ul><h3 name="cbb0" id="cbb0" class="graf graf--h3 graf-after--li">03. Tools Used</h3><h3 name="7d85" id="7d85" class="graf graf--h3 graf--empty graf-after--h3"><br></h3><p name="efa2" id="efa2" class="graf graf--p graf-after--h3"><strong class="markup--strong markup--p-strong">Research |</strong> Industry Research, App Audit, Competitive Analysis, Provisional Personas, Contextual Inquiries, User Interviews</p><p name="ce1a" id="ce1a" class="graf graf--p graf-after--p"><strong class="markup--strong markup--p-strong">Synthesis |</strong> Empathy Map, Trello, Personas</p><p name="73f5" id="73f5" class="graf graf--p graf-after--p"><strong class="markup--strong markup--p-strong">Product Strategy + Ideation | </strong>Whiteboard, POV + HMWs, App Map, LucidChart</p><p name="1c4f" id="1c4f" class="graf graf--p graf-after--p"><strong class="markup--strong markup--p-strong">Interaction Design + Testing | </strong>Pen + Paper, User Flow, Illustrator, Photoshop, MarvelApp, Apowersoft Recorder</p><p name="137b" id="137b" class="graf graf--p graf-after--p"><strong class="markup--strong markup--p-strong">Delivery |</strong> Zeplin</p><h3 name="2bf4" id="2bf4" class="graf graf--h3 graf-after--p">Research &amp; Synthesis</h3><h3 name="a914" id="a914" class="graf graf--h3 graf--empty graf-after--h3"><br></h3><h3 name="e360" id="e360" class="graf graf--h3 graf-after--h3">01. Industry Research</h3><h3 name="b16f" id="b16f" class="graf graf--h3 graf--empty graf-after--h3"><br></h3><p name="3d84" id="3d84" class="graf graf--p graf-after--h3">In order to position Capital One as a leading provider of financial management services, I conducted online market research focused on the rapidly evolving fin-tech industry. In essence, there are 3 major market research insights critical to the scope of this project:</p><p name="0e33" id="0e33" class="graf graf--p graf-after--p"><strong class="markup--strong markup--p-strong">Insight #1: Millennial habits are driving financial innovation</strong></p><ul class="postList"><li name="27c3" id="27c3" class="graf graf--li graf-after--p">Big banks are likely to be facing increasing pressure not just from upstart companies, but large, well-recognized brands (Amazon, Apple and Google) — to offer a comprehensive suite of financial services.</li><li name="db9d" id="db9d" class="graf graf--li graf-after--li">73% of millennials would be more interested in new financial services from Google, Apple, Amazon, PayPal, or Square than from their own nationwide bank.</li></ul><p name="ff1f" id="ff1f" class="graf graf--p graf-after--li"><strong class="markup--strong markup--p-strong">Insight #2: Huge changes in the financial landscape</strong></p><ul class="postList"><li name="203f" id="203f" class="graf graf--li graf-after--p">Many banks are building automated savings, budgeting and management capabilities into their existing mobile experiences.</li><li name="0613" id="0613" class="graf graf--li graf-after--li">Chase recently launched Finn, a mobile banking app with personal finance features folded in, and Wells Fargo will soon launch Greenhouse, a similar concept.</li><li name="1e6f" id="1e6f" class="graf graf--li graf-after--li">3rd party options like Mint are needing to re-think about their strategies to compete.</li></ul><p name="2cfc" id="2cfc" class="graf graf--p graf-after--li"><strong class="markup--strong markup--p-strong">Insight #3: There’s lots of competition</strong></p><ul class="postList"><li name="a3ac" id="a3ac" class="graf graf--li graf-after--p">Research uncovers around 14 top players within the finance management space.</li><li name="22fa" id="22fa" class="graf graf--li graf-after--li">The major key functionalities and services offered by these companies in personal finance and money management market are: 1. Income and spending analysis, including cash flow, 2. Budget and goal setting, 3. Financial account aggregation, 4. Invest Tech portfolio, 4. Financial advice</li></ul><h3 name="e8be" id="e8be" class="graf graf--h3 graf-after--li">Discovery Takeaways</h3><h3 name="1ad9" id="1ad9" class="graf graf--h3 graf--empty graf-after--h3"><br></h3><p name="590e" id="590e" class="graf graf--p graf-after--h3">From our aforementioned insights, it is clear that <strong class="markup--strong markup--p-strong">Capital One needs to focus on improving its app experience for millennials. </strong>Effectively the first generation to grow up with nearly unlimited access to information, and a group that now comprises roughly 25 percent of the U.S. population, it would be wise to deliver sophisticated customer experiences for millennials, while of course, remaining attentive to the unique needs of current audiences. While aforementioned insights clarified some of the initial questions running through my mind, from it also birthed a second round of inquisitiveness and uncertainty.</p><p name="54b6" id="54b6" class="graf graf--p graf-after--p"><strong class="markup--strong markup--p-strong">2. What functionalities and services should Capital One offer?</strong></p><p name="276c" id="276c" class="graf graf--p graf-after--p">We know that the money management market is offering a variety of functionalities and services, but there is simply not enough information to determine which of these features should be integrated and which of these features Capital One’s users would like to have.</p><p name="5401" id="5401" class="graf graf--p graf-after--p">In order to answer these questions, we would need to first conduct a competitive analysis and prepare for user interviews.</p><p name="bdfa" id="bdfa" class="graf graf--p graf-after--p"><strong class="markup--strong markup--p-strong">1. Would a standalone app be a better option?</strong></p><p name="2f13" id="2f13" class="graf graf--p graf-after--p">When asked why Wells Fargo decided to create a new mobile banking app rather than fold the features within their existing mobile banking app, to Wells Fargo, it’s a segmentation strategy. Steve Ellis, head of innovation at Wells Fargo, said the company decided to build a standalone app so that it could focus solely on the needs of the targeted customers. If it built the functionality within the existing Wells Fargo app, the target audience would be burdened with features that were not applicable to them. Would this also be the case with Capital One?</p><h3 name="b814" id="b814" class="graf graf--h3 graf-after--p">02. Competitive Analysis</h3><h3 name="61ff" id="61ff" class="graf graf--h3 graf--empty graf-after--h3"><br></h3><p name="f4f0" id="f4f0" class="graf graf--p graf-after--h3">While a plethora of useful, accurate, and engaging content is available online, the web is also filled with inaccurate, misleading, and outdated information. I took the “top players” from my desk research and cross-referenced the list with a Google search for “top personal finance apps of 2018” to eliminate date options.</p><p name="9a37" id="9a37" class="graf graf--p graf-after--p">From the cross-examine emerged 5 finalists to conduct a competitive analysis on 3 direct mobile first banking options with finance management features integrated within, and 2 indirect independent fin-tech apps. I weighed the strengths and weakness of the features within each and also briefly highlighted who would be most interested in using each app (later paved the way for proto-persona development.)</p><figure name="386b" id="386b" class="graf graf--figure graf-after--p"><div class="aspectRatioPlaceholder"><img class="graf-image" data-image-id="5b0295c62b6a285b39d68f2e" alt="&quot;Top Players&quot; from my desk research, Source: gomedici.com" src="https://cdn-images-1.medium.com/max/800/5b0295c62b6a285b39d68f2e"></div></figure><p name="66f3" id="66f3" class="graf graf--p graf--startsWithDoubleQuote graf-after--figure">“Top Players” from my desk research, Source: gomedici.com</p><figure name="a2e4" id="a2e4" class="graf graf--figure graf-after--p"><div class="aspectRatioPlaceholder"><img class="graf-image" data-image-id="5b0295c770a6ada6e257e80b" alt="&quot;Top Players&quot; segmented into key services, Source: gomedici.com" src="https://cdn-images-1.medium.com/max/800/5b0295c770a6ada6e257e80b"></div></figure><p name="cd1d" id="cd1d" class="graf graf--p graf--startsWithDoubleQuote graf-after--figure">“Top Players” segmented into key services, Source: gomedici.com</p><figure name="3864" id="3864" class="graf graf--figure graf-after--p"><div class="aspectRatioPlaceholder"><img class="graf-image" data-image-id="5b0295c6562fa7b754ef80b7" alt="Competitive Analysis" src="https://cdn-images-1.medium.com/max/800/5b0295c6562fa7b754ef80b7"></div></figure><p name="f600" id="f600" class="graf graf--p graf-after--figure">Competitive Analysis</p><h3 name="ad70" id="ad70" class="graf graf--h3 graf-after--p">03. App Audits</h3><h3 name="dea2" id="dea2" class="graf graf--h3 graf--empty graf-after--h3"><br></h3><p name="7f6c" id="7f6c" class="graf graf--p graf-after--h3">A competitive analysis was a great starting point for understanding the feature components of each competitor, but as a visual person, it simply was not enough for me to understand the full scope of how each feature is integrated, what opportunities there are for improvement, and considerations of “best design practices” so, I did an <strong class="markup--strong markup--p-strong">app audit of all competitors</strong>. I noted design patterns, important feature components, and flow of screens.</p><p name="04f2" id="04f2" class="graf graf--p graf-after--p">All this would be naught if I did not also <strong class="markup--strong markup--p-strong">audit Capital One’s mobile app</strong>. Doing so gave me a rough idea of what features, elements, and design patterns are currently integrated within and where integration of personal finance management features may be plausible. From our audit, we quickly discovered 4 possible areas that may be subtle for enough for existing users but also discernible enough for our new millennial audience.</p><figure name="d8c6" id="d8c6" class="graf graf--figure graf-after--p"><div class="aspectRatioPlaceholder"><img class="graf-image" data-image-id="5b029907352f534e972d0190" alt="Competitor App Audit" src="https://cdn-images-1.medium.com/max/800/5b029907352f534e972d0190"></div></figure><p name="88bd" id="88bd" class="graf graf--p graf-after--figure">Competitor App Audit</p><figure name="47a7" id="47a7" class="graf graf--figure graf-after--p"><div class="aspectRatioPlaceholder"><img class="graf-image" data-image-id="5b02990703ce6487db05e70f" alt="Capital One App Audit" src="https://cdn-images-1.medium.com/max/800/5b02990703ce6487db05e70f"></div></figure><p name="896e" id="896e" class="graf graf--p graf-after--figure">Capital One App Audit</p><h3 name="e075" id="e075" class="graf graf--h3 graf-after--p">04. Provisional Persona</h3><h3 name="1ff2" id="1ff2" class="graf graf--h3 graf--empty graf-after--h3"><br></h3><p name="f8d7" id="f8d7" class="graf graf--p graf-after--h3">With a firm understanding of the landscape and the competition, I created a provisional persona using the research I currently possessed. Luke, a rough preliminary profile of “what I knew thus far about my users” ultimately informed the interview recruitment process.</p><figure name="cf4c" id="cf4c" class="graf graf--figure graf-after--p"><div class="aspectRatioPlaceholder"><img class="graf-image" data-image-id="5b029adf562fa7b754eff1fa" alt="Provisional Persona" src="https://cdn-images-1.medium.com/max/800/5b029adf562fa7b754eff1fa"></div></figure><p name="85e3" id="85e3" class="graf graf--p graf-after--figure">Provisional Persona</p><h3 name="d839" id="d839" class="graf graf--h3 graf-after--p">05. User Interviews / Contextual Inquiries</h3><h3 name="ee88" id="ee88" class="graf graf--h3 graf--empty graf-after--h3"><br></h3><p name="49e0" id="49e0" class="graf graf--p graf-after--h3">Prior to interviews, I laid out all my objectives, goals, and assumptions on the table, and structured my interview questions around them. I then visited 2 neighborhood banks / financial advisory centers: Capital One Cafe and Next Door State Farm. There I sought out a total of 7 users that aligned to my proto-persona: 3 were male, 4 were female, all were millennials (anyone between ages 22–37 in 2018).</p><p name="9dc9" id="9dc9" class="graf graf--p graf-after--p"><strong class="markup--strong markup--p-strong">Goals:</strong></p><ul class="postList"><li name="63cf" id="63cf" class="graf graf--li graf-after--p">Understand how millennials currently manage their finances, what resources they use, and why they prefer that method.</li><li name="2b52" id="2b52" class="graf graf--li graf-after--li">Gain insight into context and determine pain points, motivations, and frustrations of the finance management experience</li><li name="8acf" id="8acf" class="graf graf--li graf-after--li">Discover if there is interest in a personal finance management feature via Capital One’s mobile app.</li></ul><p name="fb35" id="fb35" class="graf graf--p graf-after--li"><strong class="markup--strong markup--p-strong">Assumptions:</strong></p><ul class="postList"><li name="4199" id="4199" class="graf graf--li graf-after--p">Users predominantly use mobile to manage their finances.</li><li name="e47b" id="e47b" class="graf graf--li graf-after--li">Users want a mobile banking experiences with personal finance features folded in</li><li name="532f" id="532f" class="graf graf--li graf-after--li">Majority of millennials will not feel knowledgeable or confident about personal finance</li></ul><h3 name="cbbb" id="cbbb" class="graf graf--h3 graf-after--li">06. Empathy Mapping</h3><h3 name="f653" id="f653" class="graf graf--h3 graf--empty graf-after--h3"><br></h3><p name="8875" id="8875" class="graf graf--p graf-after--h3">After 7 user interviews, dozens of articles, and competitive auditing, I began synthesizing my findings, capturing quotes, observations, facts, and musings. Recognizing similarities in the context and use cases, I rearranged my data into an empathy map via Trello, creating different groupings to reveal trends in feelings, habits and behaviors. From this exercise, I extracted 4 points of tension, or insights, to help inform my persona’s motivations, needs, and idiosyncrasies related to their usage of personal finance management tools.</p><h3 name="524c" id="524c" class="graf graf--h3 graf-after--p">07. Persona</h3><h3 name="4383" id="4383" class="graf graf--h3 graf--empty graf-after--h3"><br></h3><p name="bc77" id="bc77" class="graf graf--p graf-after--h3">Armed with needs, I crafted my composite user, Roger, focusing heavily on the goals, frustrations, and motivations discovery during empathy research.</p><figure name="68f6" id="68f6" class="graf graf--figure graf-after--p"><div class="aspectRatioPlaceholder is-locked" style="max-width: 700px; max-height: 407px;"><div class="aspectRatioPlaceholder-fill" style="padding-bottom: 58.099999999999994%;"></div><img class="graf-image" data-image-id="0*ELN3oV6ZxbH8reHU" data-width="750" data-height="436" src="https://cdn-images-1.medium.com/max/800/0*ELN3oV6ZxbH8reHU"></div></figure><p name="f0c1" id="f0c1" class="graf graf--p graf-after--figure"><a href="https://vicky-weng.squarespace.com/capital-one-synthesizing-and-defining/p1gd148vke2pcp8p7o2m67t1j3cye2" data-href="https://vicky-weng.squarespace.com/capital-one-synthesizing-and-defining/p1gd148vke2pcp8p7o2m67t1j3cye2" class="markup--anchor markup--p-anchor" rel="noopener" target="_blank">Empathy Mapping</a></p><figure name="b7a9" id="b7a9" class="graf graf--figure graf-after--p"><div class="aspectRatioPlaceholder is-locked" style="max-width: 700px; max-height: 497px;"><div class="aspectRatioPlaceholder-fill" style="padding-bottom: 71.1%;"></div><img class="graf-image" data-image-id="0*FmPy6nabzdEt5WHy" data-width="750" data-height="533" src="https://cdn-images-1.medium.com/max/800/0*FmPy6nabzdEt5WHy"></div></figure><p name="1fc2" id="1fc2" class="graf graf--p graf-after--figure"><a href="https://vicky-weng.squarespace.com/capital-one-synthesizing-and-defining/wm7mjc0ok468650le1oaeu8vxi6tvi" data-href="https://vicky-weng.squarespace.com/capital-one-synthesizing-and-defining/wm7mjc0ok468650le1oaeu8vxi6tvi" class="markup--anchor markup--p-anchor" rel="noopener" target="_blank">Insights And Needs</a></p><figure name="ec39" id="ec39" class="graf graf--figure graf-after--p"><div class="aspectRatioPlaceholder is-locked" style="max-width: 700px; max-height: 539px;"><div class="aspectRatioPlaceholder-fill" style="padding-bottom: 77.10000000000001%;"></div><img class="graf-image" data-image-id="0*b8YPLfVERyknuUSr" data-width="750" data-height="578" src="https://cdn-images-1.medium.com/max/800/0*b8YPLfVERyknuUSr"></div></figure><p name="235f" id="235f" class="graf graf--p graf-after--figure"><a href="https://vicky-weng.squarespace.com/capital-one-synthesizing-and-defining/vf1tn2km1ggi82vq3xeudp6dqcrfxu" data-href="https://vicky-weng.squarespace.com/capital-one-synthesizing-and-defining/vf1tn2km1ggi82vq3xeudp6dqcrfxu" class="markup--anchor markup--p-anchor" rel="noopener" target="_blank">Persona</a></p><h3 name="d350" id="d350" class="graf graf--h3 graf-after--p">Discovery Takeaways</h3><h3 name="4967" id="4967" class="graf graf--h3 graf--empty graf-after--h3"><br></h3><p name="32f1" id="32f1" class="graf graf--p graf-after--h3"><strong class="markup--strong markup--p-strong">02. Pain points:</strong></p><p name="7f35" id="7f35" class="graf graf--p graf-after--p">Millennials are hesitant in using financial management apps because of: <br>1. Concern about 3rd party information security<br>2. Inaccurate syncing of data / frustrating account setup<br>3. Time consuming processes</p><p name="4baa" id="4baa" class="graf graf--p graf-after--p"><strong class="markup--strong markup--p-strong">04. Desk Research Confirmations:</strong></p><ul class="postList"><li name="54a2" id="54a2" class="graf graf--li graf-after--p">Interview findings confirm preference to manage finances via mobile app over both online site and in-person.</li><li name="0f33" id="0f33" class="graf graf--li graf-after--li">1 user wanted investment features within a banking app, however, 4 deemed it unnecessary. In the case of this project, we will abide with the majority.</li><li name="c1c2" id="c1c2" class="graf graf--li graf-after--li">Users are indeed skeptical about the agenda of large banking institutions.</li></ul><p name="9585" id="9585" class="graf graf--p graf-after--li"><strong class="markup--strong markup--p-strong">01. Refinement of our target audience:</strong></p><p name="4efb" id="4efb" class="graf graf--p graf-after--p">Based on findings, we can narrow the age range of our target audience from “millennials” to individuals in their 20s. Interest in financial aggregation platforms peak during college (because of being newly independent / loan payments) and tapers off early to mid 30s, oftentimes when individuals have complex family finances with non-fixed cash flow.</p><p name="5a9a" id="5a9a" class="graf graf--p graf-after--p"><strong class="markup--strong markup--p-strong">03. Strong desire for personal finance management tools within banking apps:</strong></p><p name="9e06" id="9e06" class="graf graf--p graf-after--p">3 of 3 pain points could be resolved by integrating finance management features within a user’s primary banking app that already fulfills most of their financial needs.</p><h3 name="c6b7" id="c6b7" class="graf graf--h3 graf-after--p">Defining And Ideation</h3><h3 name="4cdb" id="4cdb" class="graf graf--h3 graf--empty graf-after--h3"><br></h3><h3 name="4cc9" id="4cc9" class="graf graf--h3 graf-after--h3">01. POV Statements / HMW Questions</h3><h3 name="4867" id="4867" class="graf graf--h3 graf--empty graf-after--h3"><br></h3><p name="80f9" id="80f9" class="graf graf--p graf-after--h3">Following research, I revisited my insights. From there, I attempted to narrow the focus and pinpoint user problems: 4 POV statements were developed that directly corresponded to Roger’s use case. We than re-framed our POVs into “How Might We Questions,” which ultimately opens up to ideation sessions.</p><h3 name="850f" id="850f" class="graf graf--h3 graf-after--p">02. Brainstorming</h3><h3 name="e86c" id="e86c" class="graf graf--h3 graf--empty graf-after--h3"><br></h3><p name="037f" id="037f" class="graf graf--p graf-after--h3">To guide my brainstorming and feature prioritization, I mapped my HMW’s on a digital whiteboard and tossed around ideas ranging in scope, size, and feasibility.</p><figure name="c60d" id="c60d" class="graf graf--figure graf-after--p"><div class="aspectRatioPlaceholder"><img class="graf-image" data-image-id="5b0523726d2a736439049da9" alt="POV Statements + HMW Questions" src="https://cdn-images-1.medium.com/max/800/5b0523726d2a736439049da9"></div></figure><p name="f3c2" id="f3c2" class="graf graf--p graf-after--figure">POV Statements + HMW Questions</p><figure name="d6e7" id="d6e7" class="graf graf--figure graf-after--p"><div class="aspectRatioPlaceholder"><img class="graf-image" data-image-id="5b051d81aa4a99ccc10ab33a" alt="Brainstorming" src="https://cdn-images-1.medium.com/max/800/5b051d81aa4a99ccc10ab33a"></div></figure><p name="06b6" id="06b6" class="graf graf--p graf-after--figure">Brainstorming</p><h3 name="e460" id="e460" class="graf graf--h3 graf-after--p">Product Strategy</h3><h3 name="2302" id="2302" class="graf graf--h3 graf--empty graf-after--h3"><br></h3><h3 name="34be" id="34be" class="graf graf--h3 graf-after--h3">01. Business And User Goals</h3><h3 name="f2b8" id="f2b8" class="graf graf--h3 graf--empty graf-after--h3"><br></h3><p name="32fa" id="32fa" class="graf graf--p graf-after--h3">Wanting the feature outcome to be both customer and market driven, I defined the high level business objectives and key customer attributes necessary to achieve success. Along with Roger’s needs, it is also imperative that I consider the goals of Capital One. In lieu of speaking directly with the Capital One team, I relied on their brand mission and positioning to offer perspective into the company’s values. While Capital One’s goals does center around monetizing of the app, there are still overlaps between user and business.</p><h3 name="451a" id="451a" class="graf graf--h3 graf-after--p">02. Feature Roadmap</h3><h3 name="114a" id="114a" class="graf graf--h3 graf--empty graf-after--h3"><br></h3><p name="0e34" id="0e34" class="graf graf--p graf-after--h3">To refine my brainstormed solutions, I considered each idea alongside Capital One’s positioning and goals as well as the user’s. From there, I determined which ideas could be further developed into a money management feature that would respond to the needs of both parties. Lastly, I outlined the specific details for each and prioritized them.</p><figure name="4ef0" id="4ef0" class="graf graf--figure graf-after--p"><div class="aspectRatioPlaceholder"><img class="graf-image" data-image-id="5b0524a9758d46cab83d0f9b" alt="Business And User Goals" src="https://cdn-images-1.medium.com/max/800/5b0524a9758d46cab83d0f9b"></div></figure><p name="cdee" id="cdee" class="graf graf--p graf-after--figure">Business And User Goals</p><figure name="eabb" id="eabb" class="graf graf--figure graf-after--p"><div class="aspectRatioPlaceholder"><img class="graf-image" data-image-id="5b02a1cf88251b93765fafe7" alt="Feature Roadmap" src="https://cdn-images-1.medium.com/max/800/5b02a1cf88251b93765fafe7"></div></figure><p name="7b40" id="7b40" class="graf graf--p graf-after--figure">Feature Roadmap</p><h3 name="880a" id="880a" class="graf graf--h3 graf-after--p">Information Architecture</h3><h3 name="8080" id="8080" class="graf graf--h3 graf--empty graf-after--h3"><br></h3><h3 name="e01e" id="e01e" class="graf graf--h3 graf-after--h3">01. App Mapping</h3><h3 name="841b" id="841b" class="graf graf--h3 graf--empty graf-after--h3"><br></h3><p name="5cec" id="5cec" class="graf graf--p graf-after--h3">Informed by the features and priorities outlined in my product roadmap, I created an app map for Capital One, showing how the new “MoneyWise” feature would integrate within the existing architecture.</p><h3 name="b739" id="b739" class="graf graf--h3 graf-after--p">02. User Flow</h3><h3 name="c46c" id="c46c" class="graf graf--h3 graf--empty graf-after--h3"><br></h3><p name="0801" id="0801" class="graf graf--p graf-after--h3">Highlighting two distinct paths, I wanted to understand how users would navigate through the app with the goal of <strong class="markup--strong markup--p-strong">1. categorizing and rating transaction,</strong> and <strong class="markup--strong markup--p-strong">2. creating budget and savings goals.</strong> A user flow helped to capture multiple user paths and decisions points in completing these 2 tasks. It also informs all the screen states that we would need to design.</p><figure name="9e44" id="9e44" class="graf graf--figure graf-after--p"><div class="aspectRatioPlaceholder"><img class="graf-image" data-image-id="5b05119988251ba6e0533765" alt="App Mapping" src="https://cdn-images-1.medium.com/max/800/5b05119988251ba6e0533765"></div></figure><p name="61b5" id="61b5" class="graf graf--p graf-after--figure">App Mapping</p><figure name="d120" id="d120" class="graf graf--figure graf-after--p"><div class="aspectRatioPlaceholder"><img class="graf-image" data-image-id="5b02a3702b6a285b39d7c9ff" alt="User Flow" src="https://cdn-images-1.medium.com/max/800/5b02a3702b6a285b39d7c9ff"></div></figure><p name="309c" id="309c" class="graf graf--p graf-after--figure">User Flow</p><h3 name="dae9" id="dae9" class="graf graf--h3 graf-after--p">Interaction Design</h3><h3 name="c703" id="c703" class="graf graf--h3 graf--empty graf-after--h3"><br></h3><h3 name="a252" id="a252" class="graf graf--h3 graf-after--h3">01. Sketching</h3><h3 name="9deb" id="9deb" class="graf graf--h3 graf--empty graf-after--h3"><br></h3><p name="febe" id="febe" class="graf graf--p graf-after--h3">Before moving to digital wire-frames, I quickly mapped out design elements and conceptualized the key pages of the user flow using pen and paper sketches, a quick, easy, and dispensable way of iterating ideas.</p><figure name="d8f2" id="d8f2" class="graf graf--figure graf-after--p"><div class="aspectRatioPlaceholder"><img class="graf-image" data-image-id="5afd35858a922d5621d1da1a" alt="IMG_20180411_051819.jpg" src="https://cdn-images-1.medium.com/max/800/5afd35858a922d5621d1da1a"></div></figure><figure name="6889" id="6889" class="graf graf--figure graf-after--figure"><div class="aspectRatioPlaceholder"><img class="graf-image" data-image-id="5afd35886d2a73124e5b2bbf" alt="IMG_20180411_051847.jpg" src="https://cdn-images-1.medium.com/max/800/5afd35886d2a73124e5b2bbf"></div></figure><figure name="052c" id="052c" class="graf graf--figure graf-after--figure"><div class="aspectRatioPlaceholder"><img class="graf-image" data-image-id="5afd358ff950b7543abf5f24" alt="IMG_20180411_051902.jpg" src="https://cdn-images-1.medium.com/max/800/5afd358ff950b7543abf5f24"></div></figure><figure name="fd1d" id="fd1d" class="graf graf--figure graf-after--figure"><div class="aspectRatioPlaceholder"><img class="graf-image" data-image-id="5afd357e0e2e72fb3ae052d5" alt="IMG_20180411_051924.jpg" src="https://cdn-images-1.medium.com/max/800/5afd357e0e2e72fb3ae052d5"></div></figure><figure name="134b" id="134b" class="graf graf--figure graf-after--figure"><div class="aspectRatioPlaceholder"><img class="graf-image" data-image-id="5afd357e575d1f528bd4e51f" alt="IMG_20180411_051914.jpg" src="https://cdn-images-1.medium.com/max/800/5afd357e575d1f528bd4e51f"></div></figure><h3 name="ea44" id="ea44" class="graf graf--h3 graf-after--figure">02. High Fidelity Wireframe Annotations</h3><h3 name="725d" id="725d" class="graf graf--h3 graf--empty graf-after--h3"><br></h3><p name="27a3" id="27a3" class="graf graf--p graf-after--h3">Because Capital One’s visual design is fairly simple and my time was limited, I made the decision to go from sketches directly to high-fidelity frames. I re-designed existing frames so that they were part of the user’s “MoneyWise” feature journey and to demonstrate how the feature would fit into the overall app: This includes the homepage, the checking account screen, the savings account screen, and the transaction details page. There were of course additional screens that were brand new to the app as well, so I designed those screens as true as possible to analogous ones.</p><p name="76ce" id="76ce" class="graf graf--p graf-after--p">Because we were moving directly into high fidelity frames, the interaction design also had to be well thought-out before moving forward with prototyping. I included annotations for wire-frames to help document how the new feature would integrate within the existing interface.</p><figure name="4d28" id="4d28" class="graf graf--figure graf-after--p"><div class="aspectRatioPlaceholder"><img class="graf-image" data-image-id="5b02a64f2b6a285b39d80ef1" alt="Annotations: Pre-existing Screens" src="https://cdn-images-1.medium.com/max/800/5b02a64f2b6a285b39d80ef1"></div></figure><p name="ceb8" id="ceb8" class="graf graf--p graf-after--figure">Annotations: Pre-existing Screens</p><figure name="5c47" id="5c47" class="graf graf--figure graf-after--p"><div class="aspectRatioPlaceholder"><img class="graf-image" data-image-id="5b02a64f03ce6487db0718fb" alt="Annotations: New MoneyWise Screens" src="https://cdn-images-1.medium.com/max/800/5b02a64f03ce6487db0718fb"></div></figure><p name="e10d" id="e10d" class="graf graf--p graf-after--figure">Annotations: New MoneyWise Screens</p><h3 name="e755" id="e755" class="graf graf--h3 graf-after--p">User Interface Design</h3><h3 name="dea7" id="dea7" class="graf graf--h3 graf--empty graf-after--h3"><br></h3><h3 name="6e81" id="6e81" class="graf graf--h3 graf-after--h3">01. User Interface Kit</h3><h3 name="0ea3" id="0ea3" class="graf graf--h3 graf--empty graf-after--h3"><br></h3><p name="4585" id="4585" class="graf graf--p graf-after--h3">My focus was on adding a new feature to an existing app, not reinventing the existing app. To that end, I adopted all of Capital One’s existing UI design principles and styles to create a prototype that demonstrated the functionality of the new feature while seamlessly integrating into the existing flow.</p><figure name="1582" id="1582" class="graf graf--figure graf-after--p"><div class="aspectRatioPlaceholder"><img class="graf-image" data-image-id="5b00eeb78a922d8cabf813f3" alt="UI Kit" src="https://cdn-images-1.medium.com/max/800/5b00eeb78a922d8cabf813f3"></div></figure><p name="f1d7" id="f1d7" class="graf graf--p graf-after--figure">UI Kit</p><h3 name="7ae6" id="7ae6" class="graf graf--h3 graf-after--p">Prototyping</h3><h3 name="d60b" id="d60b" class="graf graf--h3 graf--empty graf-after--h3"><br></h3><p name="d04d" id="d04d" class="graf graf--p graf-after--h3">I created a working high fidelity prototype of the designed screens using MarvelApp. The task flows observed in the prototype are as follows:</p><ul class="postList"><li name="9f1d" id="9f1d" class="graf graf--li graf-after--p"><strong class="markup--strong markup--li-strong">Task #1:</strong> Find the coffee purchase that you’ve made just now, categorize it, and rate it as a purchase that you “want.”</li><li name="01ea" id="01ea" class="graf graf--li graf-after--li"><strong class="markup--strong markup--li-strong">Task #2: </strong>After categorizing and rating, from your current screen, find and view “spending trends: by needs and wants.” Then view your spending breakdown(s) for the month of April.</li><li name="f235" id="f235" class="graf graf--li graf-after--li"><strong class="markup--strong markup--li-strong">Task #3</strong>: Locate all of your budget goals. You’ve completed your goal for “car” and now want to delete this budget. How would you go about doing so?</li><li name="864b" id="864b" class="graf graf--li graf-after--li"><strong class="markup--strong markup--li-strong">Task #4:</strong> From your current screen, locate and view all your savings goals. After viewing your savings goals, you decide that you eventually want to go on vacation (sometime around May). Add a $1000 savings goals for vacation and allow for auto-savings.</li><li name="e6c6" id="e6c6" class="graf graf--li graf-after--li"><strong class="markup--strong markup--li-strong">Task #5:</strong> Now that you have all your budgets and savings goals in check, you want to view all the alerts that you have for your spending. How would you go about doing that?</li></ul><p name="db8d" id="db8d" class="graf graf--p graf--empty graf-after--li"><br></p><h3 name="fa91" id="fa91" class="graf graf--h3 graf-after--p">Usability Testing &amp; Validation</h3><h3 name="6867" id="6867" class="graf graf--h3 graf--empty graf-after--h3"><br></h3><h3 name="a31f" id="a31f" class="graf graf--h3 graf-after--h3">01. Usability Testing</h3><h3 name="8397" id="8397" class="graf graf--h3 graf--empty graf-after--h3"><br></h3><p name="fc8a" id="fc8a" class="graf graf--p graf-after--h3">In order to validate my design, I spent the afternoon at neighborhood banks / financial advisory centers filled with millennials. I conducted 5 in-person usability tests with the primary tasks outlined above. My goals were to assess how well the solution assisted with transaction categorization, how well the solution assisted with budgeting and saving, and how well it integrated within user’s expectations.</p><h3 name="a2a8" id="a2a8" class="graf graf--h3 graf-after--p">02. Affinity Charts</h3><h3 name="3dbb" id="3dbb" class="graf graf--h3 graf--empty graf-after--h3"><br></h3><p name="9cbd" id="9cbd" class="graf graf--p graf-after--h3">From these findings, came an affinity chart, crafted based on errors and issues observed during usability testing, user feedback, and the flows for each task.</p><figure name="1668" id="1668" class="graf graf--figure graf-after--p"><div class="aspectRatioPlaceholder is-locked" style="max-width: 700px; max-height: 448px;"><div class="aspectRatioPlaceholder-fill" style="padding-bottom: 64%;"></div><img class="graf-image" data-image-id="0*Wuvk-mao0upY7lGR" data-width="1000" data-height="640" src="https://cdn-images-1.medium.com/max/800/0*Wuvk-mao0upY7lGR"></div></figure><p name="2d33" id="2d33" class="graf graf--p graf-after--figure"><a href="https://vicky-weng.squarespace.com/capital-one-affinity-mapping/rx4ccv49ptbce173umsjie74i8sxkh" data-href="https://vicky-weng.squarespace.com/capital-one-affinity-mapping/rx4ccv49ptbce173umsjie74i8sxkh" class="markup--anchor markup--p-anchor" rel="noopener" target="_blank">Test Completion And Error Rates</a></p><p name="f226" id="f226" class="graf graf--p graf-after--p">Distillation of usability testing results show that overall, the feature was learn-able and intuitive, with everyone completing all 5 tasks in under a few minutes. Errors were minor: While 1 user had an error with task 3 (locating budget and savings goals had the most error) he was still able to complete the task with relative ease.</p><figure name="930c" id="930c" class="graf graf--figure graf-after--p"><div class="aspectRatioPlaceholder is-locked" style="max-width: 700px; max-height: 827px;"><div class="aspectRatioPlaceholder-fill" style="padding-bottom: 118.10000000000001%;"></div><img class="graf-image" data-image-id="0*0SCDdGKPulU-Si9Y" data-width="750" data-height="886" src="https://cdn-images-1.medium.com/max/800/0*0SCDdGKPulU-Si9Y"></div></figure><p name="186a" id="186a" class="graf graf--p graf-after--figure"><a href="https://vicky-weng.squarespace.com/capital-one-affinity-mapping/qn4aldefc35c1q6nztp6vwwn7jbo11" data-href="https://vicky-weng.squarespace.com/capital-one-affinity-mapping/qn4aldefc35c1q6nztp6vwwn7jbo11" class="markup--anchor markup--p-anchor" rel="noopener" target="_blank">Overwhelming Amount Of Positive Feedback</a></p><p name="2a09" id="2a09" class="graf graf--p graf-after--p">All users flew through the prototype with little to no complication with many wondering why the Moneywise feature didn’t exist with their current banking app. The wants versus needs feature was by far the most successful: 3 out of 5 users who were impressed how unique and useful it was. Users also expressed positivism with the app’s visual branding and intuitiveness.</p><figure name="e826" id="e826" class="graf graf--figure graf-after--p"><div class="aspectRatioPlaceholder is-locked" style="max-width: 700px; max-height: 487px;"><div class="aspectRatioPlaceholder-fill" style="padding-bottom: 69.6%;"></div><img class="graf-image" data-image-id="0*jnBdz9bAiLyXM3DV" data-width="1000" data-height="696" src="https://cdn-images-1.medium.com/max/800/0*jnBdz9bAiLyXM3DV"></div></figure><p name="2c92" id="2c92" class="graf graf--p graf-after--figure"><a href="https://vicky-weng.squarespace.com/capital-one-affinity-mapping/by5qwxmc5qmhperrk7b36fnsfvy0z8" data-href="https://vicky-weng.squarespace.com/capital-one-affinity-mapping/by5qwxmc5qmhperrk7b36fnsfvy0z8" class="markup--anchor markup--p-anchor" rel="noopener" target="_blank">User Flows For Primary Scenarios And Tasks</a></p><p name="1fcc" id="1fcc" class="graf graf--p graf-after--p">There are multiple routes of task completion. Distillation of usability video recordings and of observational notes show us that users prefer to view and categorize transactions via the pre-existing checking account screen versus MoneyWise because it aligns with prior expectations. This is counter to the viewing of trends, budgeting goals, and savings goals, in which all 3 tasks were completed via preferred flows within the MoneyWise feature.</p><h3 name="3b39" id="3b39" class="graf graf--h3 graf-after--p">Final High Fidelity Frames</h3><h3 name="4ded" id="4ded" class="graf graf--h3 graf--empty graf-after--h3"><br></h3><figure name="42cd" id="42cd" class="graf graf--figure graf-after--h3"><div class="aspectRatioPlaceholder"><img class="graf-image" data-image-id="5b00dfc5562fa7b754c575a5" alt="Scene_1.png" src="https://cdn-images-1.medium.com/max/800/5b00dfc5562fa7b754c575a5"></div></figure><figure name="5fab" id="5fab" class="graf graf--figure graf-after--figure"><div class="aspectRatioPlaceholder"><img class="graf-image" data-image-id="5b00e57eaa4a99a865d1f41d" alt="simple-mockups.png" src="https://cdn-images-1.medium.com/max/800/5b00e57eaa4a99a865d1f41d"></div></figure><figure name="9ee7" id="9ee7" class="graf graf--figure graf-after--figure"><div class="aspectRatioPlaceholder"><img class="graf-image" data-image-id="5b00ebbfaa4a99a865d283ca" alt="simple-mockups.png" src="https://cdn-images-1.medium.com/max/800/5b00ebbfaa4a99a865d283ca"></div></figure><figure name="5e5b" id="5e5b" class="graf graf--figure graf-after--figure"><div class="aspectRatioPlaceholder"><img class="graf-image" data-image-id="5b00e8f8352f534e970377ad" alt="simple-mockups 2.png" src="https://cdn-images-1.medium.com/max/800/5b00e8f8352f534e970377ad"></div></figure><h3 name="4ee5" id="4ee5" class="graf graf--h3 graf-after--figure">Takeaways &amp; Next Steps</h3><h3 name="a1e8" id="a1e8" class="graf graf--h3 graf--empty graf-after--h3"><br></h3><p name="a17a" id="a17a" class="graf graf--p graf-after--h3">Overall, the feature successfully aided users in being mindful of spending (through transaction categorization), and in creating an experience that offered the opportunity to create goals / savings when financial situations turn rather complicated. But while validation proved our initial design to be fairly successful, it is by no means a final design. There is definitely room for improvement. Our next stages should consist of the following:</p><ol class="postList"><li name="8051" id="8051" class="graf graf--li graf-after--p">Further testing should be conducted to determine the direction to take in regards to the organization of savings and budgeting goals.</li><li name="8160" id="8160" class="graf graf--li graf-after--li">Now that we have identified the preferred user flow for categorizing and rating purchases, our second round of iteration should focus on how we can make these actions even easier for users.</li><li name="14d0" id="14d0" class="graf graf--li graf-after--li">Further testing needs to be conducted to see if the lack of usage of some elements (Eg. “uncategorized link”) are due to hesitancy in using new features or whether this is a feature that users deem useless.</li></ol><p name="e95e" id="e95e" class="graf graf--p graf--empty graf-after--li"><br></p><p name="b2fc" id="b2fc" class="graf graf--p graf--empty graf-after--p graf--trailing"><br></p></div></div></section>
+</section>
