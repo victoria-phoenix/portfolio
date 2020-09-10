@@ -2,247 +2,564 @@
 
 <head>
     <title>Victoria Phoenix</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 </head>
 
 <body>
-<body>
-    <div class="hero">
-        <div class="nav-bar">
-            <a span="left" href="index.html"><img
-                    src="https://i.pinimg.com/564x/c8/91/b9/c891b9d91735338dac3275f04b0ba341.jpg" alt="logo"
-                    height="60"></a>
-            <a href="contact.html"><span class="right">contact</span></a>
+    <!-- NAVIGATION BAR-->
+    <!-- brand logo and name -->
+    <nav class="navbar navbar-expand-sm navbar-light bg-light sticky-top">
+        <a class="navbar-brand" href="index.html">
+            <img src="Assets/phoenix.svg" width="30" height="30" class="d-inline-block align-top" alt="">
+            Victoria Phoenix
+        </a>
+        <!-- hamburger bar -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- link item - projects -->
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                        Projects
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="google_aria.html">Google Aria</a>
+                        <a class="dropdown-item" href="capitalone.html">Capital One</a>
+                        <a class="dropdown-item active" href="mirror.html">Mirror</a>
+                        <a class="dropdown-item" href="pawclaws.html">Paws & Claws</a>
+                        <a class="dropdown-item" href="stashwealth.html">Stashwealth</a>
+                    </div>
+                </li>
+                <!-- link item - button -->
+                <li class="nav-link">
+                    <button class="btn btn-danger"><a href="#" style="color: white;">Contact</a></button>
+                </li>
+            </ul>
         </div>
+    </nav>
 
-        <div class="intro-summary">
-            <section class="intro-summary">
-                <h1><br></h1>
-                <h1>mirror</h1>
-                <p>With over 400 stores in 32 countries, Mirror is a well-established global clothing chain. However, while growing, the
-                popular fashion retailer still remains in its' infantry due to lack of online presence. With a freshly designed website,
-                Mirror finally enters the e-commerce space.</p>
-                <h1><br></h1>
-            </section>
+    <!-- HERO SUMMARY -->
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <h1 style="font-size: calc(1.525rem + 3.3vw);">Mirror</h1>
+            <p class="lead" style="font-size: calc(1.275rem + .3vw);">With over 400 stores in 32 countries, Mirror is a well-established global clothing chain. However, while growing, the
+            popular <mark>fashion retailer still remains in its’ infantry due to lack of online presence. With a freshly designed website,
+            Mirror finally enters the e-commerce space.</mark></p>
+        </div>
+        <div class="container">
+            <h5>— Project Details</h5>
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                    <p><strong>Duration:</strong> 8 weeks</p>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                    <p><strong>Category:</strong> User Experience Design / User Interface Design / Branding / Visual
+                        Design / Interaction Design</p>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                    <p><strong>Role:</strong> Researcher , User Experience Designer , Interaction Designer , Visual
+                        Designer
+                    </p>
+                </div>
+            </div>
+            <!-- <p class="text-muted">*This summary includes insights, featural inplementation, and a look into the final
+                product. It does not include all
+                design deliverables. For the full design process, please click me: <button>Full Design Process</button>
+            </p> -->
         </div>
     </div>
 
+    <!-- intro images  -->
+    <div class="container-fluid">
+        <img class="img-fluid" src="Project Deliverables/Mirror/banner.png" width="100%" alt="">
+    </div>
 
-    <section class="intro-summary">
-        <h1><br></h1>
-        <h1>mirror</h1>
-        <p>With over 400 stores in 32 countries, Mirror is a well-established global clothing chain. However, while growing, the
-        popular fashion retailer still remains in its' infantry due to lack of online presence. With a freshly designed website,
-        Mirror finally enters the e-commerce space.</p>
-        <h1><br></h1>
-    </section>
 
-    <div class="project-details">
-        <section class="project-details">
-            <div class="Duration">
-                <h4>duration</h4>
-                <p>8 weeks (include scope of diagram</p>
+    <!-- secondary research -->
+    <div class="container" style="padding: 50px 0;">
+        <div class="row container">
+            <div class="container col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <h2>In-store vs. online shopping</h2>
+                <p>With strong desire to optimize Mirror’s online retail strategy, I extensively explored e-commerce trends during my
+                initial research phase. Knowing full well that the fashion industry is an over-saturated market, success or failure
+                hinges on our ability to jump aboard the latest shopping trends as they crest. Market trend analysis garnered the
+                following major takeaways:</p>
             </div>
-            <div class="category">
-                <h4>category</h4>
-                <p>User Experience Design</p>
-                <p>User Interface Design</p>
-                <p>Branding</p>
-                <p>Visual Design</p>
-                <p>Interaction Design</p>
+            <div class="container col-lg-6 col-md-12 col-sm-12 col-xs-6">
+                <p><strong>Key Insight #1: There still remains a fairly equal split between shopping in physical stores vs. online retailers.</strong></p>
+                <p>55% of online shoppers would prefer to buy from a merchant with a physical store presence over an online-only retailer.</p>
+                <p>51% of Americans think shopping online is the best way to shop, with 49% preferring shopping in-store.</p>
             </div>
-            <div class="Role">
-                <h4>role</h4>
-                <p>Researcher</p>
-                <p>User Experience Designer</p>
-                <p>Interaction Designer</p>
-                <p>Visual Designer</p>
+            <div class="container col-lg-6 col-md-12 col-sm-12 col-xs-6">
+                <p><strong>Key Insight #2: With information right at our fingertips, shoppers are more fickle with their brands than ever before.</strong></p>
+                <p>72% of young shoppers research online before purchasing in a store.</p>
+                <p>With millennials, “89% of mobile users say they search the web while shopping.”</p>
             </div>
-        </section>
+        </div>
     </div>
 
-    <!-- 01. analyzing brief and identifying key requirements -->
-    <div class="briefing">
-        <section class="briefing">
-            <h1><br></h1>
-            <h2>the technology</h2>
-            <p>Aria is a combination wearable + mobile app solution to asthma management. Data aggregates from the
-                wearable patch into a mobile application so to display vital information to asthmatic users in a
-                succinct and user friendly manner.
-                <div class="wearable">
-                    <p><strong>wearable tracking capabilities:</strong></p>
-                    <ul>
-                        <li>heart-rate</li>
-                        <li>wheezing + coughing</li>
-                        <li>respiration</li>
-                        <li>exercise</li>
-                    </ul>
-                </div>
-                <div class="mobile-app">
-                    <p><strong>companion app</strong></p>
-                    <p>goal: build out the mobile interface</p>
-                </div>
-                <h1><br></h1>
-        </section>
+    <!-- research goal -->
+    <div class="container text-center">
+        <p class="lead">Market research confirms unified channel strategies (online + physical) to be most practical and suggests a “best-of-both worlds” approach.</p>
+        <p class="lead">Our challenge: The buildout of a user-centric responsive website whilst ensuring successful e-commerce market penetration</p>
     </div>
 
-    <div class="scoping">
-        <section class="scoping">
-            <h1><br></h1>
-            <h2>the project timeline</h2>
-            <p>A 2 week design scope posed limitations, and we foresaw 2 potential challenges within the research phase
-                of our product lifecycle: 
-                <ol>
-                    <li>open conversation</li>
-                    <li>participant seeking</li>
-                </ol>
-                <p>With the tight timeframe, there was only 1 try to obtain the insights needed to design out our app.
-                    To
-                    circumvent ill-preparedness, we continually referenced levels of hierarchical empathy to help draw
-                    out unadulterated
-                    insights throughout our research.</p>
-                <h1><br></h1>
-        </section>
-    </div>
-
-
-    <!-- 02. research via empathetic means -->
-    <div class="research">
-        <section class="secondary-research">
-            <h1><br></h1>
-            <h1>in-store vs. online shopping<br></h1>
-            <p>Key Insight #1: There still remains a fairly equal split between shopping in physical stores vs. online retailers.
-            55% of online shoppers would prefer to buy from a merchant with a physical store presence over an online-only retailer.
-            51% of Americans think shopping online is the best way to shop, with 49% preferring shopping in-store.
-            Key Insight #2
-            With information right at our fingertips, shoppers are more fickle with their brands than ever before.
-            72% of young shoppers research online before purchasing in a store.
-            With millennials, "89% of mobile users say they search the web while shopping."
-            market research confirms unified channel strategies (online + physical) to be most practical and suggests a
-            "best-of-both worlds" approach.
-            Our challenge: buildout of a user-centric responsive website whilst ensuring successful e-commerce market penetration</p>
-            <h1><br></h1>
-        </section>
-
-        <section class="user-research">
-            <h1><br></h1>
-            <h1>online consumer shopping behavior<br></h1>
-            <p>Figure 3: mapped out user interview responses into 4 quadrants (doing and saying, thinking and feeling, seeing, and
-            hearing) to more deeply understand our user's experiences.</p>
-            <p>...which informed online interviewee selection (As anticipated, research deadlines loomed , so we opted
-                for online interviews.)</p>
-            <p>…whose responses were distilled into more insights.</p>
-            Proving & Disapproving Assumptions
-            Customers know what they want & roughly how much it should cost
-            1 user knew exactly what he wanted when purchasing clothes online, 3 users typically browse for sale items / do searches
-            and filters, oftentimes skeptical of purchases because they can't see it in person.
-            Shoppers will be more stringent when shopping online, expecting prices to be cheaper versus in store
-            True, from price comparisons to looking for free shipping options to only shopping at sales areas, all 4 users were more
-            stringent shopping online.
-            Online shopping is more a personalized experience versus in-store
-            Inconclusive, however, users def. want more suggestive features, with 3 of 4 stating it would make their experience more
-            pleasant.
-            Uncovering Unknowns
-            What motivates a customer to purchase clothes online as opposed to in store?
-            Multiple factors, however, all 4 users have talked about the following:
-            Comparative shopping allows for cheaper price
-            Lack of time to shop in store
-            Not having to deal with poor customer service
-            Lack of conveniency shopping in stores - overwhelming, crowded and poorly categorized
-            Time consuming process of waiting for checklist / fitting rooms
-            What are their typical shopping processes from product searching to product purchasing?
-            Email Updates -> Browse -> Cart & Contemplate -> Purchase -> Try On -> Keep Good, Return Bad
-            Straight to sales catalog -> filter and sort to specifications -> Cart and purchase
-            Navigate menu categories and uses sorts (low to high prices) -> cart and contemplate -> purchase
-            Offline and then online, but only if absolutely necessary. (Eg. can't find right size in store).
-            <h1><br></h1>
-        </section>
-
-        <section class="research-goals">
-            <h1><br></h1>
-            <h3>research goal<br>
-                how can we ensure Bob …. can find what he wants easily while also feeling confident in his decisions?</h3>
-            <h1><br></h1>
-        </section>
-
-    </div>
-
-    <!-- 03. imagining possible solutions from defined insights -->
-    <div class="defining">
-        <section class="defining-insights">
-            <h1><br></h1>
-            <h2>accumulated insights</h2>
-            <table>
-                <td>Users need to be reassured that they are making good purchases</td>
-                <td>Users need to save time and money when purchasing online</td>
-                <td>Users want sites to offer item suggestions that match their clothing style</td>
-                <td>Users are skeptical of products purchased online because they can't see it in person</td>
-                <td>Users do not want to pay extra for shipping & returning items and expect to save money online</td>
-                <td>Users want their shopping experience to be personalized</td>
-            </table>
-            <h1><br></h1>
-        </section>
-    </div>
-
-    <!-- 04. planning by selecting promising solutions -->
-    <div class="planning">
-        <section class="ideation-product-strategy">
-            <h1><br></h1>
-            <p>
-                Figure: Brainstorming. We decided that steering away from traditional design patterns would make the experience
-                difficult for users, and while innovation is something to be respected, in this scenario, it is best that users
-                instinctually understand where to go, what to press, and what to do without any hindrance. Architecture is key!
-                determining the basic architecture
-                card sorting
-                sitemap
-                portraying how users may flow through screens and pages.
-            </p>
-            <h1><br></h1>
-        </section>
-    </div>
-
-
-    <!-- 05. creating a prototype -->
-    <div class="prototyping">
-        <section class="fidelity-prototyping">
-            <h1><br></h1>
-            <p>With features set in place, we mapped the architecture and fleshed out the layout via iterative rounds of
-                low
-                level
-                sketches before moving forward with the time-consuming high level prototype. </p>
+    <!-- competitive analysis -->
+    <div class="container" style="padding: 50px 0;">
+        <div class="row container">
+            <div class="container col-lg-6 col-md-12 col-sm-12 col-xs-6">
+                <h5>Competitive Analysis & Provisional Persona</h5>
+                <p>With this initial information, I focused on uncovering existing yet obscure user expectations, behaviors, and
+                perceptions in the fashion space. I compiled an e-commerce snapshot of notable fast fashion retailers (both competing
+                and analogous), and surveyed for trend implementations, areas of success + failure, and user expectations — so to know
+                where best to invest our resources. In order to facilitate future design decisions, I aggregated and interpreted the
+                data results into provisional personas, relatable, representational customer profiles (archetypes), focusing heavily on
+                user behavior and motivation.</p>
+                <img class="img-fluid" src="Project Deliverables/Mirror/Competitive Analysis.png" alt="">
+            </div>
             
-            <h1><br></h1>
-        </section>
+            <div class="container col-lg-6 col-md-12 col-sm-12 col-xs-6">
+                <h5>User Interviews</h5>
+                <p>“One must first assume something to discover something.” Driven by curiosity in learning more about my users, the
+                development of my interview questions was built upon a foundation of working assumptions and unknowns. To better
+                understand online shoppers and to test my assumptions, I conducted 4 user interviews with participants who fell within
+                the aforementioned archetypes. I recruited 4 individuals to speak with in-person (2 male, 2 female, within the age range
+                of 18–50, employed, who have shopped online within the past 6 months.) These participants were asked about their
+                shopping habits and preferences. They were also asked to walk me through the process of browsing for an article of
+                clothing using a store of their choice.</p>
+                <div class="row">
+                    <div class="col">
+                        Assumptions:
+                        <ul>
+                            <li>Customers know what they want & roughly how much it should cost.</li>
+                            <li>Shoppers will be more stringent when shopping online, expecting prices to be cheaper versus in store.</li>
+                            <li>Online shopping is more a personalized experience versus in-store.
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col">
+                        Unknowns
+                        <ul>
+                            <li>What motivates a customer to purchase clothes online as opposed to in store?</li>
+                            <li>What are their typical shopping processes from product searching to product purchasing?</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 
-    <!-- 06. implementating visual, interface, interaction design -->
-    <div class="design">
-        <section class="interface-interaction-design">
-            <h1><br></h1>
-            <p>with architecture and features set in pace, we shifted our focus onto interface design and interactivity. branding and logo design
-            see the entire logo process here
-            designed to be: modern, simplicity, sleekness, stylish, luxuriousness, diversity, transparency, playfulness
-            the logo, a reflective word-play of the brand name, while simple and memorable, also injects boldness - purposefully
-            implemented to counterbalance the daintiness of the rest of the site</p>
-            <img src="https://futurelifenow.com/wp-content/uploads/2019/07/placeholder.png" alt="testing error rates">
-            <img src="https://futurelifenow.com/wp-content/uploads/2019/07/placeholder.png" alt="observation patterns">
-            <img src="https://futurelifenow.com/wp-content/uploads/2019/07/placeholder.png" alt="overall findings">
-        </section>
+    <!-- Empathy Mapping / Persona / Storytelling -->
+    <div class="container">
+        <h5>Empathy Mapping / Persona / Storytelling</h5>
+        <p>While the supply amount of data garnered during discovery was substantial, I was able to surmount difficulties through
+            various information defining techniques. Exploring information in a visual way makes it easier to spot behavioral
+            patterns and to synthesize user needs.</p>
+            <img class="img-fluid" src="Project Deliverables/Mirror/Empathy Mapping.png" alt="">
+        <p>Empathy mapping summed up our learning from user engagements and synthesized insights from our observed user’s needs.
+        From it, we discovered strong desire for personal and social integrations in the online space.</p>
+            <img class="img-fluid" src="Project Deliverables/Mirror/Persona.png" alt="">
+        <p>My empathy map functioned as a backbone for persona construction. From the composite of my research findings emerged
+        Jamie. Due to professional obligations, time is a limited resource. Thus, she values a quick, efficient shopping
+        experience so that time can be allotted elsewhere — spending more time with family and friends.</p>
+            <img class="img-fluid" src="Project Deliverables/Mirror/Storyboarding.png" alt="">
+        <p>Storyboarding captured my user’s emotional evolution as he / she goes about shopping for articles of clothing. By
+        illustrating a potential key path scenario, we understand how Mirror fits into our user’s daily lives when needs are
+        triggered.</p>
     </div>
 
 
-    <!-- 07. testing and evaluating prototype -->
-    <div class="usability-testing">
-        <section class="usability-testing">
-            <h1><br></h1>
-            <h2>usability testing</h2>
-            <p>Users were tasked with: 
-            Findings were distilled into 3 categories: test completion and error rates
-            Observations and user comments, as well as overall findings 
-            Using an affinity map, we organized testing and interview responses to obtain insights and suggestions for improvement. This project's main challenge was architecture and layout. Future feature implementation should focus on how to make …</p>
-            <img src="https://futurelifenow.com/wp-content/uploads/2019/07/placeholder.png" alt="testing error rates">
-            <img src="https://futurelifenow.com/wp-content/uploads/2019/07/placeholder.png" alt="observation patterns">
-            <img src="https://futurelifenow.com/wp-content/uploads/2019/07/placeholder.png" alt="overall findings">
-        </section>
+<!--  Discovery Takeaways -->
+<div class="container">
+    <div class="row container">
+        <div class="col-lg-6 col-md-12 col-sm-12 col-xs-6">
+            <h1>Discovery Takeaways</h1>
+            <p><strong>Point of Tension</strong></p>
+            <ul>
+                <li>While users enjoy and rely on upon the convenience of online shopping, all prioritize fit as the first thing that they
+                look for, and all found it frustrating to predict the quality and fit of garments.</li>
+                <li>All users care about shipping and returns, favoring stores that offer leniency and or offer free returns and free
+                shipping.</li>
+            </ul>
+        </div>
+        <div class="col-lg-6 col-md-12 col-sm-12 col-xs-6">
+            <p><strong>Strong Trends</strong></p>
+            <ul>
+                <li>All users agree (even exclusive in store shoppers) that shopping online saves time, provides a wider selection of
+                clothes, and is oftentimes cheaper, as opposed to shopping in person.</li>
+                <li>All users expect intuitive and personalized features that help to quickly narrow down options as they browse.</li>
+            </ul>
+        </div>
+        <div class="col-lg-6 col-md-12 col-sm-12 col-xs-6">
+            <p><strong>What Surprised Me</strong></p>
+            <p>While market analysis research asserts mobile shopping to be on the rise, interviewed users preferred completing
+            transactions via desktop not mobile because of frustration with small screen sizes.</p>
+        </div>
+    </div>
+</div>
+
+<!--  Defining And Ideation  -->
+<div class="container">
+    <h1>Defining And Ideation</h1>
+    <h5>POV Statements / HMW Questions</h5>
+    <p>Amalgamated data from our visualization techniques reveals a composite user (Jamie) who desires to maximize on
+    information searching avenues, Eg. lessen the overall time spent shopping for an exact item mid a pool of options, while
+    also being able to minimize on the risk(s) of receiving an inadequate product. Ill-fitting garments, non-comprehensive
+    product descriptions, and costly (in both time and money) return processes appear to be huge areas of frustration.</p>
+    <p>This compounded insight informed the HMW Question, crafted to guide my design:</p>
+    <p class="lead">“How might we organize, structure, and label Mirror’s content so that Jamie can quickly find and purchase clothing that
+    she is searching for, all while feeling confident about her selections?”</p>
+</div>
+
+<!-- Product Strategy -->
+<div class="container">
+    <h1>Product Strategy</h1>
+    <h5>Business And User Goals</h5>
+    <p>Prior to design, I shaped the direction of my product via a clear strategy. Wanting the outcome to be customer and
+    market-driven, I defined the high-level business objectives and key customer attributes necessary to achieve success.
+    Identifying overlaps within Jamie’s and Mirror’s goals (while mindful of technical considerations) defined the inclusive
+    features that benefit desires from both parties. It also informed the entire brand experience — from messaging to
+    imagery to site content.</p>
+    <img class="img-fluid" src="Project Deliverables/Mirror/Business User Goals.png" alt="">
+    
+    <h5>Feature Roadmap</h5>
+    <p>I then generated a comprehensive list of features with implementation prioritized by 1. degree of importance to both
+    business and users, and 2. level of time and resource investment.</p>
+    <img class="img-fluid" src="Project Deliverables/Mirror/Feature+Roadmap.png" alt="">
+</div>
+
+<!-- Information Architecture -->
+<div class="container my-5">
+    <div class="row container">
+        <div class="container col-lg-6 col-md-12 col-sm-12 col-xs-6">
+            <h2>Information Architecture</h2>
+            <h5>Card Sorting</h5>
+            <p>To understand how users perceive product categories, an open-ended card sort (online with 10 participants) was
+                conducted. A set of 30 clothing items were provided to participants and they were asked to group them. Results
+                confirmed
+                user expectations to be strongly influenced by existing fast fashion site patterns, which then helped to inform the
+                organization of clothing categories and subcategories on Mirror’s site.</p>
+        </div>
+        <div class="container col-lg-6 col-md-12 col-sm-12 col-xs-6">
+            <img class="img-fluid" src="Project Deliverables/Mirror/Card Sort Similarity+Matrix.png" alt="">
+        </div>
+        <img class="img-fluid col-lg-6" src="Project Deliverables/Mirror/Card Sort Agreement method.png" alt="">
+        <img class="img-fluid col-lg-6" src="Project Deliverables/Mirror/Card Sort best+merge+method.png" alt="">
+    </div>
+
+    <!-- open card sorting slides -->
+    <iframe
+        src="https://docs.google.com/presentation/d/e/2PACX-1vQOIV-9G5f_YXeTry-5aU7TZ2pLW05UwSd2oHnL6qcYxa9r_J3ae2NiJetpHIgdl0yjDeOib0tnutl7/embed?start=false&loop=false&delayms=3000"
+        frameborder="0" width="100%" height="569" allowfullscreen="true" mozallowfullscreen="true"
+        webkitallowfullscreen="true">
+    </iframe>
+            
+    <div class="container my-5">
+        <h5>Site Mapping & Task / User Flow Maps</h5>
+        <p>Insights from our feature roadmap and card sort set the foundation for Mirror’s site architecture. With the content
+        foundation, I moved into ideation. I crafted task and user flows to empathize with how users navigate pages to complete
+        linear tasks, and how users journey to checkout via different entry points and paths. Constructing these flows
+        ultimately informs the creation of what key pages and features to design for user testing.</p>
+            <img class="img-fluid" src="Project Deliverables/Mirror/Sitemapping.png" alt="">
+            <div class="container-fluid">
+                <div class="row">
+                    <img class="img-fluid col-lg-6 col-md-12 col-sm-12 col-xs-6" src="Project Deliverables/Mirror/User Flow.png" alt="">
+                    <img class="img-fluid col-lg-6 col-md-12 col-sm-12 col-xs-6" src="Project Deliverables/Mirror/Task Flow.png" alt="">
+                </div>
+            </div>
+    </div>
+</div>
+
+
+
+
+<!-- Interaction Design -->
+<div class="container">
+    <h1>Interaction Design</h1>
+    <h5>Sketching</h5>
+    <p>Before moving to digital wire-frames, I quickly conceptualized layouts using trusty pen and paper. I wanted to map out
+    the site information in a simple intuitive way that satisfied both business and user needs, thus, I drew inspiration from popular fashion retailers and examined design patterns from each site. I settled on version 1 sketch (middle) as it proved to be the most modern and intuitive design. With my choice set, I moved on to building mid and high fidelity wire-frames of responsive key pages that meet my primary user flow.</p>
+    <div class="container">
+        <div class="row">
+            <img class="img-fluid col-lg-4" src="Project Deliverables/Mirror/Sketch 1.png" alt="">
+            <img class="img-fluid col-lg-4" src="Project Deliverables/Mirror/Sketch 2.png" alt="">
+            <img class="img-fluid col-lg-4" src="Project Deliverables/Mirror/Sketch 3.png" alt="">
+        </div>
+    </div>
+
+    <iframe
+        src="https://docs.google.com/presentation/d/e/2PACX-1vTGyvWKZYjIx99mD-kwjYw1xR_DLhwRr_BIsoHBD3WGrG8fDix_aUuyDjTZW5Manm_sZ4Z1_gUR9iiF/embed?start=false&loop=false&delayms=3000"
+        frameborder="0" width="100%" height="569" allowfullscreen="true" mozallowfullscreen="true"
+        webkitallowfullscreen="true"></iframe>
+    
+    <h5 class="mt-3">Mid Fidelity Wire-framing</h5>
+    <p>Below are responsive mid fidelity frames for Mirror’s homepage and for the category listing page.</p>
+        <div class="container">
+            <div class="row">
+                <img class="img-fluid col-lg-6 col-md-12 col-sm-12 col-xs-6" src="Project Deliverables/Mirror/Mid Fid 1.png" alt="">
+                <img class="img-fluid col-lg-6 col-md-12 col-sm-12 col-xs-6" src="Project Deliverables/Mirror/Mid Fid 2.png" alt="">
+            </div>
+        </div>
+    
+    <h5 class="mt-3">High Fidelity Wire-framing</h5>
+    <p>Afterwards I added design into all of my elements and elements to create high fidelity frames that is to be used for
+        usability testing.</p>
+        <div class="container">
+            <div class="row">
+                <img class="img-fluid col-6" src="Project Deliverables/Mirror/High Fid 1.png" alt="">           
+                <img class="img-fluid col-6" src="Project Deliverables/Mirror/High Fid 2.png" alt="">
+            </div>
+        </div>
+</div>
+
+<!-- User Interface Design -->
+<div class="container">
+    <h1>User Interface Design</h1>
+    <h5>Mood Board</h5>
+    <p>Informed by my user research, I had set out to develop a longstanding brand that is on par with rival fashion sites. The
+    name itself — Mirror, primed my aesthetic vision. I found much inspiration in the form of “mirror images.” From those images, surfaced 4 central site characteristics.
+    Modern and Simple
+    Transparent and Trustworthy
+    Sleek and Stylish
+    Diverse … with just a hint of playfulness
+    (to keep the layout from seeming too sterile.)</p>
+        <img class="img-fluid" src="Project Deliverables/Mirror/Mood Board.png" alt="">
+
+
+    <h5>Logo Design</h5>
+    <p>The logo is a reflective word-play of the name itself. While I had explored innumerable ideas on the concept of
+        reflection, one design rose above the rest in its distinction, simplicity, and modernity. The coral pink hue and the
+        boldness from the logo’s font perfectly counterbalanced the daintiness of the rest of the site, aiding in a sense of
+        playfulness.
+    </p>
+        <img class="img-fluid" src="Project Deliverables/Mirror/Logo Design.png" alt="">
+        <img class="img-fluid" src="Project Deliverables/Mirror/Logo Design Final.png" alt="">
+
+    <iframe
+    src="https://docs.google.com/presentation/d/e/2PACX-1vTwghRUy10pi239phHTrdZc4bDyLF1-WEZhrqDaBfCiNyWIfOs4tbSEtYahv3VWNLzmk7njqvP1ceiy/embed?start=false&loop=true&delayms=1000"
+    frameborder="0" width="100%" height="569" allowfullscreen="true" mozallowfullscreen="true"
+    webkitallowfullscreen="true"></iframe>
+
+    <h5 class="mt-3">Style Tile & UI Kit</h5>
+    <p>I opted for a vibrant palette, filled with shades and tints of coral-pink, bluish-teal, grey-black, and white-grey. Bold
+    hues were used sparingly, only to draw attention to important elements, whilst blue, white, and grey were strategically
+    picked to represent the fresh reflective colors associated with mirrors. Tastefully positioning elements while leaving
+    just the right amount of white space in between helped to organize layout in a clean, uncluttered way.
+    </p>
+        <img class="img-fluid" src="Project Deliverables/Mirror/Style Tile.png" alt="">
+
+    <p>My style-tile is a “snippet” representation of my brand vision for Mirror, which of course, ultimately informed the site
+    design. When final high fidelity frames were completed, I aggregated all the design elements and housed them in a UI Kit
+    so that designers and developer can refer to them during future stages of iteration.
+    </p>
+        <img class="img-fluid" src="Project Deliverables/Mirror/UI Kit.png" alt="">
+</div>
+
+<!-- Prototyping -->
+    <div class="container">
+        <h1>Prototyping</h1>
+        <p>I then brought all my high fidelity frames and key elements into Invision to prepare for usability testing.
+        Unfortunately, this prototype had been archived. Below is a video recording of a user (Elizabeth) running through all
+        major task flows. Audio has been removed, as I do not have Elizabeth’s permission to share with the public.</p>
+        <ul>
+            <li>Task # 1: Shop for a women’s, size 4, white blouse, and add it to your shopping bag. Then view your shopping bag to ensure item details are correct.</li>
+            <li>Task # 2: After adding your blouse to the shopping cart, stay on the blouse product page. From there, shop for a blue,
+            Matt & Nat clutch, and add to the wish list for contemplation.</li>
+            <li>Task # 3: Navigate to your wish list, edit the clutch color from blue to white, and add the clutch to your shopping bag.
+            From your shopping bag, checkout your purchase.</li>
+        </ul>
+            <img class="img-fluid" src="Project Deliverables/Mirror/Task Flow 1.png" alt="">
+            <img class="img-fluid" src="Project Deliverables/Mirror/Task Flow 2.png" alt="">
+            <img class="img-fluid" src="Project Deliverables/Mirror/Task Flow 3.png" alt="">
+            <img class="img-fluid" src="Project Deliverables/Mirror/Task Flow 4.png" alt="">
+
+    </div>
+
+
+<!-- Usability Testing -->
+    <div class="container">
+        <h2 class="mt-5">Usability Testing</h2>
+        <p>In order to validate my solution, I spent the afternoon at a coffee shop filled with millennials with 4 major testing
+        goals in mind:</p>
+        <ul>
+            <li>Observe and note pain points, areas of uncertainty, and/or dissatisfaction with any missing features</li>
+            <li>(In)validate key assumptions</li>
+            <li>Assess the usability and functionality of Mirror’s navigation, hierarchy, and information architecture.</li>
+            <li>Discover which path is preferred if there are multiple ways for accomplishing a particular tasks.</li>
+        </ul>
+        <p>5 participants (3 male, 2 female) were recruited. All participants were asked to walk through the prototype, performing
+        the 3 aforementioned tasks flows.</p>
+    </div>
+
+<!-- Affinity Charts -->
+    <div class="container">
+        <h5>Affinity Mapping</h5>
+        <p>Using an affinity map, we methodically organized interview responses to obtain insights and suggestions for improvement
+        including which features should be given priority over others during stages of re-design.</p>
+        <img class="img-fluid" src="Project Deliverables/Mirror/Affinity Mapping.png" alt="">
+            
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <strong>Test Completion:</strong>
+                    <p>Findings suggest that users expect certain conventions in terms of information architecture. Most of these
+                        conventions
+                        had been followed through on my first implementation, and therefore, led to fairly successful test results.</p>
+                </div>
+                <div class="col-lg-6 col-md-12 col-sm-12 col-xs-6">
+                    <strong>Task Flow:</strong>
+                    <p>What surprised me most was the overwhelming amount of users who preferred navigation over search bar to find their
+                        product of choice. All participants expressed that the search-bar would be fruitless (and an inefficient management
+                        of
+                        time) without an exact description of the desired item.</p>
+                </div>
+                <div class="col-lg-6 col-md-12 col-sm-12 col-xs-6">
+                    <strong>Pain Points:</strong>
+                    <p>While the navigation throughout the buying, wish-listing, and carting process proved to be successful and the image
+                        driven content impressed users, there were still some points of friction that we need to address in our design.
+                        Surface
+                        level improvements in font size and elemental hierarchy can be made, including upping the font size of particular
+                        links
+                        for easier visibility, rethinking the labeling of “wishlist editing,” and revising the hierarchical placement of
+                        social
+                        media icons.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- Final High Fidelity Prototype -->
+    <div class="container my-5">
+        <h2>Final High Fidelity Prototype</h2>
+        <p>Corrections have been integrated with a second iteration, alongside a change in color scheme (albeit unnecessary as the
+        color scheme would change according to the types of products offered), as some male users preferred a more gender
+        neutral palette — confirmed during usability testing.</p>
+    </div>
+
+    <div class="container-fluid">
+        <img class="img-fluid" src="Project Deliverables/Mirror/desktop.png" width="100%" alt="">
+        <img class="img-fluid" src="Project Deliverables/Mirror/desktop 2.png" width="100%" alt="">
+        <img class="img-fluid" src="Project Deliverables/Mirror/mobile.png" width="100%" alt="">
+        <img class="img-fluid" src="Project Deliverables/Mirror/tablet.png" width="100%" alt="">
+    </div>
+
+<!-- Takeaways -->
+    <div class="container mt-5">
+        <h5>Takeaways</h5>
+        <p>Leveraging existing design patterns and user expectations within the e-commerce space allowed for me to build upon the
+        successes and failures of others. By doing so there’s the added benefit of:
+        minimal effort, cost-effective improvements for tried problems, and
+        efficiency, which enables us to invest our resources elsewhere — to explore newer avenues of information searching and
+        alternative risk minimization features so that we can be distinguished from the rather massive fashion world.
+        With efficiency as an added benefit, our next steps should focus on innovative, rising e-commerce trends (Eg. virtual
+        fitting room). Doing so will help distinguish and place Mirror at a competitive advantage.</p>
+    </div>
+
+
+
+
+<!-- Other Projects -->
+<h3 class="text-center mt-5">Check Out My Other Casestudies</h3>
+<div class="card-group">
+    <div class="card">
+        <img class="card-img-top" src="Assets/Google Aria.png" alt="Card image cap">
+        <div class="card-body">
+            <h5 class="card-title">Google Aria <span class="badge badge-warning">UX UI Design</span></h5>
+            <p class="card-text">Support and manage your asthma with confidence with Aria's wearable technology and
+                companion
+                app.</p>
+            <a href="google_aria.html" class="btn btn-primary">Read Casestudy</a>
+        </div>
+    </div>
+    <div class="card">
+        <img class="card-img-top" src="Assets/Capital One.png" alt="Card image cap">
+        <div class="card-body">
+            <h5 class="card-title">Capital One <span class="badge badge-warning">UX UI Design</span></h5>
+            <p class="card-text">Easily budget, track, and save your personal finances all within one convenient space.
+            </p>
+            <a href="capitalone.html" class="btn btn-primary">Read Casestudy</a>
+        </div>
+    </div>
+    <!-- <div class="card">
+        <img class="card-img-top" src="Assets/Mirror.png" alt="Card image cap">
+        <div class="card-body">
+            <h5 class="card-title">Mirror <span class="badge badge-warning">UX UI Design</span></h5>
+            <p class="card-text">Brick and morter fashion retailer, Mirror, desires to widen market reach via buildout
+                of a
+                reliable e-commerce website.</p>
+            <a href="mirror.html" class="btn btn-primary">Read Casestudy</a>
+        </div>
+    </div> -->
+    <div class="card">
+        <img class="card-img-top" src="Assets/Paws Claws.png" alt="Card image cap">
+        <div class="card-body">
+            <h5 class="card-title">Paws & Claws <span class="badge badge-warning">UX UI Design</span></h5>
+            <p class="card-text">Finding the perfect shelter pet can be rather difficult. With Paws & Claws, the search
+                becomes
+                easier.</p>
+            <a href="pawclaws.html" class="btn btn-primary">Read Casestudy</a>
+        </div>
+    </div>
+    <div class="card">
+        <img class="card-img-top" src="Project Deliverables/Stashwealth/Stash_wealth.jpg" alt="Card image cap">
+        <div class="card-body">
+            <h5 class="card-title">Stashwealth <span class="badge badge-warning">UX UI Design</span></h5>
+            <p class="card-text">Startup investment advisory agency seeks revamped brand identity. </p>
+            <a href="stashwealth.html" class="btn btn-primary align-baseline">Read Casestudy</a>
+        </div>
+    </div>
+</div>
+
+
+
+<!-- footer -->
+    <footer class="bd-footer text-muted text-center py-3">
+        <div class="container">
+            <ul class="list-unstyled text-center">
+                <li><a href="https://codepen.io/victoria-phoenix">Codepen</a></li>
+                <li><a href="https://github.com/victoria-phoenix">Github</a></li>
+                <li><a href="https://stackoverflow.com/users/13098672/victoria-phoenix">Stackoverflow</a></li>
+            </ul>
+            <p>© Copyright: 2020 All rights reserved</p>
+            <p>👩‍💻 Designed and built by Victoria Phoenix with blood, sweat, and a bucket of tears</p>
+        </div>
+    </footer>
+
+
+
+
+    <style>
+        /* typography */
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+
+        mark {
+            background-color: goldenrod;
+        }
+    </style>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+</body>
+</html>
+
+
+
+
+
 
         <!-- full design process -->
             <!-- <div class="design-process">
@@ -257,238 +574,4 @@
                             frameborder="0" width="100%" height="569" allowfullscreen="true" mozallowfullscreen="true"
                             webkitallowfullscreen="true"></iframe>
                     </div>
-                    <div class="logo-design">
-                        <h3>logo design</h3>
-                        <iframe
-                            src="https://docs.google.com/presentation/d/e/2PACX-1vTwghRUy10pi239phHTrdZc4bDyLF1-WEZhrqDaBfCiNyWIfOs4tbSEtYahv3VWNLzmk7njqvP1ceiy/embed?start=false&loop=true&delayms=1000"
-                            frameborder="0" width="100%" height="569" allowfullscreen="true" mozallowfullscreen="true"
-                            webkitallowfullscreen="true"></iframe>
-                    </div>
-                    <div class="card-sorting">
-                        <h3>card sorting</h3>
-                        <iframe
-                            src="https://docs.google.com/presentation/d/e/2PACX-1vQOIV-9G5f_YXeTry-5aU7TZ2pLW05UwSd2oHnL6qcYxa9r_J3ae2NiJetpHIgdl0yjDeOib0tnutl7/embed?start=false&loop=false&delayms=3000"
-                            frameborder="0" width="100%" height="569" allowfullscreen="true" mozallowfullscreen="true"
-                            webkitallowfullscreen="true"></iframe>
-                    </div>
-                    <div class="design-patterns">
-                        <h3>design patterns</h3>
-                        <iframe
-                            src="https://docs.google.com/presentation/d/e/2PACX-1vTGyvWKZYjIx99mD-kwjYw1xR_DLhwRr_BIsoHBD3WGrG8fDix_aUuyDjTZW5Manm_sZ4Z1_gUR9iiF/embed?start=false&loop=false&delayms=3000"
-                            frameborder="0" width="100%" height="569" allowfullscreen="true" mozallowfullscreen="true"
-                            webkitallowfullscreen="true"></iframe>
-                    </div>
-                </div>
-            </div> -->
-
-        <!-- 08. summary of end product -->
-        <div class="end-product">
-            <section class="final-product">
-                <h1><br></h1>
-                <h1>introducing mirror</h1>
-            </section>
-        </div>
-
-        <div class="project-navigation">
-            <button class="nextproject"> next project ►</button>
-            <button class="previousproject"> ◄ previous project</button>
-        </div>
-
-        <div class="footer">
-            <div class="copyright">
-                Designed and coded by Victoria Phoenix , © Copyright 2020 , All rights reserved
-            </div>
-            <div class="social">
-                <a href="github.com/victoriaphoenix">Github</a>
-                <a href="github.com/victoriaphoenix">Codepen</a>
-                <a href="github.com/victoriaphoenix">Stackoverflow</a>
-            </div>
-        </div>
-
-
-        <style>
-            /* typography */
-            @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
-
-            * {
-                font-family: "Open Sans", sans-serif;
-            }
-
-            /* Custom, iPhone Retina */
-            @media only screen and (min-width : 320px) {}
-
-            /* Extra Small Devices, Phones */
-            @media only screen and (min-width : 480px) {}
-
-            /* Small Devices, Tablets */
-            @media only screen and (min-width : 768px) {}
-
-            /* Medium Devices, Desktops */
-            @media only screen and (min-width : 992px) {
-                background-color: green;
-
-            }
-
-            /* Large Devices, Wide Screens */
-            @media only screen and (min-width : 1200px) {
-                background-color: black;
-            }
-
-
-            html,
-            body {
-                margin: 0;
-                padding: 0;
-                color: #131418;
-                background: white;
-            }
-
-            h1 {
-                font-size: 50px;
-                margin-bottom: 17px;
-                color: #131418;
-            }
-
-            h2 {
-                font-size: 24px;
-                line-height: 1.6;
-                margin: 30px 0 0 0;
-                margin-bottom: 18px;
-                margin-top: 33px;
-                color: #131418;
-            }
-
-            /* reserved for highlight points */
-            h3 {
-                font-size: 30px;
-                margin: 10px 0 20px 0;
-                color: #131418;
-                box-shadow: 0px 0px 0px 10px yellow;
-                background-color: yellow;
-                display: inline;
-                line-height: 3;
-            }
-
-            section {
-                width: 640px;
-                margin: auto;
-            }
-
-            section p,
-            ul,
-            ol {
-                margin-bottom: 27px;
-                font-size: 20px;
-                line-height: 1.6;
-                color: #131418;
-            }
-
-            table {
-                border-spacing: 20px;
-                font-size: 15px;
-            }
-
-            section img {
-                max-width: 640px;
-            }
-
-            footer {
-                padding: 0 20px;
-                margin: 50px 0;
-                text-align: center;
-                font-size: 12px;
-            }
-
-            .hero {
-                background-color: black;
-                height: 100vh;
-            }
-
-            /* highlight goals */
-            .research-goals h2 {
-                box-shadow: 0px 0px 0px 10px yellow;
-                background-color: yellow;
-                display: inline;
-                line-height: 3;
-            }
-
-            /* project navigation */
-            .previousproject,
-            .nextproject {
-                font-family: 'Open Sans', sans-serif;
-                font-size: 20px;
-                font-style: normal;
-                margin: 150;
-            }
-
-            .previousproject {
-                float: left;
-            }
-
-            .nextproject {
-                float: right;
-            }
-
-            /* footer */
-            .footer {
-                text-decoration: none;
-                font-size: 15px;
-            }
-
-            .copyright {
-                float: left;
-            }
-
-            .social {
-                float: right;
-            }
-        </style>
-</body>
-</html>
-
-card sorting
-<img src="4. Mirror/Card sorting/actual+agreement+method.png" alt="">
-<img src="4. Mirror/Card sorting/best+merge+method.png" alt="">
-<img src="4. Mirror/Card sorting/Similarity+Matrix.png" alt="">
-
-
-competitive research
-<img src="4. Mirror/Competitive Research/Artboard+1@2x.png" alt="">
-
-
-information architecture
-<img src="4. Mirror/information architecture/Artboard+10@2x.png" alt="">
-<img src="4. Mirror/information architecture/Artboard+11@2x.png" alt="">
-<img src="4. Mirror/information architecture/Artboard+2@2x.png" alt="">
-<img src="4. Mirror/information architecture/Artboard+8@2x.png alt="">
-<img src="4. Mirror/information architecture/task+flow+1@2x.png" alt="">
-<img src="4. Mirror/information architecture/task+flow+3@2x.png" alt="">
-<img src="4. Mirror/information architecture/task+flow+4@2x.png" alt="">
-
-
-product strategy
-<img src="4. Mirror/Product Strategy/Artboard+6@2x.png" alt="">
-<img src="4. Mirror/Product Strategy/Feature+Roadmap.png" alt="">
-
-prototyping
-<img src="4. Mirror/Prototyping/All+Wireframes+Colored.png" alt="">
-<img src="4. Mirror/Prototyping/All+Wireframes.png" alt="">
-<img src="4. Mirror/Prototyping/Artboard+14@2x.png" alt="">
-<img src="4. Mirror/Prototyping/Artboard+15@2x.png" alt="">
-<img src="4. Mirror/Prototyping/Artboard+16@2x.png" alt="">
-<img src="4. Mirror/Prototyping/Artboard+23+copy.png" alt="">
-<img src="4. Mirror/Prototyping/Artboard+23.png" alt="">
-
-user research
-<img src="4. Mirror/User Research/Artboard+13@2x.png" alt="">
-<img src="4. Mirror/User Research/Artboard+4@2x.png" alt="">
-<img src="4. Mirror/User Research/Artboard+5@2x (1).png" alt="">
-<img src="4. Mirror/User Research/Artboard+5@2x.png" alt="">
-<img src="4. Mirror/User Research/Artboard+7@2x.png" alt="">
-
-visual design
-<img src="4. Mirror/Visual Design/Artboard+17@2x.png" alt="">
-<img src="4. Mirror/Visual Design/Final+2+Iteration@2x.png" alt="">
-<img src="4. Mirror/Visual Design/Mirror+Style+Tile@2x.png" alt="">
-<img src="4. Mirror/Visual Design/Mirror+UI+Kit@2x.png" alt="">
-<img src="4. Mirror/Visual Design/Sketching+Digitized@2x.png" alt="">
+                    

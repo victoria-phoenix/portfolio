@@ -2,242 +2,177 @@
 
 <head>
     <title>Victoria Phoenix</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 </head>
 
 <body>
-    <!-- header  -->
-    <div class="hero">
-        <div class="nav-bar">
-            <a span="left" href="index.html"><img
-                    src="https://i.pinimg.com/564x/c8/91/b9/c891b9d91735338dac3275f04b0ba341.jpg" alt="logo"
-                    height="60"></a>
-            <a href="contact.html"><span class="right">contact</span></a>
+    <!-- NAVIGATION BAR-->
+    <!-- brand logo and name -->
+    <nav class="navbar navbar-expand-sm navbar-light bg-light sticky-top">
+        <a class="navbar-brand" href="index.html">
+            <img src="Assets/phoenix.svg" width="30" height="30" class="d-inline-block align-top" alt="">
+            Victoria Phoenix
+        </a>
+        <!-- hamburger bar -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- link item - projects -->
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                        Projects
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="google_aria.html">Google Aria</a>
+                        <a class="dropdown-item" href="capitalone.html">Capital One</a>
+                        <a class="dropdown-item" href="mirror.html">Mirror</a>
+                        <a class="dropdown-item" href="pawclaws.html">Paws & Claws</a>
+                        <a class="dropdown-item active" href="stashwealth.html">Stashwealth</a>
+                    </div>
+                </li>
+                <!-- link item - button -->
+                <li class="nav-link">
+                    <button class="btn btn-danger"><a href="#" style="color: white;">Contact</a></button>
+                </li>
+            </ul>
         </div>
+    </nav>
 
-        <div class="intro-summary">
-            <h1>stashwealth</h1>
-            <p class="summary">
-                As their name makes way around New York, Stashwealth, an investment advisory startup, seeks to elevate and revamp their brand identity so to effectively communicate personality and mission to their new consumer base. 
-            </p>
+    <!-- HERO SUMMARY -->
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <h1 style="font-size: calc(1.525rem + 3.3vw);">Stashwealth</h1>
+            <p class="lead" style="font-size: calc(1.275rem + .3vw);">As their name makes way around New York, Stashwealth, an investment advisory startup, seeks to elevate and revamp their
+            brand identity so to effectively communicate personality and mission to their new consumer base.</p>
+        </div>
+        <div class="container">
+            <h5>— Project Details</h5>
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                    <p><strong>Duration:</strong>1 month (work for hire)</p>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                    <p><strong>Category:</strong> User Experience Design / User Interface Design / Branding / Visual
+                        Design /
+                        Interaction
+                        Design</p>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                    <p><strong>Role:</strong> Researcher , User Experience Designer , Interaction Designer , Visual
+                        Designer
+                    </p>
+                </div>
+            </div>
+            <!-- <p class="text-muted">*This summary includes insights, featural inplementation, and a look into the final
+                product. It does not include all design deliverables. For the full design process, please click me: <button>Full Design Process</button>
+            </p> -->
         </div>
     </div>
-
-    <div class="project-details">
-        <div class="Duration">
-            <h4>duration</h4>
-            <p>1 month (work for hire)</p>
-        </div>
-        <div class="category">
-            <h4>category</h4>
-            <p>User Experience Design</p>
-            <p>User Interface Design</p>
-            <p>Branding</p>
-            <p>Visual Design</p>
-            <p>Interaction Design</p>
-        </div>
-        <div class="Role">
-            <h4>role</h4>
-            <p>Researcher</p>
-            <p>User Experience Designer</p>
-            <p>Interaction Designer</p>
-            <p>Visual Designer</p>
-        </div>
-    </div>
-
-
-    <div class="design-process">
-        <h4>Design process</h4>
+    <!-- debriefing-->
+    <div class="container">
+        <h2>Design process</h2>
         <p>My entire design process documented via slides. Feel free to read in its' entirety or selectively skim
-            through at your own pace.</p>
-        <iframe
-            src="https://docs.google.com/presentation/d/e/2PACX-1vTSiQijneMu41i2QuR6HbOqpkAzhhcYOzTcMeo8_bAHhmBF_auVfqSNZQfmiW2KFA/embed?start=false&loop=false&delayms=3000"
-            frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true"
-            webkitallowfullscreen="true"></iframe>
+        through at your own pace.</p>
+            <iframe
+                src="https://docs.google.com/presentation/d/e/2PACX-1vTSiQijneMu41i2QuR6HbOqpkAzhhcYOzTcMeo8_bAHhmBF_auVfqSNZQfmiW2KFA/embed?start=false&loop=false&delayms=3000"
+                frameborder="0" width="100%" height="100%" allowfullscreen="true" mozallowfullscreen="true"
+                webkitallowfullscreen="true"></iframe>
     </div>
 
-
-
-    <div class="final-presentation">
-        <h3>introducing stashwealth</h3>
-        <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis iusto corporis deserunt maiores fugit,
-            doloremque
-            deleniti commodi at tenetur, placeat, dolores ipsa? Harum provident reiciendis molestias voluptatum sunt
-            recusandae culpa?
-        </p>
-    </div>
-    </div>
-
-
-    <div class="project-navigation">
-        <button class="nextproject"> next project ►</button>
-        <button class="previousproject"> ◄ previous project</button>
-    </div>
-
-    <div class="footer">
-        <div class="copyright">
-            Designed and coded by Victoria Phoenix , © Copyright 2020 , All rights reserved
-        </div>
-        <div class="social">
-            <a href="github.com/victoriaphoenix">Github</a>
-            <a href="github.com/victoriaphoenix">Codepen</a>
-            <a href="github.com/victoriaphoenix">Stackoverflow</a>
+<!-- Other Projects -->
+<h3 class="text-center mt-5">Check Out My Other Casestudies</h3>
+<div class="card-group">
+    <div class="card">
+        <img class="card-img-top" src="Assets/Google Aria.png" alt="Card image cap">
+        <div class="card-body">
+            <h5 class="card-title">Google Aria <span class="badge badge-warning">UX UI Design</span></h5>
+            <p class="card-text">Support and manage your asthma with confidence with Aria's wearable technology and
+                companion
+                app.</p>
+            <a href="google_aria.html" class="btn btn-primary">Read Casestudy</a>
         </div>
     </div>
-
-    </head>
-
-
-    <body>
-        <style>
-            /* typography */
-            @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
-
-            body {
-                font-family: "Open Sans", sans-serif;
-                cursor: url("hyper.cur"), crosshair;
-                padding: 0;
-                margin: 0;
-            }
-
-            h1 {
-                font-family: 'Open Sans', sans-serif;
-                font-size: 80px;
-            }
-
-            h2 {
-                font-family: 'Open Sans', sans-serif;
-                font-size: 40px;
-            }
-
-            h3 {
-                font-family: 'Open Sans', sans-serif;
-                font-size: 35px;
-            }
-
-            h4 {
-                font-family: 'Open Sans', sans-serif;
-                font-size: 28px;
-            }
-
-            h5 {
-                font-family: 'Open Sans', sans-serif;
-                font-size: 23px;
-            }
-
-            h6 {
-                font-size: 18px;
-                font-weight: 400;
-                font-style: italic;
-            }
-
-            a {
-                text-decoration: none;
-                color: black;
-            }
-
-            p {
-                font-family: 'Open Sans', sans-serif;
-                font-size: 18px;
-                font-family: "Open Sans", sans-serif;
-                font-weight: 400;
-                line height: 24;
-            }
-
-            /* navigation */
-            .nav-bar {
-                margin: 60 60;
-            }
-
-            a .left {
-                /* logo */
-                float: left;
-            }
-
-            .right {
-                /* contact */
-                float: right;
-            }
-
-            /* projects */
-            .projects-wrapper {
-                padding: 0 150;
-            }
-
-            .summary {
-                font-size: 25px;
-                line-height: 1.5em;
-            }
-
-            .label {
-                font-size: 18px;
-                font-weight: 400;
-                margin-right: 10px;
-                padding: 4px 15px;
-                color: #666;
-                text-decoration: none;
-                border: 1px solid #ccc;
-                border-radius: 50px;
-                display: inline-block;
-            }
-
-            .hero {
-                height: 100vh;
-            }
-
-            .intro-summary {
-                text-align: center;
-                width: auto;
-                margin: 0 300;
-                display: inline-block;
-            }
-
-            .project-details,
-            .final-presentation {
-                background-color: rgb(24, 24, 24);
-                color: white;
-                padding: 150;
-                display: grid;
-                grid-template-columns: 1fr 1fr 1fr;
-                justify-items: center;
-                align-items: center;
-            }
-
-            .design-process {
-                margin: 150;
-            }
-
-            /* project navigation */
-            .previousproject,
-            .nextproject {
-                font-family: 'Open Sans', sans-serif;
-                font-size: 20px;
-                font-style: normal;
-                margin: 150;
-            }
-
-            .previousproject {
-                float: left;
-            }
-
-            .nextproject {
-                float: right;
-            }
-
-            /* footer */
-            .footer {
-                text-decoration: none;
-                font-size: 15px;
-            }
-
-            .copyright {
-                float: left;
-            }
-
-            .social {
-                float: right;
-            }
-        </style>
-    </body>
-
+    <div class="card">
+        <img class="card-img-top" src="Assets/Capital One.png" alt="Card image cap">
+        <div class="card-body">
+            <h5 class="card-title">Capital One <span class="badge badge-warning">UX UI Design</span></h5>
+            <p class="card-text">Easily budget, track, and save your personal finances all within one convenient space.
+            </p>
+            <a href="capitalone.html" class="btn btn-primary">Read Casestudy</a>
+        </div>
+    </div>
+    <div class="card">
+        <img class="card-img-top" src="Assets/Mirror.png" alt="Card image cap">
+        <div class="card-body">
+            <h5 class="card-title">Mirror <span class="badge badge-warning">UX UI Design</span></h5>
+            <p class="card-text">Brick and morter fashion retailer, Mirror, desires to widen market reach via buildout
+                of a
+                reliable e-commerce website.</p>
+            <a href="mirror.html" class="btn btn-primary">Read Casestudy</a>
+        </div>
+    </div>
+    <div class="card">
+        <img class="card-img-top" src="Assets/Paws Claws.png" alt="Card image cap">
+        <div class="card-body">
+            <h5 class="card-title">Paws & Claws <span class="badge badge-warning">UX UI Design</span></h5>
+            <p class="card-text">Finding the perfect shelter pet can be rather difficult. With Paws & Claws, the search
+                becomes
+                easier.</p>
+            <a href="pawclaws.html" class="btn btn-primary">Read Casestudy</a>
+        </div>
+    </div>
+    <!-- <div class="card">
+        <img class="card-img-top" src="Project Deliverables/Stashwealth/Stash_wealth.jpg" alt="Card image cap">
+        <div class="card-body">
+            <h5 class="card-title">Stashwealth <span class="badge badge-warning">UX UI Design</span></h5>
+            <p class="card-text">Startup investment advisory agency seeks revamped brand identity. </p>
+            <a href="stashwealth.html" class="btn btn-primary align-baseline">Read Casestudy</a>
+        </div>
+    </div> -->
+</div>
+    
+    
+    
+    <!-- footer -->
+    <footer class="bd-footer text-muted text-center py-3">
+        <div class="container">
+            <ul class="list-unstyled text-center">
+                <li><a href="https://codepen.io/victoria-phoenix">Codepen</a></li>
+                <li><a href="https://github.com/victoria-phoenix">Github</a></li>
+                <li><a href="https://stackoverflow.com/users/13098672/victoria-phoenix">Stackoverflow</a></li>
+            </ul>
+            <p>© Copyright: 2020 All rights reserved</p>
+            <p>👩‍💻 Designed and built by Victoria Phoenix with blood, sweat, and a bucket of tears</p>
+        </div>
+    </footer>
+    
+    
+    
+    
+    <style>
+        /* typography */
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+    
+        mark {
+            background-color: goldenrod;
+        }
+    </style>
+    
+    
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+</body>
 </html>

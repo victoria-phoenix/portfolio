@@ -2,463 +2,420 @@
 
 <head>
     <title>Victoria Phoenix</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 </head>
 
 <body>
-    <div class="hero">
-        <div class="nav-bar">
-            <a span="left" href="index.html"><img
-                    src="https://i.pinimg.com/564x/c8/91/b9/c891b9d91735338dac3275f04b0ba341.jpg" alt="logo"
-                    height="60"></a>
-            <a href="contact.html"><span class="right">contact</span></a>
+    <!-- NAVIGATION BAR-->
+    <!-- brand logo and name -->
+    <nav class="navbar navbar-expand-sm navbar-light bg-light sticky-top">
+        <a class="navbar-brand" href="index.html">
+            <img src="Assets/phoenix.svg" width="30" height="30" class="d-inline-block align-top" alt="">
+            Victoria Phoenix
+        </a>
+        <!-- hamburger bar -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- link item - projects -->
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                        Projects
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="google_aria.html">Google Aria</a>
+                        <a class="dropdown-item" href="capitalone.html">Capital One</a>
+                        <a class="dropdown-item" href="mirror.html">Mirror</a>
+                        <a class="dropdown-item active" href="pawclaws.html">Paws & Claws</a>
+                        <a class="dropdown-item" href="stashwealth.html">Stashwealth</a>
+                    </div>
+                </li>
+                <!-- link item - button -->
+                <li class="nav-link">
+                    <button class="btn btn-danger"><a href="#" style="color: white;">Contact</a></button>
+                </li>
+            </ul>
         </div>
+    </nav>
 
-        <div class="intro-summary">
-            <section class="intro-summary">
-                <h1><br></h1>
-                <h1>paws & claws</h1>
-                <p>Paws 'n Claws Rescue Alliance, an association of animal shelters, intends to partner with shelters all over the country
-                to raise awareness and foster the discoverability of dogs and cats waiting for a home. They are in need of a newly
-                branded, responsive website design to cover this purpose.</p>
-                <h1><br></h1>
-            </section>
+    <!-- HERO SUMMARY -->
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <h1 style="font-size: calc(1.525rem + 3.3vw);">Paws & Claws</h1>
+            <p class="lead" style="font-size: calc(1.275rem + .3vw);">Paws & Claws Rescue Alliance, an association of animal shelters, intends to partner with shelters all over the country to raise awareness and <mark>foster the discoverability of dogs and cats waiting for a home.</mark> They are in need of a newly
+            branded, <mark>responsive website design</mark> to cover this purpose.</p>
+        </div>
+        <div class="container">
+            <h5>— Project Details</h5>
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                    <p><strong>Duration:</strong> 3 weeks</p>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                    <p><strong>Category:</strong> User Experience Design / User Interface Design / Branding / Visual
+                        Design /
+                        Interaction
+                        Design</p>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                    <p><strong>Role:</strong> Researcher , User Experience Designer , Interaction Designer , Visual
+                        Designer
+                    </p>
+                </div>
+            </div>
+            <!-- <p class="text-muted">*This summary includes insights, featural inplementation, and a look into the final
+                product. It does not include all
+                design deliverables. For the full design process, please click me: <button>Full Design Process</button>
+            </p> -->
         </div>
     </div>
-
-    <section class="intro-summary">
-        <h1><br></h1>
-        <h1>paws & claws</h1>
-        <p>Paws 'n Claws Rescue Alliance, an association of animal shelters, intends to partner with shelters all over the country
-        to raise awareness and foster the discoverability of dogs and cats waiting for a home. They are in need of a newly
-        branded, responsive website design to cover this purpose.</p>
-        <h1><br></h1>
-    </section>
-    
-    <div class="project-details">
-        <section class="project-details">
-            <div class="Duration">
-                <h4>duration</h4>
-                <p>3 weeks (include scope of diagram</p>
-            </div>
-            <div class="category">
-                <h4>category</h4>
-                <p>User Experience Design</p>
-                <p>User Interface Design</p>
-                <p>Branding</p>
-                <p>Visual Design</p>
-                <p>Interaction Design</p>
-            </div>
-            <div class="Role">
-                <h4>role</h4>
-                <p>Researcher</p>
-                <p>User Experience Designer</p>
-                <p>Interaction Designer</p>
-                <p>Visual Designer</p>
-            </div>
-        </section>
-    </div>
-
-<!-- 01. analyzing brief and identifying key requirements -->
-<div class="briefing">
-    <section class="briefing">
-        <h1><br></h1>
-        <h2>the technology</h2>
-        <p>Aria is a combination wearable + mobile app solution to asthma management. Data aggregates from the wearable
-            patch into a mobile application so to display vital information to asthmatic users in a succinct and user
-            friendly manner.
-            <div class="wearable">
-                <p><strong>wearable tracking capabilities:</strong></p>
+<!-- primary research -->
+    <div class="container">
+            <h2>Research & Synthesis</h2>
+            <p>I began my research for this project with a quick secondary scan of statistics which helped me contextualize the pet
+            homelessness situation. My goal here was to understand the current animal rescue industry, specifically, “What is the
+            difference between adoption / rescue versus purchasing from a pet store / breeder?” and “What are the repercussions for
+            choosing stores over shelters?” Here’s what I learned:</p>
                 <ul>
-                    <li>heart-rate</li>
-                    <li>wheezing + coughing</li>
-                    <li>respiration</li>
-                    <li>exercise</li>
+                    <li>Stat #1: For every puppy or kitten who is deliberately produced by any breeder, an animal in an animal shelter dies.</li>
+                    <li>Stat #2: Animal shelters across the nation are forced to stretch their resources to the brink to accommodate an
+                    overwhelming population of homeless and at-risk animals.</li>
+                    <li>Stat #3: Approximately 6.5 million companion animals enter U.S. animal shelters nationwide every year. Of those,
+                    approximately 3.3 million are dogs and 3.2 million are cats.</li>
+                    <li>Stat #4: Each year, approximately 1.5 million shelter animals are euthanized (670,000 dogs and 860,000 cats).</li>
                 </ul>
+    </div>
+
+<!-- competitive analysis -->
+    <div class="container" style="padding: 50px 0;">
+        <div class="row container">
+            <div class="container col-lg-6 col-md-12 col-sm-12 col-xs-6">
+                <h5>Competitive Analysis & Provisional Persona</h5>
+                <p>With this initial information, I compiled a snapshot of notable pet matching sites currently out for use. A quick search
+                for “animal shelters near me” brought to light my top competitors: local animals shelters of various sizes (although
+                they are indirect competitors, they are also partners with us) and pet locators that are aggregates of shelters (with
+                Petfinder, AdoptAPet, and AllPaws being the most popular). I conducted a quick site audit of my top 5 competitor’s
+                website to help identify the strengths and weaknesses of each and surveyed pages for trend and feature implementations
+                so to know where best to invest our resources.
             </div>
-            <div class="mobile-app">
-                <p><strong>companion app</strong></p>
-                <p>goal: build out the mobile interface</p>
+            <div class="container col-lg-6 col-md-12 col-sm-12 col-xs-6">
+                <img class="img-fluid" src="Project Deliverables/Paws and Claws/Competitive Analysis.png" alt="" height="">    
             </div>
-            <h1><br></h1>
-    </section>
-</div>
+        </div>
+    </div>
 
-<div class="scoping">
-    <section class="scoping">
-        <h1><br></h1>
-        <h2>the project timeline</h2>
-        <p>We expected smooth sailing and set a deadline for each particular deliverable, anticipating a 3 week duration
-        <h1><br></h1>
-    </section>
-</div>
-
-
-<!-- 02. research via empathetic means -->
-<div class="research">
-    <section class="research-goals">
-        <h1><br></h1>
-        <h3>research goal<br>
-            elicit enough knowledge to freely communicate and truly listen to what asthmatics have to say so to maximize
-            on
-            deep insights from user interactions</h3>
-        <h1><br></h1>
-    </section>
-
-    <section class="secondary-research">
-        <h1><br></h1>
-        <p>We kickoff the project with research plan. Series of questions guided the initial research phase:
-
-            We kickoff the project with research plan. Series of questions guided the initial research phase:
-            Which platforms are currently available for potential adopters?
-            What can we learn from them?
-            What information is potential searched for?
-            What information is helpful?
-            Beginning stages of the adoption process and the associated thoughts of the adopter?
-            What factors do they use to decide on the specific pet that they want (or do not want)?
-            How and why did the adopter decide that they wanted to become a pet owner?
-            The online pet finding experience: What information is lacking?
-            Once a potential pet is located, how is interest communicated, and how is a meeting scheduled?
+<!-- provisional persona -->
+    <div class="container">
+        <h5>Provisional Persona </h5>
+        <p>In order to facilitate future design decisions, I aggregated and interpreted the data results into provisional personas,
+        (relatable, representational customer profiles), focusing heavily on user behavior and motivation. I had created them
+        early on to begin thinking about who might make up the customer base of Paws & Claws.</p>
         </p>
-        <h1><br></h1>
-    </section>
+        <img class="img-fluid" src="Project Deliverables/Paws and Claws/Provisional Persona.png" alt="">
+    </div>
+
+<!-- contextual inquiry -->
+    <div class="container">
+        <h5>Contextual Inquiry</h5>
+        <p>Driven by curiosity in learning more about my users, the development of my interview plan was built upon a foundation of
+        working assumptions and unknowns. Using my secondary research, unknowns, and assumptions, I developed an interview guide
+        to structure my contextual interviews. To understand the procedures for pet adoption, the services and programs offered,
+        and the channels and roadblocks for adopting pets, I visited my local rescue shelter. There I struck up conversation
+        with 9 individuals (employees and potential adopters) who fell within the aforementioned archetypes and analyzed their
+        attitude towards pet adoption.</p>
+    </div>
+
+<!-- Empathy Mapping & Persona -->
+    <div class="container">
+        <h5>Empathy Mapping & Persona</h5>
+        <p>From the contextual inquiry, research data was mapped out and analyzed to identify patterns, similarities, and
+        contrasts. By doing so, we uncover insights from my observations and move towards identifying implicit user needs. Based
+        on the opinions and views shared by participants, a primary user persona (Sarah) was created to encompass all common
+        ideologies between users.</p>
+            <img class="img-fluid" src="Project Deliverables/Paws and Claws/Empathy Mapping.png" alt="">
+            <img class="img-fluid" src="Project Deliverables/Paws and Claws/Empathy Mapping Trends.png" alt="">
+            <img class="img-fluid" src="Project Deliverables/Paws and Claws/Persona.png" alt="">
+    </div>
+
+<!-- Defining And Ideation -->
+    <div class="container">
+        <h1>Defining And Ideation</h1>
+        <h5>POV Statements / HMW Questions</h5>
+        <p>With my primary persona established, I moved onto translating the insights and needs of Sarah into defined “Point of
+        View” statements. Afterwards, I crafted a set of “How Might We” questions to help ideate the best possible solution for
+        each design challenge.</p>
+            <img class="img-fluid" src="Project Deliverables/Paws and Claws/POV HMW Questions.png" alt="">
+    </div>
+<!-- Brainstorming -->
+    <div class="container">
+        <h5>Brainstorming</h5>
+        <p>I then posted my HMW questions onto a whiteboard and generated as many ideas as possible, which I planned to review,
+            sort, and refine during later stages. Where ever possible, I grouped my ideas by theme and relationship: Organizing
+            ideas in this way helped me to expand on some of the ideas further.</p>
+            <img class="img-fluid" src="Project Deliverables/Paws and Claws/Brainstorming.png" alt="">
+        </div>
+        
+<!-- Product Strategy -->
+    <div class="container">
+        <h1>Product Strategy</h1>
+        <h5>Business and User Goals & Feature Roadmap</h5>
+        <p>To help define minimal viable product features, I mapped the overlaps of business goals, user goals, and technical
+            considerations.
+            Image for post
+            After a thorough cross examination of my brainstormed ideas with the business user goal map, I created a product
+            roadmap, with features presented in order of priority in terms of development and investment. I also included metrics so
+            that the impact and effectiveness of the features can be analyzed during testing phases.</p>
+            <img class="img-fluid" src="Project Deliverables/Paws and Claws/Business User Goal.png" alt="">
+            <img class="img-fluid" src="Project Deliverables/Paws and Claws/Feature Roadmap.png" alt="">
+    </div>
+
+<!-- Information Architecture -->
+    <div class="container">
+        <h1>Information Architecture</h1>
+        <h5>Site Mapping & User Flow</h5>
+        <p>Using the features furnished in my Product Feature Roadmap, a sitemap was created showing the content architecture
+        proposed for Paws & Claws. With the site map in place, I created a user flow based on some simple use cases for Sarah.
+        Doing so ensures that the organization of pages flow in a logical and smooth manner. The diagram below outlines 2
+        primary tasks Sarah may use during site navigation: 1. Searching, filtering, and reviewing of pet information, and 2.
+        Contacting the shelter by filling out an inquiry form.</p>
+            <img class="img-fluid" src="Project Deliverables/Paws and Claws/Sitmapping.png" alt="">
+            <img class="img-fluid" src="Project Deliverables/Paws and Claws/User Flow.png" alt="">
+    </div>
+            
+<!-- Interaction Design -->
+    <div class="container">
+        <h1>Interaction Design</h1>
+        <h5>Sketching</h5>
+        <p>Before moving to digital wire-frames, initial sketches were made to build variations on the homepage design.</p>
+        <img class="img-fluid" src="Project Deliverables/Paws and Claws/Sketch 1.png" alt="">
+        <img class="img-fluid" src="Project Deliverables/Paws and Claws/Sketch 2.png" alt="">
+    </div>
+<!-- Interaction Design -->
+    <div class="container">
+        <h5>Mid Fidelity Wire-framing</h5>
+        <p>Subsequently mid-fidelity responsive frames (corresponding to the user flows I originally mapped out) were created.
+        These mid-fidelity frames were developed with the goal of quickly translating them into a prototype so that I could
+        begin testing my design early in the process.</p>
+        <div class="container">
+            <div class="row">
+                <img class="img-fluid col-4" src="Project Deliverables/Paws and Claws/Mid Fid 1.png" alt="">
+                <img class="img-fluid col-4" src="Project Deliverables/Paws and Claws/Mid Fid 2.png" alt="">
+                <img class="img-fluid col-4" src="Project Deliverables/Paws and Claws/Mid Fid 3.png" alt="">
+                <img class="img-fluid col-4" src="Project Deliverables/Paws and Claws/Mid Fid 4.png" alt="">
+                <img class="img-fluid col-4" src="Project Deliverables/Paws and Claws/Mid Fid 5.png" alt="">
+            </div>
+        </div>
+    </div>
+
+<!-- Prototyping -->
+    <div class="container">
+        <h5>Prototyping</h5>
+        <p>An interactive mid-fidelity prototype of Paws & Claw’s desktop website was created using Invision. The prototype
+        functionality is limited to four major task flows.</p>
+            <ul>
+                <li>Task 1: Search the site and filter for a Labrador Retriever, Male, Large, Adult that is good with children, cats, and
+                dogs</li>
+                <li>Task 2: Switch your residential zip code (60613) to your workplace’s (60645), and search for a compatible dog with the
+                same filter criteria as before.</li>
+                <li>Task 3: Search the pet profile page for the following information: multiple pictures, pet’s story, appearance, energy,
+                health, compatibility, and personality information. Afterwards, send an adoption inquiry and schedule a meet and greet.
+                </li>
+                <li>Task 4: Search for Alive Rescue Shelter and navigate to Alive Rescue’s info page to view all their pets. Narrow your
+                results from all pets to just dogs.</li>
+            </ul>
+        <p>Below is a quick walk through of this mid-fidelity prototype.</p>
+    </div>
+<!-- Usability Testing & Validation -->
+    <div class="container">
+        <h5>Usability Testing & Validation</h5>
+        <p>To determine the level of efficiency of design and usability within the user interface of the interactive prototype,
+        moderated usability testing was conducted. Due to time constraints, I recruited 3–5 willing participants. The test was
+        designed to:</p>
+            <ul>
+                <li>Identify features that were successfully implemented in helping users accomplish tasks and uncover features that were
+                missing / breaks user expectations / could be improved upon.</li>
+                <li>Obtain feedback from users in regards to any obstacles, pain points, or frustrations during site interaction.</li>
+                <li>Identify successes and room for improvements in the navigation, information architecture, flow, and design of the site.
+                </li>
+            </ul>
+    </div>
+<!-- Affinity Charts -->
+    <div class="container">
+        <h5>Affinity Charts</h5>
+        <p>An affinity map was created based on errors and issues observed during usability testing. I segregated data into 3
+        groups of findings: successes, challenges, and observations to distill insights. From there, I translated my insights
+        into a recommended course of action to address our user’s issues.</p>
+            <img class="img-fluid" src="Project Deliverables/Paws and Claws/Affinity Mapping.png" alt="">
+    </div>
     
-    <section class="competitive-research">
-        <h1><br></h1>
-        <p>the competitors
-        which pet adoption sites / platforms are available for shelters and what can we learn from them? An analysis of the 3
-        direct and 2 indirect competitors reveals ample search filters, elaborate fill-ins for pet information, and of course
-        detailed location and point of contact for shelters.
-        </p>
-        <h1><br></h1>
-    </section>
-
-    <section class="user-research">
-        <h1><br></h1>
-        <p>Insights molded into an early stage proto-persona contextual inquiries</p>
-        <p>contextual inquiries
-        Anti-Cruelty Society
-        9 contextual inquiries
-        6 female, 3 male
-        7 experienced, 2 inexperienced
-        5 staff / 4 visitors</p>
-        <p>…whose responses were distilled into more insights.</p>
-        <h1><br></h1>
-    </section>
+<!-- User Interface Design -->
+<div class="container">
+    <h1>User Interface Design</h1>
+    <h5>Mood Board</h5>
+    <p>The prototype was further updated to accommodate the affinity map recommendations. During this iterative stage, I also
+    developed the site’s visual design, first creating a mood board to draw inspiration for my color palette, imagery, logo,
+    branding, type-faces, and icons.</p>
+        <img class="img-fluid" src="Project Deliverables/Paws and Claws/Mood Board.png" alt="">
+    <p>Although pet adoption is a rather serious and heart-wrenching topic, I wanted users to be greeted with an air of
+    positivism and professionalism. Users should feel warm and optimistic about the opportunity to add a new member to their
+    family, and the site should be reflective of that.</p>
+    <p>Given the over-population of blacks, browns, grays, and whites from pet coats, I ended up going for a mid-century theme
+    with blue and orange accent colors to add a pop of vibrancy from the rather neutral focus colors.</p>
 </div>
 
-<!-- 03. imagining possible solutions from defined insights -->
-<div class="defining">
-    <section class="defining-insights">
-        <h1><br></h1>
-        <h2>accumulated insights </h2>
-        <table>
-            <p>Figure 3: Responses from open ended questions mapped out within an empathy map. A distillation of this map revealed
-            several insights. Insights molded into a composite persona which guided us throughout reminder stages of the design process</p>
-            <td>User reply on mental recall when relaying information to health professionals when when they ask for
-                detailed accounts of symptoms, triggers, and exacerbation</td>
-            <td>Users sometimes forget to take their medication</td>
-            <td>Most common triggers are those related to air quality, including poor weather air pollution, and
-                allergens
-            </td>
-        </table>
-        <h1><br></h1>
-    </section>
-</div>
-
-<!-- 04. planning by selecting promising solutions -->
-<div class="planning">
-    <section class="ideation-product-strategy">
-        <h1><br></h1>
-        <p> 
-            From a round of ideation and white-boarding, we fleshed out ideas and cross-compared according to business
-            and
-            user
-            needs, as well as costs.
-            many ideas, too little time.
-            We underwent a quick brainstorming session wherein ideas were cross-compared business and user goals as well as
-            technological feasibilities. These ideas were then dissipated down to a list of features to be implemented within the
-            site.
-            Our focus we on providing ample information for users to find their new family member, and as suggested by user
-            insights, on humanizing the adoptee.
-        </p>
-        <h2>goal #2: implement cutoffs</h2>
-        <p>
-            in an effort to prevent feature creep, features were in relation to the results of a conducted competitive
-            analysis
-        </p>
-        <h1><br></h1>
-    </section>
-</div>
-
-
-<!-- 05. creating a prototype -->
-<div class="prototyping">
-    <section class="fidelity-prototyping">
-        <h1><br></h1>
-        <p>With features set in place, we played around with the architecture and site flows. mapped the architecture and fleshed out the layout via iterative rounds of low
-            level
-            sketches before moving forward with the time-consuming high level prototype. With the mid-fidelity, a prototype was created to test the overall usability of the site.
-            Users were task with:
-            Findings were distilled into 3 categories: test completion and error rates, observations and user comments, as well as
-            overall findings.</p>
-        <h1><br></h1>
-    </section>
-</div>
-
-<!-- 06. implementating visual, interface, interaction design -->
-<div class="design">
-    <section class="interface-interaction-design">
-        <h1><br></h1>
-        <p>The visual design of Aria complies with standard material design guidelines. branding + reworking 
-        Taking into account usability findings, a rework was done to improve the aritecture. It was also during this period,
-        that we created the branding of the site.
-        Logo designed for conservation of space given the architecture of the site
-        Color palatte of the site stratical chosen to opposite the black and brown fur coats of the listed pets. (We need the
-        pets to be the central focus, and steered away from neutral tones).</p>
-        <img src="https://futurelifenow.com/wp-content/uploads/2019/07/placeholder.png" alt="testing error rates">
-        <img src="https://futurelifenow.com/wp-content/uploads/2019/07/placeholder.png" alt="observation patterns">
-        <img src="https://futurelifenow.com/wp-content/uploads/2019/07/placeholder.png" alt="overall findings">
-    </section>
-</div>
-
-
-<!-- 07. testing and evaluating prototype -->
-<div class="usability-testing">
-    <section class="usability-testing">
-        <h1><br></h1>
-        <h2>usability testing</h2>
-        <p>The design proved to be overall intuitive, with just a few kinks to be smoothed down during my second design
-            iteration.accumulated insights
-            The design proved to be overall inuitive, with just a few kinks to be smoothed down during my second design iteration.
-            User reply on mental recall when relaying information to health professionals wven when they ask for detailed accounts
-            of symptoms, triggers, and exacerabtions
-            Users sometimes forget to take their medication
-            most common triggers are those related to air quality, including poor weather air pollution, and allergens
-            affinity mapping and findings</p>
-        <img src="https://futurelifenow.com/wp-content/uploads/2019/07/placeholder.png" alt="testing error rates">
-        <img src="https://futurelifenow.com/wp-content/uploads/2019/07/placeholder.png" alt="observation patterns">
-        <img src="https://futurelifenow.com/wp-content/uploads/2019/07/placeholder.png" alt="overall findings">
-    </section>
-
-    <!-- full design process -->
-    <!-- <div class="design-process">
-        <h4>Design process</h4>
-        <p>My entire design process documented via slides. Feel free to read in its' entirety or selectively skim
-            through at your own pace.</p>
-        <iframe
-            src="https://docs.google.com/presentation/d/e/2PACX-1vTArq_qHsctkXpufjZE5R1ogNdF_oVTDURu1Pgrskppn1tVLf2Y5s0mM6EMN3Qq7KOEbya8TNvOLLmF/embed?start=false&loop=false&delayms=3000"
-            frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true"
-            webkitallowfullscreen="true"></iframe>
-    </div>
- -->
-
-    <!-- 08. summary of end product -->
-    <div class="end-product">
-        <section class="final-product">
-            <h1><br></h1>
-            <h1>introducing paws & claws</h1>
-        </section>
-    </div>
-
-    <div class="project-navigation">
-        <button class="nextproject"> next project ►</button>
-        <button class="previousproject"> ◄ previous project</button>
-    </div>
-
-    <div class="footer">
-        <div class="copyright">
-            Designed and coded by Victoria Phoenix , © Copyright 2020 , All rights reserved
+<!-- Logo Design -->
+<div class="container" style="padding: 50px 0;">
+    <div class="row container">
+        <div class="container col-lg-6 col-md-12 col-sm-12 col-xs-6">
+            <h5>Logo Design</h5>
+            <p>My logo is a graphical representation of the name itself: I wanted the logo to be representative of the site’s mission,
+            and believed the best direction would be to incorporate imagery of a dog and cat. I went for a silhouette with a play on
+            positive and negative space to conserve real estate on the site’s navigation area. Final Logo Design. Influenced by the following central characteristics: bold and vibrant (but not childish), optimistic
+            and welcoming, friendly and caring, professional and trustworthy, clean and minimal
         </div>
-        <div class="social">
-            <a href="github.com/victoriaphoenix">Github</a>
-            <a href="github.com/victoriaphoenix">Codepen</a>
-            <a href="github.com/victoriaphoenix">Stackoverflow</a>
+        <div class="container col-lg-6 col-md-12 col-sm-12 col-xs-6">
+            <img class="img-fluid" src="Project Deliverables/Paws and Claws/Logo Final.png" alt="">
         </div>
     </div>
+</div>
+<!-- Style Tile & UI Kit -->
+<div class="container" style="padding: 50px 0;">
+    <div class="row container">
+        <div class="container col-lg-6 col-md-12 col-sm-12 col-xs-6">
+            <h5>Style Tile & UI Kit</h5>
+            <p>I then created a style tile by compiling the elements from my mood-board, logo, and additional visual elements. This
+            served as a guide for when I applied the visual design to my final high-fidelity wire-frames. I had also created a UI
+            Kit to serve as a reference for anyone working on the site. Should any additional iterations / add ons / changes need to
+            be made in the future, having this guide will ensure consistency of styles and elements across all screens.</p>
+        </div>
+        <div class="container col-lg-6 col-md-12 col-sm-12 col-xs-6">
+            <img class="img-fluid" src="Project Deliverables/Paws and Claws/Style Tile.png" alt="">
+            <img class="img-fluid" src="Project Deliverables/Paws and Claws/UI kit.png" alt="">
+        </div>
+    </div>
+</div>
 
+<!-- Final High Fidelity Frames -->
+<div class="container">
+    <h5>High Fidelity Wire-framing</h5>
+    <p>Adding the visual interface design reveals the following final mockup before moving foward to prototyping.</p>
+    <div class="container">
+        <div class="row">
+            <img class="img-fluid col-4" src="Project Deliverables/Paws and Claws/High Fid 1.png" alt="">
+            <img class="img-fluid col-4" src="Project Deliverables/Paws and Claws/High Fid 2.png" alt="">
+            <img class="img-fluid col-4" src="Project Deliverables/Paws and Claws/High Fid 3.png" alt="">
+            <img class="img-fluid col-4" src="Project Deliverables/Paws and Claws/High Fid 4.png" alt="">
+            <img class="img-fluid col-4" src="Project Deliverables/Paws and Claws/High Fid 5.png" alt="">
+        </div>
+    </div>
+</div>
+ 
+<!-- End Product -->
+    <div class="container-fluid">
+        <h2 class="text-center mt-5">Introducing Paws & Claws</h2>
+            <img class="img-fluid" src="Project Deliverables/Paws and Claws/homepage.png" alt="">
+            <img class="img-fluid" src="Project Deliverables/Paws and Claws/profilepage.png" alt="">
+            <img class="img-fluid" src="Project Deliverables/Paws and Claws/tablet.png" alt="">
+            <img class="img-fluid" src="Project Deliverables/Paws and Claws/mobile.png" alt="">
+    </div>
+
+<!-- 09. Takeaways & Next Steps -->
+    <div class="container">
+        <h2 class="mt-5">Takeaways & Next Steps</h2>
+        <p>The overall findings were quite successful given the time constraints on this project. Now that we have corrected for
+        round 1 issues, during next stages, I would like to move forward with implementation of priority 2 (educational resource
+        screens) and priority 3 (community / social) features. I’m most excited for the design and development of a community
+        forum, as the organization of content and information architecture would likely be a fun challenge.</p>
+    </div>
+
+
+<!-- Other Projects -->
+<h3 class="text-center mt-5">Check Out My Other Casestudies</h3>
+<div class="card-group">
+    <div class="card">
+        <img class="card-img-top" src="Assets/Google Aria.png" alt="Card image cap">
+        <div class="card-body">
+            <h5 class="card-title">Google Aria <span class="badge badge-warning">UX UI Design</span></h5>
+            <p class="card-text">Support and manage your asthma with confidence with Aria's wearable technology and
+                companion
+                app.</p>
+            <a href="google_aria.html" class="btn btn-primary">Read Casestudy</a>
+        </div>
+    </div>
+    <div class="card">
+        <img class="card-img-top" src="Assets/Capital One.png" alt="Card image cap">
+        <div class="card-body">
+            <h5 class="card-title">Capital One <span class="badge badge-warning">UX UI Design</span></h5>
+            <p class="card-text">Easily budget, track, and save your personal finances all within one convenient space.
+            </p>
+            <a href="capitalone.html" class="btn btn-primary">Read Casestudy</a>
+        </div>
+    </div>
+    <div class="card">
+        <img class="card-img-top" src="Assets/Mirror.png" alt="Card image cap">
+        <div class="card-body">
+            <h5 class="card-title">Mirror <span class="badge badge-warning">UX UI Design</span></h5>
+            <p class="card-text">Brick and morter fashion retailer, Mirror, desires to widen market reach via buildout
+                of a
+                reliable e-commerce website.</p>
+            <a href="mirror.html" class="btn btn-primary">Read Casestudy</a>
+        </div>
+    </div>
+    <!-- <div class="card">
+        <img class="card-img-top" src="Assets/Paws Claws.png" alt="Card image cap">
+        <div class="card-body">
+            <h5 class="card-title">Paws & Claws <span class="badge badge-warning">UX UI Design</span></h5>
+            <p class="card-text">Finding the perfect shelter pet can be rather difficult. With Paws & Claws, the search
+                becomes
+                easier.</p>
+            <a href="pawclaws.html" class="btn btn-primary">Read Casestudy</a>
+        </div>
+    </div> -->
+    <div class="card">
+        <img class="card-img-top" src="Project Deliverables/Stashwealth/Stash_wealth.jpg" alt="Card image cap">
+        <div class="card-body">
+            <h5 class="card-title">Stashwealth <span class="badge badge-warning">UX UI Design</span></h5>
+            <p class="card-text">Startup investment advisory agency seeks revamped brand identity. </p>
+            <a href="stashwealth.html" class="btn btn-primary align-baseline">Read Casestudy</a>
+        </div>
+    </div>
+</div>
+
+<!-- footer -->
+    <footer class="bd-footer text-muted text-center py-3">
+        <div class="container">
+            <ul class="list-unstyled text-center">
+                <li><a href="https://codepen.io/victoria-phoenix">Codepen</a></li>
+                <li><a href="https://github.com/victoria-phoenix">Github</a></li>
+                <li><a href="https://stackoverflow.com/users/13098672/victoria-phoenix">Stackoverflow</a></li>
+            </ul>
+            <p>© Copyright: 2020 All rights reserved</p>
+            <p>👩‍💻 Designed and built by Victoria Phoenix with blood, sweat, and a bucket of tears</p>
+        </div>
+    </footer>
 
     <style>
         /* typography */
         @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
 
-        * {
-            font-family: "Open Sans", sans-serif;
-        }
-
-        /* Custom, iPhone Retina */
-        @media only screen and (min-width : 320px) {}
-
-        /* Extra Small Devices, Phones */
-        @media only screen and (min-width : 480px) {}
-
-        /* Small Devices, Tablets */
-        @media only screen and (min-width : 768px) {}
-
-        /* Medium Devices, Desktops */
-        @media only screen and (min-width : 992px) {
-            background-color: green;
-
-        }
-
-        /* Large Devices, Wide Screens */
-        @media only screen and (min-width : 1200px) {
-            background-color: black;
-        }
-
-
-        html,
-        body {
-            margin: 0;
-            padding: 0;
-            color: #131418;
-            background: white;
-        }
-
-        h1 {
-            font-size: 50px;
-            margin-bottom: 17px;
-            color: #131418;
-        }
-
-        h2 {
-            font-size: 24px;
-            line-height: 1.6;
-            margin: 30px 0 0 0;
-            margin-bottom: 18px;
-            margin-top: 33px;
-            color: #131418;
-        }
-
-        /* reserved for highlight points */
-        h3 {
-            font-size: 30px;
-            margin: 10px 0 20px 0;
-            color: #131418;
-            box-shadow: 0px 0px 0px 10px yellow;
-            background-color: yellow;
-            display: inline;
-            line-height: 3;
-        }
-
-        section {
-            width: 640px;
-            margin: auto;
-        }
-
-        section p,
-        ul,
-        ol {
-            margin-bottom: 27px;
-            font-size: 20px;
-            line-height: 1.6;
-            color: #131418;
-        }
-
-        table {
-            border-spacing: 20px;
-            font-size: 15px;
-        }
-
-        section img {
-            max-width: 640px;
-        }
-
-        footer {
-            padding: 0 20px;
-            margin: 50px 0;
-            text-align: center;
-            font-size: 12px;
-        }
-
-        .hero {
-            background-color: black;
-            height: 100vh;
-        }
-
-        /* highlight goals */
-        .research-goals h2 {
-            box-shadow: 0px 0px 0px 10px yellow;
-            background-color: yellow;
-            display: inline;
-            line-height: 3;
-        }
-
-        /* project navigation */
-        .previousproject,
-        .nextproject {
-            font-family: 'Open Sans', sans-serif;
-            font-size: 20px;
-            font-style: normal;
-            margin: 150;
-        }
-
-        .previousproject {
-            float: left;
-        }
-
-        .nextproject {
-            float: right;
-        }
-
-        /* footer */
-        .footer {
-            text-decoration: none;
-            font-size: 15px;
-        }
-
-        .copyright {
-            float: left;
-        }
-
-        .social {
-            float: right;
+        mark {
+            background-color: goldenrod;
         }
     </style>
-    </body>
 
-    </html>
-
-information architecture
-<img src="3. Paws & Claws/information architecture/Artboard+10@3x.png" alt="">
-<img src="3. Paws & Claws/information architecture/Artboard+23@3x.png" alt="">
-
-product strategy
-<img src="3. Paws & Claws/Product strategy/Artboard+6@3x.png" alt="">
-<img src="3. Paws & Claws/Product strategy/Untitled.png" alt="">
-
-prototyping
-<img src="3. Paws & Claws/prototyping/Artboard+18+copy+2.png" alt="">
-<img src="3. Paws & Claws/prototyping/Artboard+18+copy+3.png" alt="">
-<img src="3. Paws & Claws/prototyping/Artboard+18+copy+4@2x.png" alt="">
-<img src="3. Paws & Claws/prototyping/Artboard+18+copy@2x.png" alt="">
-<img src="3. Paws & Claws/prototyping/Artboard+18@2x.png" alt="">
-<img src="3. Paws & Claws/prototyping/Artboard+25@3x.png" alt="">
-<img src="3. Paws & Claws/prototyping/Artboard+26.png" alt="">
-<img src="3. Paws & Claws/prototyping/Artboard+35@3x.png" alt="">
-<img src="3. Paws & Claws/prototyping/Artboard+54.png" alt="">
-<img src="3. Paws & Claws/prototyping/Artboard+55.png" alt="">
-<img src="3. Paws & Claws/prototyping/Artboard+56.png" alt="">
-<img src="3. Paws & Claws/prototyping/Artboard+57.png" alt="">
-
-usability testing
-<img src="3. Paws & Claws/usability testing/Artboard+24@3x.png" alt="">
-
-
-user research
-<img src="3. Paws & Claws/User Research/Artboard+20@2x.png" alt="">
-<img src="3. Paws & Claws/User Research/Artboard+22@3x.png" alt="">
-<img src="3. Paws & Claws/User Research/Artboard+33@3x.png" alt="">
-<img src="3. Paws & Claws/User Research/Artboard+36@2x.png" alt="">
-<img src="3. Paws & Claws/User Research/Artboard+7@3x.png" alt="">
-<img src="3. Paws & Claws/User Research/Capstone+1+Deliverables-12.png" alt="">
-<img src="3. Paws & Claws/User Research/Capstone+1+Deliverables-15.png" alt="">
-
-
-visual design
-<img src="3. Paws & Claws/visual design/Artboard+3@2x (1).png" alt="">
-<img src="3. Paws & Claws/visual design/Artboard+3@2x.png" alt="">
-<img src="3. Paws & Claws/visual design/Artboard+5@3x.png" alt="">
-<img src="3. Paws & Claws/visual design/Artboard+6@2x (1).png" alt="">
-<img src="3. Paws & Claws/visual design/Artboard+6@2x (2).png" alt="">
-<img src="3. Paws & Claws/visual design/Artboard+6@2x.png" alt="">
-<img src="3. Paws & Claws/visual design/Paws+'N+Claws+UI+Kit-02.png" alt="">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+</body>
+</html>

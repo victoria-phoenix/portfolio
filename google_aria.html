@@ -2,658 +2,534 @@
 
 <head>
     <title>Victoria Phoenix</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 </head>
 
 <body>
-        <a href="index.html"><h2 class="name left" id="top">Victoria Phoenix</h2></a>
-        <a href="mailto:http://vtoria.phoenix@gmail.com" class="right">contact</a>
-
-    <div class="intro-container">
-        <section>
-            <h1>Google Aria</h1>
-            <p>At the forefront of health-tech, Google has invested in wearable devices designed to track patient's vitals. With the aggregated data, we've set out to <span class="project-goal">design a mobile app (to be used in conjunction with wearable patches) for asthma</span>, an ailment that afflicts about 25 millions American today.</p>
-        </section>
-    </div>
-
-    <div class="project-details">
-        <section>
-            <h1>Project Details</h1>
-            <p><strong>Duration:</strong> 3 weeks</p>
-            <p><strong>Category:</strong> User Experience Design / User Interface Design / Branding / Visual Design / Interaction Design</p>
-            <p><strong>Role:</strong> Researcher , User Experience Designer , Interaction Designer , Visual Designer </p>
-        </section>
-    </div>
-
-    <div class="wrapper">
-        <section>
-            <h1>Full Design process</h1>
-            <p>Documented via slides with all deliverables included for you to read in its' entirety. Not enough time on your hands? Keep scrolling - I've included a bare-backbone summary.</p>
-        <center><iframe
-                src="https://docs.google.com/presentation/d/e/2PACX-1vSH_M_o_TAZpopyc7ZK98dl1f6gfRtydOHDOR6GKT3f49aPWjm7ZCZ-jcaYeRsP-pJemJYE7Cgh5TcZ/embed?start=true&loop=false&delayms=3000"
-                frameborder="0" width="100%" height="569" allowfullscreen="true" mozallowfullscreen="true"
-                webkitallowfullscreen="true"></iframe>
-        </center>
-        </section>
-    </div>
-
-
-<!-- <div class="wrapper"  style="background: #131418;">
-    <section>
-        <h3>How lengthy do you prefer your casestudies to be?</h3>
-    </section>
-</div> -->
-
-<!-- Tab links -->
-<!-- <div class="tab">
-    <button class="tablinks" onclick="openVersion(event, 'short')">Short Version</button>
-    <button class="tablinks" onclick="openVersion(event, 'long')">Long Version</button>
-</div> -->
-
-<!-- Tab content -->
-<!-- <div id="short" class="tabcontent">
-    <h3>Short</h3>
-    <p>You're reading the short version of Google Aria. For extensive process and all deliverables, please click "long version" instead.</p> -->
-
-
-
-    <div class="project-wrapper">
-        <!-- 01. analyzing brief and identifying key requirements -->
-        <div class="briefing" style="background: #E4E7EE;">
-            <section class="briefing">
-                <h1><br></h1>
-                <h1>Google Aria</h1>
-                At the forefront of health-tech, Google has invested in wearable devices designed to track patient's vitals. With
-                the aggregated data, we've set out to <span class="project-goal">design a mobile app (to be used in conjunction with
-                    wearable patches) for
-                    asthma</span>, an ailment that afflicts about 25 millions American today.This summary includes insights, featural inplementation, and a look into the final product. It does not include all design deliverables. For the full design process, please click here: <button>Full Design Process</button>
-                <h1><br></h1>
-                <h2>The Technology</h2>
-                <p>Aria is a combination wearable + mobile app solution to asthma management. Data aggregates from the wearable patch into a mobile application so to display vital information to asthmatic users in a succinct and user friendly manner. Our goal: to build out the mobile interface for the companion app.
-                    <img src="1. Google Aria/wearable patch/wearable patch.png" alt="">
-    
-                    <p><strong>wearable tracking capabilities:</strong></p>
-                    <p>heart-rate, wheezing + coughing, respiration, and exercise</p>
-                    <h1><br></h1>
-            </section>
+<!-- NAVIGATION BAR-->
+<!-- brand logo and name -->
+    <nav class="navbar navbar-expand-sm navbar-light bg-light sticky-top">
+        <a class="navbar-brand" href="index.html">
+            <img src="Assets/phoenix.svg" width="30" height="30" class="d-inline-block align-top" alt="">
+            Victoria Phoenix
+        </a>
+<!-- hamburger bar -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+<!-- link item - projects -->
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Projects
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item active" href="google_aria.html">Google Aria</a>
+                        <a class="dropdown-item" href="capitalone.html">Capital One</a>
+                        <a class="dropdown-item" href="mirror.html">Mirror</a>
+                        <a class="dropdown-item" href="pawclaws.html">Paws & Claws</a>
+                        <a class="dropdown-item" href="stashwealth.html">Stashwealth</a>
+                    </div>
+                </li>
+<!-- link item - button -->
+                <li class="nav-link">
+                    <button class="btn btn-danger"><a href="#" style="color: white;">Contact</a></button>
+                </li>
+            </ul>
         </div>
-    
-        <div class="scoping">
-            <section class="scoping">
-                <h1><br></h1>
+    </nav>
+
+<!-- HERO SUMMARY -->
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <h1 style="font-size: calc(1.525rem + 3.3vw);">Google Aria</h1>
+            <p class="lead" style="font-size: calc(1.275rem + .3vw);">At the forefront of health-tech, Google has invested in wearable devices designed to track patient's vitals. With the aggregated data, we've set out to <mark>design a mobile app (to be used in conjunction with wearable patches) for asthma</mark>, an ailment that afflicts about 25 million Americans today.</p>
+        </div>
+        <div class="container">
+            <h5>— Project Details</h5>
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                    <p><strong>Duration:</strong> 3 weeks</p>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                    <p><strong>Category:</strong> User Experience Design / User Interface Design / Branding / Visual Design /
+                        Interaction
+                        Design</p>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                    <p><strong>Role:</strong> Researcher , User Experience Designer , Interaction Designer , Visual Designer
+                    </p>
+                </div>
+            </div>
+            <!-- <p class="text-muted">*This summary includes insights, featural inplementation, and a look into the final product. It does not include all
+                design deliverables. For the full design process, please click me: <button>Full Design Process</button></p> -->
+        </div>
+    </div>
+
+<!-- intro images  -->
+    <div class="container-fluid">
+        <img class="img-fluid" src="Project Deliverables/Google Aria/simple-mockups 2.png" width="100%" alt="">
+        <img class="img-fluid" src="Project Deliverables/Google Aria/simple-mockups.png" width="100%" alt="">
+    </div>
+
+<!-- debriefing-->
+    <div class="container my-5">
+        <div class="row container">
+            <div class="container col-lg-6 col-md-12 col-sm-12 col-xs-6">
+                <h2>A Quick Debriefing</h2>
+                <h5>The technology</h5>
+                <p>Aria is a combination wearable + mobile app solution to asthma management. Data aggregates from the wearable patch
+                    into a mobile application so to display vital information to asthmatic users in a succinct and user friendly manner.
+                    Wearable tracking capabilities include heart-rate, wheezing + coughing, respiration, and exercise. Our goal is to
+                    build out the mobile interface for the companion app.</p>
+            </div>
+            <div class="container col-lg-6 col-md-12 col-sm-12 col-xs-6">
+                <img class="img-fluid" src="Project Deliverables/Google Aria/wearable patch.png" width="500px">
+            </div>
+        </div>
+    </div>
+<!-- project timeline scoping-->
+    <div class="container my-5">
+        <div class="row container">
+            <div class="container col-lg-6 col-md-12 col-sm-12 col-xs-6">
                 <h2>The Project Timeline</h2>
-                <p>A 2 week design scope posed limitations, and we foresaw 2 potential challenges within the research phase of our product lifecycle: 
+                <p>A 2 week design scope posed limitations, and we foresaw 2 potential challenges within the research phase of our product
+                lifecycle: 
                     <ol>
                         <li>open conversation</li>
                         <li>participant seeking</li>
                     </ol>
-                    <p>With the tight timeframe, there was only 1 try to obtain the insights needed to design out our app. To circumvent ill-preparedness, we continually referenced levels of hierarchical empathy to help draw out unadulterated insights throughout our research.</p>
-                    <img src="https://i.pinimg.com/originals/a4/4a/ab/a44aab0da3291c8286c94ccfe967bb0c.png"
-                        alt="hierarchical empathy diagram" width="300px">
-                    <h1><br></h1>
-            </section>
-        </div>
-    
-    
-        <!-- 02. research via empathetic means -->
-        <div class="research" style="background: #131418;">
-            <section class="research-goals">
-                <h1><br></h1>
-                <h3>Research Goal<br>
-                    elicit enough knowledge to freely communicate and truly listen to what asthmatics have to say so to maximize on deep insights from user interactions</h3>
-                <h1><br></h1>
-            </section>
-        </div>
-    
-        <section class="secondary-research">
-            <h1><br></h1>
-            <p>Figure 3: From a quick mind-mapping session packed with assumptions and questions, I organized my ignorance into, but not limited to, 4 areas of needed clarification: triggers / management / severity / physiology & pathology.</p>
-            <h1><br></h1>
-        </section>
-    
-        <section class="user-research">
-            <h1><br></h1>
-            <h1>Honing Focus On Users</h1>
-            <p>Our persona hypothesis consisted of three different early stage archetypes which was used to facilitate discussions about our users. "The Ashmatic" was prioritized for the initial buildout of a minimal viable product, as we wanted to first design for the needs, desires, and varying contexts of those who experience asthma rather than for secondary characters who interact with but do not have.
-            <img src="1. Google Aria/User Research/Provisional+Persona.png" alt="">
-
-            <p>Online interviewee responses refined our archetype further. Research findings indicate that designing an asthma application will not be completely beneficial for all asthma patients. Different patients have different levels of asthmatic severity and the usage of management tools is dependent on such: </p>
-            
-            <h3>Aria would be most beneficial for those with moderate asthma.</h3>
-            
-            <div class="row">
-                <div class="acute column">
-                    <img src="https://cdn2.iconfinder.com/data/icons/identificon/96/carnet-male-512.png" width="150px" alt="">
-                    <p>Those with acute asthma express little concern / need for trigger, medication, and symptom documentation.</p>
-                </div>
-                <div class="moderate column">
-                    <img src="https://cdn2.iconfinder.com/data/icons/identificon/96/carnet-male-512.png" width="150px" alt="">
-                    <p>The sweet spot.</p>
-                </div>
-                <div class="severe column">
-                    <img src="https://cdn2.iconfinder.com/data/icons/identificon/96/carnet-male-512.png" width="150px" alt="">
-                    <p>Those with severe deem it unnecessary because they have had asthma for many years and are already confident in their self-management techniques.</p>
-                </div>
+                </p>
+                <p>With the tight timeframe, there was only 1 try to obtain the insights needed to design out our app. To circumvent
+                    ill-preparedness, we continually referenced levels of hierarchical empathy to help draw out unadulterated insights
+                    throughout our research.
+                </p>
             </div>
+            <div class="container col-lg-6 col-md-12 col-sm-12 col-xs-6">
+                <img style="margin-left: 20px;" class="img-fluid" src="https://i.pinimg.com/originals/a4/4a/ab/a44aab0da3291c8286c94ccfe967bb0c.png"
+                    alt="hierarchical empathy diagram" width="400px">
+            </div>
+        </div>
+    </div>
 
-            <img src="1. Google Aria/User Research/empathy_mapping.png" alt="">
-            <h1><br></h1>
-        </section>
+<!-- research -->
+    <div class="container">
+        <h2>Research & Synthesis</h2>
+        <h5>Research Via Empathetic Means</h5>
+        <p class="lead">Goal: Elicit enough knowledge to freely communicate and truly listen to what asthmatics have to say so
+            to maximize on deep insights from user interaction</p>
+    </div>
+
+<!-- primary research -->
+    <div class="container">
+        <div class="row">
+            <div class="container col-lg-6 col-md-12 col-sm-12 col-xs-6">
+                <h5>Industry Research </h5>
+                <p>As my knowledge within the realms of asthma management was currently insufficient, I crafted a research strategy to
+                bridge my knowledge gap. From a quick mind-mapping session packed with assumptions and questions, I organized my
+                ignorance into, but not limited to, 4 areas of needed clarification: triggers / management / severity / physiology &
+                pathology, which we later debunked during desk research.</p>
+                </p>
+            </div>
+            <div class="container col-lg-6 col-md-12 col-sm-12 col-xs-6">
+                <img style="margin-left: 20px;" class="img-fluid" src="Project Deliverables/Google Aria/industry research questions.png" alt="">
+            </div>
+        </div>
+        <div class="row">
+            <div class="container col-lg-6 col-md-12 col-sm-12 col-xs-6">
+                <h5>Positioning Aria within the market landscape</h5>
+                <p>Most direct competitor products are still being developed and or tested. This scarcity is nicely counterbalanced with a
+                bountiful amount of indirect players — 38 to be exact. Chopping this list down to more manageable total of 5 (based on
+                the ratings, features, and functions that most closely meet the high level objectives of this project) reveals commonality of features: trigger tracking, trend information, emergency support, and medication tracking being the most ubiquitous.</p>
+                </p>
+                <img class="img-fluid" src="Project Deliverables/Google Aria/Competitive Analysis Ratings.png" alt="" width="100%">
+            </div>
+            <div class="container col-lg-6 col-md-12 col-sm-12 col-xs-6">
+                <img class="img-fluid" src="Project Deliverables/Google Aria/Competitive Analysis.png" alt="">
+            </div>
+        </div>
     </div>
     
-    <!-- 03. imagining possible solutions from defined insights -->
-    <div class="defining" style="background: #131418;">
-        <section class="defining-insights">
-            <h1><br></h1>
-            <h3>Accumulated Insights</h3>
-            <table style="color: white;">
+<!-- user research -->
+    <div class="container mt-5">
+        <h1>User Research</h1>
+        <h5>Honing In On Target Users</h5>
+        <p>Persona hypothesis consisted of three different early stage archetypes which was used to facilitate discussions about
+        our users. "The Asthmatic" was prioritized for the initial buildout of a minimal viable product, as we wanted to first
+        design for the needs, desires, and varying contexts of those who experience asthma rather than for secondary characters
+        who interact with but do not have. This provisional persona was used to prospect and secure a total of 6 asthmatic patients within the target market to collect data about their opinions, preferences, habits, and pain points regarding asthma.</p>
+        <img class="img-fluid" src="Project Deliverables/Google Aria/Provisional Persona Asthmatic.png" alt="">
+        <div class="container">
+           <div class="row">
+               <img class="img-fluid col-lg-6 col-md-12 col-sm-12 col-xs-6" src="Project Deliverables/Google Aria/Provisional Persona Caretaker.png" alt="">
+               <img class="img-fluid col-lg-6 col-md-12 col-sm-12 col-xs-6" src="Project Deliverables/Google Aria/Provisional Persona Health Professional.png" alt="">
+           </div> 
+        </div>
+    </div>
+
+<!-- Empathy Mapping -->
+    <div class="container mt-3">
+        <h5>Empathy Mapping</h5>
+        <p>Findings mapped from my interviews to 1. help empathize observations
+        from the research phase, 2. draw out unexpected insights about our user’s needs, and 3. to sum up our learning from user
+        engagements.</p>
+        <img src="Project Deliverables/Google Aria/Empathyt Mapping.png" class="figure-img img-fluid" alt="...">
+    </div>
+    
+    <div class="container">
+        <h5>Aria would be most beneficial for those with moderate asthma.</h5>
+        <p>Online interviewee responses refined our archetype further. Research findings indicate that designing an asthma
+            application will not be completely beneficial for all asthma patients. Different patients have different levels of
+            asthmatic severity and the usage of management tools is dependent on such: Those with acute asthma express less
+            concern / need for trigger, medication, and symptom documentation. Those with severe deem it unnecessary because
+            they have had asthma for many years and are already confident in their self-management techniques.</p>
+    </div>
+
+<!-- Persona -->
+    <div class="container">
+        <h5>Persona</h5>
+        <p>Using all the insights garnered, I was able to distill pain points, needs, and motivations to help refine the target
+        user. From the sum of my research findings emerged my persona Daisy, a composite of all my findings from both user
+        interviews and secondary research data.</p>
+        <img src="Project Deliverables/Google Aria/Persona.png" class="figure-img img-fluid" alt="...">
+    </div>
+
+    
+<!-- Takeaways -->
+    <div class="container defining">
+        <h5>Additional Takeaways</h5>
+            <table class="table">
                 <td>User reply on mental recall when relaying information to health professionals when when they ask for detailed accounts of symptoms, triggers, and exacerbation</td>
                 <td>Users sometimes forget to take their medication</td>
                 <td>Most common triggers are those related to air quality, including poor weather air pollution, and allergens
                 </td>
             </table>
-            <h1><br></h1>
-        </section>
     </div>
     
-    <!-- 04. planning by selecting promising solutions -->
-    <div class="planning">
-        <section class="ideation-product-strategy">
-            <h1><br></h1>
-            <p>
-                From a round of ideation and white-boarding, we fleshed out ideas and cross-compared according to business and user needs, as well as costs. many ideas, too little time.
-            </p>
-            <img src="1. Google Aria/User Research/Persona.png" alt="">
-            <img src="1. Google Aria/Product Strategy/Brainstorming.png" alt="">
-            <img src="1. Google Aria/User Research/POV+HMW.png" alt="">
-            ^ combine these 3 graphs together
-
-
-            <h2>Implement cutoffs</h2>
-            <p>In an effort to prevent feature creep, features were in relation to the results of a conducted competitive analysis</p>
-            <img src="1. Google Aria/Product Strategy/Business + User Goals.png" alt="">
-            <img src="1. Google Aria/Product Strategy/feature_roadmapping.png" alt="">
-            <img src="1. Google Aria/User Research/competitiveanalysis.png" alt="">
-            <h1><br></h1>
-        </section>
+<!-- Defining + Ideation -->
+    <div class="container my-5">
+        <h1>Defining And Ideation</h1>
+        <p>Based on the needs of Daisy, I came up with POV Statements that then led to the creation of action-oriented HMW
+        Questions. Doing so helps to establish a minimal viable product by ideating the best possible solution(s) for each
+        design challenge.</p>
+                <img class="img-fluid" src="Project Deliverables/Google Aria/HMW Statement.png" alt="">
+        <p>With the HMW Questions, I came up with potential solutions for the problems at hand and quickly mapped
+        them out via an hour long brainstorm session.</p>
+            <img class="img-fluid" src="Project Deliverables/Google Aria/Brainstorming.png" alt="">
     </div>
-    
-    
-    <!-- 05. creating a prototype -->
-    <div class="prototyping">
-        <section class="fidelity-prototyping">
-            <h1><br></h1>
-            <img src="1. Google Aria/Information Architecture/sitemap.png" alt="">
-            <img src="1. Google Aria/Information Architecture/userflow.png" alt="">
-            <p>With features set in place, we mapped the architecture and fleshed out the layout via iterative rounds of low level sketches before moving forward with the time-consuming high level prototype.</p>
-            <img src="1. Google Aria/Screen Shot 2020-08-04 at 2.52.57 PM.png" alt="">
+
+
+
+<!-- Product Strategy -->
+    <div class="container">
+        <h1>Product Strategy</h1>
+        <h5>Business And User Goals</h5>
+        <p> Before moving into interaction design, I needed to ruminate for user and business needs and determine middle ground
+            goals that satisfy both stakeholders and potential users. To help define the functionality of the MVP features, I cross-examined each
+            brainstormed idea with our business user goal map, which ultimately helps to determine which idea(s) from my
+            brainstorming might best serve the needs of our stakeholders.</p>
+                <img class="img-fluid col-8 mx-auto d-block" src="Project Deliverables/Google Aria/Business User Goals.png" alt="">
+        
+        <h5>Implement cutoffs</h5>
+        <p>Many ideas, Too little time. In an effort to prioritize the features derived from my product strategy, I outlined details for each and ranked them in accordance to levels of time and resource investment.</p>
+            <img class="img-fluid col-8 mx-auto d-block" src="Project Deliverables/Google Aria/Feature Roasmap.png" alt="">
+    </div>
+
+
+<!-- Information Architecture -->
+    <div class="container my-5">
+        <h1>Information Architecture</h1>
+        <p>With features set in place, we mapped the architecture. 
+        </p>
+        
+        <h5>Site Map</h5>
+        <p>Sitemap map with high priority features.</p>
+            <img class="img-fluid" src="Project Deliverables/Google Aria/App Mapping.png" alt="">
+        
+        <h5>User Flow</h5>
+        <p>A user flow map provided insight into Daisy’s expectations when using the asthma app: It helps empathize with how she
+        would navigate pages to complete linear tasks, and how she would journey to checkout via different entry points and
+        paths. Constructing the user flow ultimately informed what key pages and features to design for during user testing.</p>
+            <img class="img-fluid" src="Project Deliverables/Google Aria/User Flow.png" alt="">   
+    </div>
+
+<!-- Interaction Design -->
+    <div class="container">
+        <h1>Interaction Design</h1>
+        <h5>Sketches + Mockups</h5>
+        <p>I fleshed out the layout via iterative rounds of disposable low level sketches before moving forward with the time-consuming high level prototype. 
+            At each stage of design, I tried to ensure that the copy and interface was simple enough for the user to comprehend. I wanted task flow interactions to be quick so that users would not be frustrated with time-consuming processes, a pain point of which had been expressed during empathy
+        research.</p>
+        <div class="container">
+            <div class="row">
+                <div class="col"><img class="img-fluid" src="Project Deliverables/Google Aria/Sketch 1.png" alt=""></div>
+                <div class="col"><img class="img-fluid" src="Project Deliverables/Google Aria/Sketch 2.png" alt=""></div>
+                <div class="w-100"></div>
+                <div class="col"><img class="img-fluid" src="Project Deliverables/Google Aria/Sketch 3.png" alt=""></div>
+                <div class="col"><img class="img-fluid" src="Project Deliverables/Google Aria/Sketch 4.png" alt=""></div>
+            </div>
+        </div>
+        
+        <h5>Mid Fidelity Wire-framing</h5>
+        <p>From my sketches, I moved on to mid-fidelity wire-frames. Before moving onto prototyping, I annotated my key frames to
+        include details about the content and interactivity.</p>
+        <div class="container">
+            <div class="row">
+                <div class="col"><img class="img-fluid" src="Project Deliverables/Google Aria/Annotation 1.png" width="" alt=""></div>
+                <div class="col"><img class="img-fluid" src="Project Deliverables/Google Aria/Annotation 2.png" width="" alt=""></div>
+                <div class="col"><img class="img-fluid" src="Project Deliverables/Google Aria/Annotation 3.png" width="" alt=""></div>
+            </div>
+        </div>
+    </div>
+        
+
+
+<!-- Usability Testing -->
+    <div class="container my-5">
+        <h2>Usability Testing</h2>
+        <h5>Testing Plan</h5>
+        <p>Via moderated remote setting, 4 individuals: 3 male, 1 female, between the range of 20–30 years old with moderate asthma
+        was recruited for user research. (Participants are geographically dispersed.)</p>
+        <p>With the mid fidelity prototype, a usability test was conducted with the following objectives in mind:</p>
+            <ol>
+                <li>Test the flow of the app’s architecture and design and determine if users can easily accomplish tasks, specifically
+                and most importantly: adding medication, setting reminders, and creating event logs.</li>
+                <li>Assess the usability and functionality of the app’s navigation and hierarchy.</li>
+                <li>Given that there are many different paths for find-ability, determine which path is preferred for creating event logs as well as setting medication reminders.</li>
+                <li>Observe and note pain points, areas of uncertainty, and/or dissatisfaction with any elements or features</li>
+            </ol>
+    </div>
+
+    <div class="container">
+        <div class="row container">
+            <div class="container col-lg-6 col-md-12 col-sm-12 col-xs-6">
+                <h5>Prototype</h5>
+                <p>Subjects were tested on the following tasks:</p>
+                <ol>
+                    <li>User Onboarding</li>
+                    <li>Adding Medication</li>
+                    <ul>
+                        <p>Auxiliary Task(s):</p>
+                        <li>Viewing / Setting reminders</li>
+                        <li>Deleting / Editing medicine</li>
+                    </ul>
+                    <li>Locate triggers within the app</li>
+                    <li>Locate vitals within the app</li>
+                    <ul>
+                        <p>Auxiliary Task(s):</p>
+                        <li>Find trend information for a specific vital</li>
+                    </ul>
+                    <li>Create an event log</li>
+                    <ul>
+                        <p>Auxiliary Task(s):</p>
+                        <li>Export event</li>
+                    </ul>
+                </ol>
+            </div>
+            <div class="container col-lg-6 col-md-12 col-sm-12 col-xs-6">
+                <center>
+                    <iframe src="https://marvelapp.com/3f19jj2?emb=1&iosapp=false&frameless=false" width="390" height="755"
+                        allowTransparency="true" frameborder="0"></iframe>
+                </center>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container">
+        <h5>Affinity Charts</h5>
+        <strong>Test Completion And Error Rates</strong>
+        <p>Distillation of usability testing results show that users had the most issues when running through task flows 1 and 3.
+            Specifically, users had difficulty finding the medication section and were confused when asked to find trend information
+            for specific vitals. By re-framing these problems into more “how might we” questions, we enter another round of
+            brainstorming. Solutions that best resolve problems are then charted and prioritized within a list of recommendations.</p>
+                <img class="img-fluid" src="Project Deliverables/Google Aria/Usability Testing Error Rates.png" alt="">
             
-            <center>
-                <iframe src="https://marvelapp.com/3f19jj2?emb=1&iosapp=false&frameless=false" width="390" height="755"
-                    allowTransparency="true" frameborder="0"></iframe>
-            </center>
-            <h1><br></h1>
-        </section>
+        <strong>Observation Patterns</strong>
+        <p>While the design was fairly successful in terms of flows, participants found relationships between words and meaning to
+            be rather tricky, and thus, had trouble determining the appropriate course of action from vague links such as “more
+            details.”</p>
+            <img class="img-fluid col-8 mx-auto d-block" src="Project Deliverables/Google Aria/Usability Testing Observations.png" alt="">
+                    
+        <strong>Prioritized Recommendations</strong>
+        <p>Changes are prioritized from high to low based on amount of users who are frustrated with each specific issue.</p>
+            <img class="img-fluid col-6 mx-auto d-block" src="Project Deliverables/Google Aria/Usability Testing Overall Findings.png" alt="">
     </div>
+
+<!-- Usability Testing Takeaways-->
+    <div class="container my-5">
+        <h5>Usability Testing Takeaways</h5>
+        <p><mark class="lead">100% completion rate <br> 84.75% error free rate <br> </mark>The design proved to be overall
+            intuitive, with just a few kinks to be smoothed down during my second design
+            iteration.</p>
     
-    <div class="row">
-        <div class="column"><img src="1. Google Aria/Prototyping/Artboard+44.png" width="300px" alt=""></div>
-        <div class="column"><img src="1. Google Aria/Prototyping/Artboard+45.png" width="300px" alt=""></div>
-        <div class="column"><img src="1. Google Aria/Prototyping/interaction_design.png" width="300px" alt=""></div>
+        <strong>1. Finding the medication section was a concern => How can we make searchability of medication section easier for
+            users?</strong >
+        <p>There remains an equal balance between users who search for information via homecreen and navigation: Include
+            header within home display. Add medication tab within navigation.</p>
+        <img class="img-fluid" src="Project Deliverables/Google Aria/medication.png" alt="">
+    
+        <strong>2. More details link too vague for users to understand function => How can we make viewing of specific trend
+        information less confusing?</strong>
+        <p>Rephrasing vague "more details" into specific actions: "view all (insert specific vital) stats" or "view all
+            (insert specific vital) trends."</p>
+        <img class="img-fluid" src="Project Deliverables/Google Aria/More details link.png" alt="">
+    
+        <strong>3. Expectation of an event log section => How can we help users to visually see the amount of asthma
+        attacks / incidences within a certain period of time?</strong>
+        <p>House an event log snippet section within the home screen by redesigning the non-intuitive "recent activities"
+            section into a functional event log section. Incorporate status cards for quick information intake.</p>
+        <img class="img-fluid" src="Project Deliverables/Google Aria/event log.png" alt="">
     </div>
-    <!-- 06. implementating visual, interface, interaction design -->
-<section class="visual-design">
-    <h1><br></h1>
-    <h1>Branding and Visuals</h1>
-    <p>The visual design of Aria complies with standard material design guidelines.</p>
-            <table>
+
+<!-- User Interface Design -->
+    <div class="container usability-testing">
+        <h1>User Interface Design</h1>
+        <p>To accommodate the changes rolled out from usability testing, the prototype was iterated into a high-fidelity version.
+        Aria’s visual design complies with standard material design guidelines alongside the following attribute requirements:</p>
+        <div class="table-responsive">
+            <table class="table table-sm">
                 <td>clean, clear, fresh <br>
                     intelligent and innovative <br>
                     reliable
                 </td>
-                <td>imagery inspired by simple, flat style illustrations  typically seen on existing Google apps</td>
+                <td>imagery inspired by simple, flat style illustrations typically seen on existing Google apps</td>
                 <td>vibrant colors to draw attention to specific elements - chart and graphs shown within the dashboard </td>
-                <td>Primary blue color palette with minimal white background to reflect concept of air + asthma, as well as aforementioned attributes: clean,fresh, and clear </td>
+                <td>Primary blue color palette with minimal white background to reflect concept of air + asthma, as well as
+                    aforementioned attributes: clean,fresh, and clear </td>
             </table>
-            <h1><br></h1>
-</section>
-    
-    <img src="1. Google Aria/Aria Mockups/app_mockup_flatlay.png" width="100%" alt="">
-    
-    <!-- 07. testing and evaluating prototype -->
-    <section class="usability-testing">
-        <h1><br></h1>
-        <h1>Usability Testing</h1>
-        <p>100% completion rate. 84.75% error free rate. The design proved to be overall intuitive, with just a few kinks to be smoothed down during my second design
-        iteration.</p>
-
-        <h2>Finding the medication section was a concern => How can we make searchability of medication section easier for users?</h2>
-        <p>There remains an equal balance between users who search for information via homecreen and navigation: Include header within home display. Add medication tab within navigation.</p>
-        <img src="1. Google Aria/Usability Testing/medication.png" alt="">
-        
-        <h2>More details link too vague for users to understand function => How can we make viewing of specific trend information less confusing?</h2>
-        <p>Rephrasing vague "more details" into specific actions: "view all (insert specific vital) stats" or "view all (insert specific vital) trends."</p>
-        <img src="https://user-images.githubusercontent.com/194400/49531010-48dad180-f8b1-11e8-8d89-1e61320e1d82.png" alt="">
-        
-        <h2>Expectation of an event log section => How can we help users to visually see the amount of asthma
-        attacks / incidences within a certain period of time?</h2>
-        <p>House an event log snippet section within the home screen by redesigning the non-intuitive "recent activities" section into a functional event log section. Incorporate status cards for quick information intake.</p>
-        <img src="1. Google Aria/event log.png" alt="">
-    </section>
-
-    <img src="1. Google Aria/Aria Mockups/app_mockup_flatlay.png" width="100%" alt="">
-    
-    
-    
-        <!-- 08. summary of end product -->
-        <div class="end-product">
-            <section class="final-product">
-                <h1><br></h1>
-                <h1>Introducing google aria</h1>
-                <center>
-                    <iframe src="https://marvelapp.com/551j5hf?emb=1&iosapp=false&frameless=false" width="390" height="755"
-                        allowTransparency="true" frameborder="0"></iframe>
-                </center>
-            </section>
         </div>
+        <div class="container">
+            <div class="row">
+                <img class="img-fluid col-lg-6 col-md-12 col-sm-12 col-xs-6" src="Project Deliverables/Google Aria/Logo Design Sketches.png" alt="Card image cap">
+                <img class="img-fluid col-lg-6 col-md-12 col-sm-12 col-xs-6" src="Project Deliverables/Google Aria/Logo Design Sketches 2.png" alt="Card image cap">
+            </div>
+        </div>
+        <img class="card-img-top" src="Project Deliverables/Google Aria/Logo_Design.png" alt="Card image cap">
+        <img class="card-img-top" src="Project Deliverables/Google Aria/Mood Board.png" alt="Card image cap">
+        <img class="card-img-top" src="Project Deliverables/Google Aria/Style Tile.png" alt="Card image cap">
+        <img class="card-img-top" src="Project Deliverables/Google Aria/UI Kit.png" alt="Card image cap">
+    </div>
+
+
+<!-- End Product -->
+    <div class="container-fluid">
+        <h2 class="text-center mt-5">Introducing google aria</h2>
+        <center>
+            <iframe src="https://marvelapp.com/551j5hf?emb=1&iosapp=false&frameless=false" width="390" height="755"
+            allowTransparency="true" frameborder="0"></iframe>
+        </center>
+    </div>
+
     
-        <div class="row">
-            <h2>
-                <center>Check Out My Other Casestudies</center>
-            </h2>
-            <div class="column"><a href="capitalone.html"><img src="2. Capital One/CapitalOne_Mockups/Scene_1.png"
-                        height="200px" />Capital One</a></div>
-            <div class="column"><a href="pawclaws.html"><img src="3. Paws & Claws/final screens/PC+6.png"
-                        height="200px" />Paws & Claws</a></div>
-            <div class="column"><a href="mirror.html"><img src="4. Mirror/Final Designs/mirror+2 (1).png"
-                        height="200px" />Mirror</a></div>
-            <div class="column"><a href="stashwealth.html"><img src="sampleart/sample1.jpeg"
-                        height="200px" />Stashwealth</a></div>
-            <div class="column"><a href="sabbatical.html"><img src="sabbatical.jpg" height="200px" /></a>Sabbatical</div>
-            <div class="column"><a href="poshbot.html"><img src="sampleart/sample2.jpg" height="200px" /></a>Poshbot</div>
+
+<!-- Other Projects -->
+    <h3 class="text-center mt-5">Check Out My Other Casestudies</h3>
+    <div class="card-group">
+        <!-- <div class="card">
+            <img class="card-img-top" src="Assets/Google Aria.png" alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title">Google Aria <span class="badge badge-warning">UX UI Design</span></h5>
+                <p class="card-text">Support and manage your asthma with confidence with Aria's wearable technology and
+                    companion
+                    app.</p>
+                <a href="google_aria.html" class="btn btn-primary">Read Casestudy</a>
+            </div>
+        </div> -->
+        <div class="card">
+            <img class="card-img-top" src="Assets/Capital One.png" alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title">Capital One <span class="badge badge-warning">UX UI Design</span></h5>
+                <p class="card-text">Easily budget, track, and save your personal finances all within one convenient space.
+                </p>
+                <a href="capitalone.html" class="btn btn-primary">Read Casestudy</a>
+            </div>
+        </div>
+        <div class="card">
+            <img class="card-img-top" src="Assets/Mirror.png" alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title">Mirror <span class="badge badge-warning">UX UI Design</span></h5>
+                <p class="card-text">Brick and morter fashion retailer, Mirror, desires to widen market reach via buildout
+                    of a
+                    reliable e-commerce website.</p>
+                <a href="mirror.html" class="btn btn-primary">Read Casestudy</a>
+            </div>
+        </div>
+        <div class="card">
+            <img class="card-img-top" src="Assets/Paws Claws.png" alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title">Paws & Claws <span class="badge badge-warning">UX UI Design</span></h5>
+                <p class="card-text">Finding the perfect shelter pet can be rather difficult. With Paws & Claws, the search
+                    becomes
+                    easier.</p>
+                <a href="pawclaws.html" class="btn btn-primary">Read Casestudy</a>
+            </div>
+        </div>
+        <div class="card">
+            <img class="card-img-top" src="Project Deliverables/Stashwealth/Stash_wealth.jpg" alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title">Stashwealth <span class="badge badge-warning">UX UI Design</span></h5>
+                <p class="card-text">Startup investment advisory agency seeks revamped brand identity. </p>
+                <a href="stashwealth.html" class="btn btn-primary align-baseline">Read Casestudy</a>
+            </div>
         </div>
     </div>
+
+
+
+<!-- footer -->
+<footer class="bd-footer text-muted text-center py-3">
+    <div class="container">
+        <ul class="list-unstyled text-center">
+            <li><a href="https://codepen.io/victoria-phoenix">Codepen</a></li>
+            <li><a href="https://github.com/victoria-phoenix">Github</a></li>
+            <li><a href="https://stackoverflow.com/users/13098672/victoria-phoenix">Stackoverflow</a></li>
+        </ul>
+        <p>© Copyright: 2020 All rights reserved</p>
+        <p>👩‍💻 Designed and built by Victoria Phoenix with blood, sweat, and a bucket of tears</p>
     </div>
-
-</div>
-
-<div id="long" class="tabcontent">
-    <section>
-        <h3>Long</h3>
-        <p>Full Design process documented via slides. All deliverables included. Feel free to read in its' entirety or selectively skim through at your own pace.</p>
-    </section>
-    <center><iframe
-            src="https://docs.google.com/presentation/d/e/2PACX-1vSH_M_o_TAZpopyc7ZK98dl1f6gfRtydOHDOR6GKT3f49aPWjm7ZCZ-jcaYeRsP-pJemJYE7Cgh5TcZ/embed?start=true&loop=false&delayms=3000"
-            frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true"
-            webkitallowfullscreen="true"></iframe>
-    </center>
-</div>
+</footer>
 
 
-    <ul>
-        <li><a href="#home">01. briefing</a></li>
-        <li><a href="#news">02. research</a></li>
-        <li><a href="#contact">03. defining + ideation</a></li>
-        <li><a href="#about">04. planning</a></li>
-        <li><a href="#about">05. design</a></li>
-        <li><a href="#about">05. design</a></li>
-        <li><a href="#about">06. testing</a></li>
-        <li><a href="#about">07. final</a></li>
-    </ul>
 
-
-<a class="back-to-top" href="#top"></a>
-
-<div class="footer">
-    <div class="copyright">
-        Designed and coded by Victoria Phoenix , © Copyright 2020 , All rights reserved
-    </div>
-    <div class="social">
-        <a href="github.com/victoriaphoenix">Github</a>
-        <a href="github.com/victoriaphoenix">Codepen</a>
-        <a href="github.com/victoriaphoenix">Stackoverflow</a>
-    </div>
-</div>
-
-<script>
-    function openVersion(evt, version) {
-            // Declare all variables
-            var i, tabcontent, tablinks;
-
-            // Get all elements with class="tabcontent" and hide them
-            tabcontent = document.getElementsByClassName("tabcontent");
-            for (i = 0; i < tabcontent.length; i++) {
-                tabcontent[i].style.display = "none";
-            }
-
-            // Get all elements with class="tablinks" and remove the class "active"
-            tablinks = document.getElementsByClassName("tablinks");
-            for (i = 0; i < tablinks.length; i++) {
-                tablinks[i].className = tablinks[i].className.replace(" active", "");
-            }
-
-            // Show the current tab, and add an "active" class to the button that opened the tab
-            document.getElementById(version).style.display = "block";
-            evt.currentTarget.className += " active";
-        }
-</script>
 
 
 <style>
     /* typography */
     @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
-
-    * {
-        font-family: "Open Sans", sans-serif;
-      }
-
-	/* Custom, iPhone Retina */ 
-	@media only screen and (min-width : 320px) {
-
-	}
-
-	/* Extra Small Devices, Phones */ 
-	@media only screen and (min-width : 480px) {
-
-	}
-
-	/* Small Devices, Tablets */
-	@media only screen and (min-width : 768px) {
-
-	}
-
-	/* Medium Devices, Desktops */
-	@media only screen and (min-width : 992px) {
-        background-color: green;
-
-	}
-
-	/* Large Devices, Wide Screens */
-	@media only screen and (min-width : 1200px) {
-        background-color: black;
-    }
     
-    
-      html, body {
-        margin: 0;
-        padding: 0;
-        font-family: "Open Sans", sans-serif;
-        cursor: url("hyper.cur"), crosshair;
-      }
-
-      h1 {
-        font-size: 50px;
-        margin-bottom: 17px;
-        color: #131418;
-      }
-      h2 {
-        font-size: 24px;
-        line-height: 1.6;
-        margin: 30px 0 0 0;
-        margin-bottom: 18px;
-        margin-top: 33px;
-        color: #131418;
-      }
-
-/* reserved for highlight points */
-      h3 {
-        font-size: 30px;
-        margin: 10px 0 20px 0;
-        color: #131418;
-        box-shadow: 0px 0px 0px 10px goldenrod;
+    mark {
         background-color: goldenrod;
-        display: inline;
-        line-height: 3;
-      }
-      
-      section {
-        width: 700px;
-        margin: auto;
-      }
-
-      section p , ul , ol {
-        margin-bottom: 27px;
-        font-size: 20px;
-        line-height: 1.6;
-        color: #131418;
-      }
-
-
-/* hero styling */
-.hero {
-    background-color: #131418;
-    height: 100vh;
-}
-
-.navbar {
-    height: 20vh;
-}
-
-.intro-container {
-    margin-bottom: 20vh;
-
-}
-.intro-summary {
-    color: white;
-}
-
-.project-goal {
-    background-color: goldenrod;
-    color: #131418;
-}
-
-.project-details {
-    margin-top: 20vh;
-    margin-bottom: 20vh;
-}
-
-/* table  */
-table {
-    border-spacing: 20px;
-    width: 100%;
-    font-size: 20px;
-}
-
-th , td {
-    text-align: left;
-    padding: 10px;
-}
-
-
-ul {
-    float: left;
-    display: block;
-    z-index: 1;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    width: 25%;
-    background-color: #f1f1f1;
-    height: 100%; /* Full height */
-    position: fixed; /* Make it stick, even on scroll */
-    overflow: auto; /* Enable scrolling if the sidenav has too much content */
-}
-
-
-
-
-section img {
-max-width: 640px;
-}
-
-.footer {
-    text-decoration: none;
-    font-size: 15px;
-    max-width: 95vw;
-    padding: 5vw 2.5vw;
-}
-
-
-/* highlight goals */
-    .research-goals h2{ 
-        box-shadow: 0px 0px 0px 10px goldenrod;
-        background-color: goldenrod;
-        display: inline;
-        line-height: 3;
-      }
-
-/* header navigation */
-        .nav .hero{
-            max-width: 95vw;
-            height: 10vh;
-            padding: 5vw 2.5vw;
-            color: white;
-            background: #131418;
-        }
-
-        .name , .role {
-            color: white;
-        }
-        
-        .role , .contact {
-            font-weight: 300;
-        }
-
-        .left , .copyright{
-            /* logo and copyright */
-            float: left;
-        }
-
-        .right , .social{
-            /* contact and social icons*/
-            float: right;
-        }
-
-
-
-
-
-/* project navigation */
-    .previousproject,
-    .nextproject {
-        font-family: 'Open Sans', sans-serif;
-        font-size: 20px;
-        font-style: normal;
-        margin: 150;
     }
-
-    .previousproject {
-        float: left;
-    }
-
-    .nextproject {
-        float: right;
-    }
-
-    .grid {
-        display: grid;
-        grid-row: 1fr 1fr 1fr;
-    }
-
-/* footer */
-    .footer {
-        text-decoration: none;
-        font-size: 15px;
-        background-color: #131418;
-    }
-
-    .copyright {
-        float: left;
-    }
-
-    .social {
-        float: right;
-    }
-
-section .project-details {
-    display: grid;
-    grid-column: 1fr 1fr 1fr;
-}
-
-.row {
-    display: flex;
-    max-width: 100vw;
-    overflow:scroll;
-}
-
-.column {
-  flex: 50%;
-  padding: 5px;
-}
-
-
-.grid-item {
-  box-sizing: border-box;
-	display:inline;
-    background-color: goldenrod;
-    color: #131418;
-}
-
-.description {
-    position: absolute;
-    bottom: 0px;
-    margin: 1em;
-    text-align: left;
-    font-size: 30px;
-    visibility: hidden;
-}
-
-.grid-item:hover .description{
-    visibility: visible;
-}
-
-.grid-item:hover img{
-    opacity: .2;
-}
-
-/* Style the tab */
-.tab {
-  overflow: hidden;
-  border: 1px solid #ccc;
-  background-color: #f1f1f1;
-}
-
-/* Style the buttons that are used to open the tab content */
-.tab button {
-  background-color: #131418;;
-  float: left;
-  border: none;
-  outline: none;
-  cursor: pointer;
-  padding: 14px 16px;
-  transition: 0.3s;
-}
-
-/* Change background color of buttons on hover */
-.tab button:hover {
-  background-color: #ddd;
-}
-
-/* Create an active/current tablink class */
-.tab button.active {
-  background-color: #ccc;
-}
-
-/* Style the tab content */
-.tabcontent {
-  display: none;
-  padding: 6px 12px;
-  border: 1px solid #ccc;
-  border-top: none;
-}
-
-.tabcontent {
-  animation: fadeEffect 1s; /* Fading effect takes 1 second */
-}
-
-/* Go from zero to full opacity */
-@keyframes fadeEffect {
-  from {opacity: 0;}
-  to {opacity: 1;}
-}
-
-
-
 </style>
 
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
 </body>
 </html>
+
+
+<!-- <div class="container">
+            <h1>Full Design process</h1>
+            <p>Documented via slides with all deliverables included for you to read in its' entirety. Not enough time on your
+                hands? Keep scrolling - I've included a bare-backbone summary.</p>
+            <center><iframe class="embed-responsive embed-responsive-item"
+                    src="https://docs.google.com/presentation/d/e/2PACX-1vSH_M_o_TAZpopyc7ZK98dl1f6gfRtydOHDOR6GKT3f49aPWjm7ZCZ-jcaYeRsP-pJemJYE7Cgh5TcZ/embed?start=true&loop=false&delayms=3000"
+                    frameborder="0" width="100%" height="569" allowfullscreen="true" mozallowfullscreen="true"
+                    webkitallowfullscreen="true"></iframe>
+            </center>
+        </div> -->
+
+
